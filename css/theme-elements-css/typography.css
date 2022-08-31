@@ -1,0 +1,172 @@
+/***************************************************************************
+***************************************************************************/
+/*===================== IMMERSIVESOUL TYPOGRAPHY VERSION ONE | TWO | THREE*/
+/***************************************************************************
+***************************************************************************/
+.heading-wrap {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.h-v-one hr, .h-v-two hr, .h-v-three hr {
+    border-color: #eee;
+    border-style: solid none none;
+    border-width: 0px medium medium;
+	margin-top:10px;
+	margin-bottom:0;
+}
+.is-heading {
+	display:inline-block;
+	width:100%;
+}
+.is-heading.h-v-one.hr hr,
+.is-heading.h-v-two.hr hr,
+.is-heading.h-v-three.hr hr {
+	border-width: 1px medium medium;
+}
+
+/* = HEADING VERSION 1 = */
+.is-heading.h-v-one hr::before {
+	background: none repeat scroll 0 0 /*#85d300*/;
+}
+.is-heading.h-v-one.align-center hr::before {
+    content: "";
+	margin-top: -1px;
+    position: absolute;
+    width: 120px;
+	left:50%;
+	margin-left:-62px;
+}
+.is-heading.h-v-one.align-left hr::before {
+    content: "";
+	margin-top: -1px;
+    position: absolute;
+    width: 120px;
+	left:0 !important;
+}
+.is-heading.h-v-one.align-right hr::before {
+    content: "";
+	margin-top: -1px;
+    position: absolute;
+    width: 120px;
+	right:0 !important;
+}
+.is-heading.h-v-one hr::before {
+    content: "";
+    margin-top: -1px;
+    position: absolute;
+    width: 120px;
+}
+.is-heading.h-v-one.is-border-height-1 hr::before {
+	height:1px;
+}
+.is-heading.h-v-one.is-border-height-2 hr::before {
+	height:2px;
+}
+.is-heading.h-v-one.is-border-height-3 hr::before {
+	height:3px;
+}
+.is-heading.h-v-one.is-border-height-4 hr::before {
+	height:4px;
+}
+.is-heading.h-v-one.is-border-height-5 hr::before {
+	height:5px;
+}
+.is-heading.h-v-one.is-border-height-6 hr::before {
+	height:6px;
+}
+/* = HEADING VERSION 2 = */
+.is-heading.h-v-two hr { margin-top:0;}
+.is-heading.h-v-two .span {
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:/*#85d300*/;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 0 0 8px;
+}
+.is-heading.h-v-two.align-left .span:before {
+	left:0;
+}
+.is-heading.h-v-two.align-center .span:before {
+	margin-left:-62px;
+}
+.is-heading.h-v-two.align-right .span:before {
+	right:0;
+}
+.is-heading.h-v-two.is-border-height-1 .span {
+	border-bottom-width:1px;
+}
+.is-heading.h-v-two.is-border-height-2 .span {
+	border-bottom-width:2px;
+	margin: 0 0 -2px;
+}
+.is-heading.h-v-two.is-border-height-3 .span {
+	border-bottom-width:3px;
+	margin: 0 0 -3px;
+}
+.is-heading.h-v-two.is-border-height-4 .span {
+	border-bottom-width:4px;
+	margin: 0 0 -4px;
+}
+.is-heading.h-v-two.is-border-height-5 .span {
+	border-bottom-width:5px;
+	margin: 0 0 -5px;
+}
+.is-heading.h-v-two.is-border-height-6 .span {
+	border-bottom-width:6px;
+	margin: 0 0 -6px;
+}
+/* = HEADING VERSION 3 = */
+.is-heading.h-v-three .span {
+    background: none repeat scroll 0 0 /*#85d300*/;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 8px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	margin-bottom:-1px;
+	box-shadow:0 0 3px rgba(0, 0, 0, 0.2);
+}
+.is-heading.h-v-three hr {
+    margin-top: 0;
+}
+.is-heading.h-v-three.hr hr {
+    margin-top: 0px;
+	margin-bottom:0;
+	border-bottom-style:solid;
+	border-bottom-color:/*#85d300*/;
+}
+.is-heading.h-v-three.is-border-height-1.hr hr {
+	border-width:0px;
+	border-bottom-width:1px;
+}
+.is-heading.h-v-three.is-border-height-2.hr hr {
+	border-width:0px;
+	border-bottom-width:2px;
+}
+.is-heading.h-v-three.is-border-height-3.hr hr {
+	border-width:0px;
+	border-bottom-width:3px;
+}
+.is-heading.h-v-three.is-border-height-4.hr hr {
+	border-width:0px;
+	border-bottom-width:4px;
+}
+.is-heading.h-v-three.is-border-height-5.hr hr {
+	border-width:0px;
+	border-bottom-width:5px;
+}
+.is-heading.h-v-three.is-border-height-6.hr hr {
+	border-width:0px;
+	border-bottom-width:6px;
+}
+/* = FOR WHITE VERSION = */
+/* white */
+.is-heading.h-v-one.white hr:before,
+.is-heading.h-v-three.white .span {
+	background: #fff;
+}
+.is-heading.h-v-two.white .span,
+.is-heading.h-v-three.white hr {
+	border-color:#fff;
+}

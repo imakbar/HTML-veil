@@ -1,0 +1,116 @@
+/***************************************************************************
+***************************************************************************/
+/*============================================= IMMERSIVESOUL BLOG SECTION*/
+/***************************************************************************
+***************************************************************************/
+/*********************
+= BLOG GRID POST SMALL
+*********************/
+.post-item a {
+	transition-duration:0.5s;
+}
+.post-item a:hover {
+	color:/*#85d300*/;
+	transition-duration:0.5s;
+}
+.post-item .post-type {
+    background: none repeat scroll 0 0 /*#85d300*/;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.04);
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    text-align: center;
+    width: 100px;
+}
+.post-item .post-type img {
+    float: left;
+    width: 100%;
+}
+.post-item .post-type i {
+    color: #fafafa;
+    display: inline-block;
+    font-size: 43px;
+    padding: 2px 0;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.post-item .post-type .post-date {
+    background: #eee none repeat scroll 0 0;
+    color: #000;
+    float: left;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 2px 4px;
+    width: 100%;
+}
+.post-item .post-content {
+	margin-left:0;
+    margin-top: 0;
+	display:table-cell;
+}
+.post-item .post-content h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.post-item .post-meta {
+    border: medium none;
+    margin: 6px 0;
+    padding: 0;
+}
+.post-item .post-meta span {
+	margin:0 4px 0 0;
+	font-size: 13px;
+}
+.post-item span i {
+    margin-left: 0px;
+	margin-right:2px;
+}
+.post-item .post-excerpt {
+    line-height: 18px;
+	color:#999;
+}
+/* = POST TYPE HOVER EFFECT = */
+/* = IMAGE = */
+.post-item .post-type {
+	overflow:hidden;
+}
+.post-item .post-type img {
+	transition-duration:0.4s;
+}
+.post-item:hover .post-type img {
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(2);
+	transition-duration:0.4s;
+}
+.post-item .post-type {
+	transition:0.5s;
+}
+.post-item:hover .post-type {
+	background:#555 !important;
+	transition:0.5s;
+}
+/* = VERTICAL POSTS = */
+.vertical-posts .one_one,
+.vertical-posts .one_half,
+.vertical-posts .one_third,
+.vertical-posts .one_forth,
+.vertical-posts .one_fifth {
+	border-bottom: 1px dotted #ccc;
+    clear: both;
+    margin-bottom: 14px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 4px;
+    width: 100%;
+}
+.vertical-posts .post-item {
+    display: inline-block;
+    width: 100%;
+}

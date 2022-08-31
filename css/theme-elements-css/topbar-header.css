@@ -1,0 +1,320 @@
+/***************************************************************************
+***************************************************************************/
+/*============================================ IMMERSIVESOUL TOPBAR HEADER*/
+/***************************************************************************
+***************************************************************************/
+.topbar-header {
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-color:#eee;
+    font-size: 12px;
+    position: relative;
+	z-index:1100;
+	clear:both;
+}
+.topbar-header .container {
+    padding: 0 10px;
+}
+.topbar-header .topbar-item-left .topbar-social,
+.topbar-header .topbar-item-left .language-box,
+.topbar-header .topbar-item-left .register,
+.topbar-header .topbar-item-left .login,
+.topbar-header .topbar-item-left .mail,
+.topbar-header .topbar-item-left .call,
+.topbar-header .topbar-item-right .topbar-social,
+.topbar-header .topbar-item-right .language-box,
+.topbar-header .topbar-item-right .register,
+.topbar-header .topbar-item-right .login,
+.topbar-header .topbar-item-right .mail,
+.topbar-header .topbar-item-right .call {
+    margin: 12px 0 10px;
+}
+.topbar-header .topbar-item-left .register i,
+.topbar-header .topbar-item-left .login i,
+.topbar-header .topbar-item-left .mail i,
+.topbar-header .topbar-item-left .call i,
+.topbar-header .topbar-item-right .register i,
+.topbar-header .topbar-item-right .login i,
+.topbar-header .topbar-item-right .mail i,
+.topbar-header .topbar-item-right .call i {
+    line-height: 23px;
+    margin-right: 5px;
+}
+.topbar-header .topbar-item {
+	display:inline-block;
+}
+.topbar-header .topbar-item-left {
+	float:left;
+	margin-left:0;
+}
+.topbar-header .topbar-item-right {
+	float:right;
+}
+/*.topbar-header .topbar-item-left .topbar-menu,*/
+.topbar-header .topbar-item-left .topbar-social,
+.topbar-header .topbar-item-left .language-box,
+.topbar-header .topbar-item-left .register,
+.topbar-header .topbar-item-left .login,
+.topbar-header .topbar-item-left .mail,
+.topbar-header .topbar-item-left .call {
+    margin-right: 20px;
+	display: inline-block;
+	float:left;
+}
+/* = .topbar-header .topbar-item-right .topbar-menu = */
+.topbar-header .topbar-item-right .topbar-social,
+.topbar-header .topbar-item-right .language-box,
+.topbar-header .topbar-item-right .register,
+.topbar-header .topbar-item-right .login,
+.topbar-header .topbar-item-right .mail,
+.topbar-header .topbar-item-right .call {
+    margin-left: 20px;
+	display: inline-block;
+	float:left;
+}
+.topbar-header .mobilemenu-plus-indicator {
+    display: none;
+}
+/* = LINK HOVER EFFECT = */
+.topbar-header a {
+    transition-duration: 0.8s;
+    font-weight: 600;
+}
+.topbar-header a:hover {
+	transition-duration: 0.8s;
+}
+/* = CALL = */
+.call {
+	font-size:11px;
+}
+.call a, .mail a, .login a, .register a {
+	color:#999;
+}
+.call a:hover, .mail a:hover, .login a:hover, .register a:hover {
+	color:/*#85d300*/;
+	text-decoration:underline;
+}
+/* = SOCIAL ICONS = */
+.topbar-item-left .topbar-social li {
+	margin-right:15px;
+	float:left;
+}
+.topbar-item-right .topbar-social li {
+	margin-left:15px;
+	float:left;
+}
+.topbar-social a {
+    font-size: 18px;
+}
+.topbar-social a:hover {
+	color:/*#85d300*/;
+}
+/* = SINGLE ICON = */
+.single-icon span {
+    display: none;
+}
+.single-icon .call i,
+.single-icon .mail i,
+.single-icon .login i,
+.single-icon .register i,
+.single-icon .language-text i {
+	font-size:18px;
+}
+.single-icon .call a:hover,
+.single-icon .mail a:hover,
+.single-icon .login a:hover,
+.single-icon .register a:hover {
+	text-decoration:none;
+}
+
+.topbar-item-left a.tooltip-grow,
+.topbar-item-right a.tooltip-grow {
+    color: #666;
+}
+.topbar-item-left a.tooltip-grow:hover,
+.topbar-item-right a.tooltip-grow:hover {
+	text-decoration:none;
+	color:/*#85d300*/;
+}
+/* = TOPBAR MENU AND SOCIAL = */
+.topbar-menu #topbar-menu-toggle,
+.topbar-social #topbar-social-toggle {
+	display:none;
+}
+.topbar-social #topbar-social-toggle {
+	font-size:13px;
+	float:right;
+}
+#topbar-menu-toggle i {
+    font-size: 19px;
+    float: left;
+    margin-right: 5px;
+    line-height: 21px;
+}
+#topbar-social-toggle i {
+    font-size: 19px;
+    float: right;
+    margin-left: 5px;
+}
+.topbar-menu ul {
+}
+.topbar-menu > ul > li {
+    float: left;
+    margin-right: 15px;
+	position:relative;
+}
+.topbar-menu > ul > li > a {
+    display: inline-block;
+    padding: 12px 0;
+}
+.topbar-menu ul li a:hover {
+	color:/*#85d300*/;
+}
+.topbar-menu > ul > li > a:hover:after {
+	content: " ";
+	background:/*#85d300*/;
+    left: 0;
+    position: absolute;
+    top: -1px;
+	height:2px;
+	width:100%;
+    z-index: 1;
+}
+.topbar-menu ul li .sub-menu {	/* submenu */
+    display: none;
+	position:absolute;
+	left:0;
+	top:47px;
+	background:#fafafa;
+	box-shadow:0 0 4px rgba(0,0,0, 0.10);
+	z-index: 10;
+	width:180px;
+	font-size: 11px;
+}
+.topbar-menu ul li .sub-menu:before {
+	content: " ";
+	background:/*#85d300*/;
+    left: 0;
+    position: absolute;
+    top: 0;
+	height:2px;
+	width:100%;
+    z-index: 1;
+}
+.topbar-menu ul li:hover .sub-menu {
+    display: block;
+}
+.topbar-menu ul li:hover .sub-menu li a {
+    display: block;
+	border-bottom:dotted 1px #eee;
+	padding:4px 10px;
+}
+.topbar-menu ul li .sub-menu li a:hover {
+	background:#fff;
+}
+/* = current-item = */
+.topbar-menu > ul > li.current-item > a {
+	color:/*#85d300*/;
+}
+.topbar-menu > ul > li.current-item > a:after {
+	content: " ";
+	background:/*#85d300*/;
+    left: 0;
+    position: absolute;
+    top: -1px;
+	height:2px;
+	width:100%;
+    z-index: 1;
+}
+.topbar-menu > ul > li.current-item .sub-menu li.current-item a {
+	background:#fff;
+	color:/*#85d300*/;
+}
+/* = TOPBAR HEADER DARK = */
+.topbar-header.topbar-header-base {
+    background: none repeat scroll 0 0 /*#85d300*/;
+    color: #FFFFFF;
+    display: table;
+    width: 100%;
+	box-shadow:0 0 3px rgba(0, 0, 0, 0.2) inset;
+}
+.topbar-header.topbar-header-base .container {
+    background: none;
+}
+.topbar-header.topbar-header-base .call a, 
+.topbar-header.topbar-header-base .mail a, 
+.topbar-header.topbar-header-base .login a, 
+.topbar-header.topbar-header-base .register a,
+.topbar-header.topbar-header-base .topbar-social a,
+.topbar-header.topbar-header-base .language-box .language-text a.tooltip-grow,
+.topbar-header.topbar-header-base .topbar-menu > ul > li > a {
+    color: #fff !important;
+}
+.topbar-header.topbar-header-base .topbar-menu > ul > li > a:hover,
+.topbar-header.topbar-header-base .topbar-menu > ul > li.current-item > a {
+    color: #fff;
+	text-decoration:underline;
+}
+.topbar-header.topbar-header-base .topbar-social a:hover {
+    color: #666;
+}
+/* = TOPBAR HEADER LANGUAGE MENU = */
+.language-text .language-link {
+    margin-right: -40px;
+    margin-top: 10px;
+    opacity: 0;
+    position: absolute;
+    right: 50%;
+    -webkit-transition: 0.2s all ease-in-out;
+	-moz-transition: 0.2s all ease-in-out;
+	-ms-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+    visibility: hidden;
+    width: 79px;
+    z-index: 1;
+}
+.language-text .language-link:before {
+	content:"\e95a";
+	font-family: 'fontello';
+	font-size: 35px;
+    position: relative;
+    top: 5px;
+	color:#eee;
+}
+.language-text:hover .language-link {
+	margin-top: 0;
+	opacity: 1;
+	visibility: visible;
+}
+.language-box {
+    display: inline-block;
+	position:relative;
+	text-align:center;
+}
+.language-text {
+    cursor: pointer;
+    padding: 0;
+}
+.language-link > ul {
+    background: none repeat scroll 0 0 #EEEEEE;
+    box-shadow: 0 2px 2px #CCCCCC;
+    position: relative;
+    top: -19px;
+}
+.language-link a {
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+.language-link a:hover {
+	background:#fff;
+}
+.language-link img {
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}

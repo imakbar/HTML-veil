@@ -1,0 +1,134 @@
+/***************************************************************************
+***************************************************************************/
+/*========================================= IMMERSIVESOUL PARALLAX SECTION*/
+/***************************************************************************
+***************************************************************************/
+body .is-parallax-section .immersivesoul_row,
+body .is-fixed-section .immersivesoul_row,
+body .is-image-section .immersivesoul_row {
+	position:relative;
+	z-index:1;
+}
+.is-parallax-section .is-overlay-base,
+.is-fixed-section .is-overlay-base,
+.is-image-section .is-overlay-base {
+	z-index:0;
+}
+body .is-parallax-section .container,
+body .is-fixed-section .container,
+body .is-fixed-section .immersivesoul_row.page-content-wrapper,
+body .is-image-section .container,
+body .is-image-section .immersivesoul_row.page-content-wrapper {
+    background: none;
+}
+.is-section-parallax {
+	position:relative;
+	background-size:cover;
+	background-repeat:repeat-y;
+	background-position:0 50%;
+	-webkit-transition:none;
+	-moz-transition:none;
+	-ms-transition:none;
+	-o-transition:none;
+	transition:none;
+	background-attachment: fixed;
+}
+/* = IS-SECTION-VERLAY-BASE = */
+.is-overlay .is-overlay-base {
+    background: rgba(133, 211, 0, 0.8);
+	bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.is-overlay0 .is-overlay-base {
+    background: rgba(133, 211, 0, 0);
+}
+.is-overlay1 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.1);
+}
+.is-overlay2 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.2);
+}
+.is-overlay3 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.3);
+}
+.is-overlay4 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.4);
+}
+.is-overlay5 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.5);
+}
+.is-overlay6 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.6);
+}
+.is-overlay7 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.7);
+}
+.is-overlay8 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.8);
+}
+.is-overlay9 .is-overlay-base {
+    background: rgba(133, 211, 0, 0.9);
+}
+.is-overlay10 .is-overlay-base {
+    background: rgba(133, 211, 0, 1);
+}
+
+/* = WHITE OVERLAY = */
+.is-overlay.white0 .is-overlay-base { background: rgba(255,255,255, 0); }
+.is-overlay.white1 .is-overlay-base { background: rgba(255,255,255, 0.1); }
+.is-overlay.white2 .is-overlay-base { background: rgba(255,255,255, 0.2); }
+.is-overlay.white3 .is-overlay-base { background: rgba(255,255,255, 0.3); }
+.is-overlay.white4 .is-overlay-base { background: rgba(255,255,255, 0.4); }
+.is-overlay.white5 .is-overlay-base { background: rgba(255,255,255, 0.5); }
+.is-overlay.white6 .is-overlay-base { background: rgba(255,255,255, 0.6); }
+.is-overlay.white7 .is-overlay-base { background: rgba(255,255,255, 0.7); }
+.is-overlay.white8 .is-overlay-base { background: rgba(255,255,255, 0.8); }
+.is-overlay.white9 .is-overlay-base { background: rgba(255,255,255, 0.9); }
+.is-overlay.white10 .is-overlay-base { background: rgba(255,255,255, 1);  }
+
+/* = FIXED IMAGE = */
+.is-fixed-section.is-fixed-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment:fixed;
+	position:relative;
+}
+/* = STATIC IMAGE = */
+.is-image-section.is-image-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position:relative;
+}
+body .is-parallax-section.color-white .immersivesoul_row.page-content-wrapper,
+body .is-parallax-section.color-white .immersivesoul_row.page-content-wrapper a,
+body .is-parallax-section.color-white .is-titlebar,
+body .is-parallax-section.color-white .is-titlebar a,
+body .is-parallax-section.color-white .is-titlebar,
+body .is-parallax-section.color-white .is-titlebar a,
+body .is-fixed-section.color-white .immersivesoul_row.page-content-wrapper,
+body .is-fixed-section.color-white .immersivesoul_row.page-content-wrapper a,
+body .is-fixed-section.color-white .is-titlebar,
+body .is-fixed-section.color-white .is-titlebar a,
+body .is-fixed-section.color-white .is-titlebar,
+body .is-fixed-section.color-white .is-titlebar a {
+	color:#fff !important;
+}
+body .is-parallax-section.color-black .immersivesoul_row.page-content-wrapper,
+body .is-parallax-section.color-black .immersivesoul_row.page-content-wrapper a,
+body .is-parallax-section.color-black .is-titlebar,
+body .is-parallax-section.color-black .is-titlebar a,
+body .is-parallax-section.color-black .is-titlebar,
+body .is-parallax-section.color-black .is-titlebar a,
+body .is-fixed-section.color-black .immersivesoul_row.page-content-wrapper,
+body .is-fixed-section.color-black .immersivesoul_row.page-content-wrapper a,
+body .is-fixed-section.color-black .is-titlebar,
+body .is-fixed-section.color-black .is-titlebar a,
+body .is-fixed-section.color-black .is-titlebar,
+body .is-fixed-section.color-black .is-titlebar a {
+	color:#555 !important;
+}

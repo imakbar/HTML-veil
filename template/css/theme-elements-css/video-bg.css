@@ -1,0 +1,37 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================= IMMERSIVESOUL VIDEO BG*/
+/***************************************************************************
+***************************************************************************/
+.video-bg { clear:both;}
+body .video-bg .container,
+body .video-bg .immersivesoul_row.page-content-wrapper,
+.video-bg .is-titlebar,
+.video-bg .is-titlebar {
+	background:none !important;
+	position:relative;
+	z-index:1;
+}
+/*body .video-bg .immersivesoul_row.page-content-wrapper {
+	background:rgba(255,255,255,0.5);
+}*/
+body .video-bg.color-white .immersivesoul_row.page-content-wrapper,
+body .video-bg.color-white .immersivesoul_row.page-content-wrapper a,
+body .video-bg.color-white .is-titlebar,
+body .video-bg.color-white .is-titlebar a,
+body .video-bg.color-white .is-titlebar,
+body .video-bg.color-white .is-titlebar a {
+	color:#fff !important;
+}
+body .video-bg.color-black .immersivesoul_row.page-content-wrapper,
+body .video-bg.color-black .immersivesoul_row.page-content-wrapper a,
+body .video-bg.color-black .is-titlebar,
+body .video-bg.color-black .is-titlebar a,
+body .video-bg.color-black .is-titlebar,
+body .video-bg.color-black .is-titlebar a {
+	color:#555 !important;
+}
+body .video-bg .immersivesoul_row {
+    position: relative !important;
+    z-index: 20 !important;
+}

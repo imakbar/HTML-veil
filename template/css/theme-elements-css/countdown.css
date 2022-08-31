@@ -1,0 +1,33 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================ IMMERSIVESOUL COUNTDOWN*/
+/***************************************************************************
+***************************************************************************/
+.countdown_wrapper {
+	padding:100px 0 150px;
+}
+.countdown-counter .countdown_wrap,
+.countdown-counter .colon {
+	display:inline-block;
+	vertical-align:top;
+}
+.countdown-counter .colon {
+	font-size:40px;
+	font-weight:700;
+	margin:0 10px;
+}
+.countdown-counter .countdown_wrap .countdown_time,
+.countdown-counter .countdown_wrap .countdown_text {
+	text-align:center;
+}
+.countdown-counter .countdown_wrap .countdown_time {
+	font-size:60px;
+	margin-bottom:10px;
+	font-weight:700;
+    padding: 0 7px;
+	display:inline-block;
+}
+.countdown-counter .countdown_wrap .countdown_text {
+	padding:4px 5px 4px;
+	line-height:60px;
+}

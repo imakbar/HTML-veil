@@ -1,0 +1,53 @@
+/***************************************************************************
+***************************************************************************/
+/*========================================= IMMERSIVESOUL INFOBAR TOP PAGE*/
+/***************************************************************************
+***************************************************************************/
+/* = TOGGLE INFORBAR TOP PAGE = */
+.infobar-wrapper {
+	left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1200;
+}
+.infobar-container {
+    display: block;
+    position:relative;
+	width:100%;
+	 background: #555555;
+    z-index: 2;
+}
+#infobar-content { 
+	display: none;
+	padding-top:15px;
+}
+#infobar {
+    clear: both;
+    color: #fff;
+    z-index: 3;
+	cursor:pointer;
+	font-size:10px;	
+	border-color: rgba(0, 0, 0, 0) #444444 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 0 30px 30px 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
+    z-index: 999;
+}
+.disable:before {
+	font-family: 'fontello';
+	content:"\eb1a";
+	left: 17px;
+    position: absolute;
+    top: -1px;
+}
+.disable.active:before {
+	font-family: 'fontello';
+	content:"\eb1c";
+	left: 17px;
+    position: absolute;
+    top: -1px;
+}

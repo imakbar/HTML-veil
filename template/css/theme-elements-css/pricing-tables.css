@@ -1,0 +1,186 @@
+/***************************************************************************
+***************************************************************************/
+/*=========================================== IMMERSIVESOUL PRICING TABLES*/
+/***************************************************************************
+***************************************************************************/
+.pricing-tables-carousel.owl-carousel .pretty-wrapper {
+    padding: 30px 0;
+}
+/* = PRICING TABLE VERSION ONE = */
+.pricing-table-v1 {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+	-webkit-transition-duration: 0.30s;
+	border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+	background-color:#FFFFFF;
+	transition-duration:0.8s;
+	position:relative;
+	line-height:23px;
+}
+.pricing-table-v1 li {
+    border-bottom: 1px solid #f7f7f7;
+    padding: 10px 16px;
+	color:#666666;
+	transition-duration: 0.90s;
+	-webkit-transition-duration: 0.90s; /* safari */
+}
+.pricing-table-v1 li:last-child {
+    border-bottom: none;
+}
+.pricing-table-v1 .table_heading {
+    background-color: #363839;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+	border-bottom:none;
+}
+.pricing-table-v1 .prices {
+	background-color: /*#85d300*/;
+	padding:0px;
+	color: #ffffff;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+	position:relative;
+}
+.pricing-table-v1 .price.price_with_symbol {
+    padding: 44px 0 22px;
+	color: #fff;
+}
+.pricing-table-v1 .price.price_with_symbol span.one {
+    font-size: 28px;
+}
+.pricing-table-v1 .price.price_with_symbol span.two {
+    font-size: 65px;
+}
+.pricing-table-v1 .price.price_with_symbol span.three {
+    font-size: 18px;
+}
+.pricing-table-v1 .price.price_with_symbol em {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 18px;
+    text-align: center;
+    width: 100%;
+}
+.pricing-table-v1:hover {
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+	transition-duration:0.8s;
+	z-index:300;
+	position:relative;
+	box-shadow:0 0 6px rgba(0,0,0,0.30);
+}
+.pricing-table-v1.active {
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+	transition-duration:0.8s;
+	z-index:200;
+	position:relative;
+	box-shadow:0 0 6px rgba(0,0,0,0.30);
+}
+/* = PRICING TABEL VERSION TWO = */
+.pricing-table-v2 {
+    background-color: #363839;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.4);
+    text-align: center;
+    transition-duration: 0.8s;
+	position:relative;
+	line-height:23px;
+}
+.pricing-table-v2 li {
+    color: #ccc;
+	border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 #444;
+    padding: 10px 0;
+	transition-duration: 0.90s;
+	-webkit-transition-duration: 0.90s; /* safari */
+}
+.pricing-table-v2 li:last-child { border-bottom:none;}
+.pricing-table-v2 .table_heading {
+    background-color: /*#85d300*/;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	padding:10px 0;
+	border-bottom:none;
+	border-top:none;
+}
+.pricing-table-v2 .prices {
+	background-color: #fff;
+	padding:0px;
+	color: /*#85d300*/;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+	position:relative;
+}
+.pricing-table-v2 .price.price_with_symbol {
+    padding: 44px 0 22px;
+}
+.pricing-table-v2 .price.price_with_symbol span.one {
+    font-size: 28px;
+	color:#000;
+}
+.pricing-table-v2 .price.price_with_symbol span.two {
+    font-size: 65px;
+}
+.pricing-table-v2 .price.price_with_symbol span.three {
+    font-size: 18px;
+}
+.pricing-table-v2 .price.price_with_symbol em {
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 18px;
+    text-align: center;
+    width: 100%;
+}
+.pricing-table-v2:hover {
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+	transition-duration:0.8s;
+	z-index:300;
+	position:relative;
+	box-shadow:0 0 6px rgba(0,0,0,0.30);
+}
+.pricing-table-v2.active {
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+	transition-duration:0.8s;
+	z-index:200;
+	position:relative;
+	box-shadow:0 0 6px rgba(0,0,0,0.30);
+}
+
+/* = PRICING BUTTON = */
+.price-btn {
+    background: none repeat scroll 0 0 /*#85d300*/;
+    border: 1px solid #7aa828;
+    color: #fff;
+    text-shadow: 0 1px 0 #777;
+	font-size: 12px;
+    padding: 6px 17px;
+	border-radius: 3px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.price-btn:hover {
+	background: none repeat scroll 0 0 #fff;
+	color:/*#85d300*/;
+	text-shadow:none;
+}

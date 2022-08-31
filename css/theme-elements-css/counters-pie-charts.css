@@ -1,0 +1,94 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================== IMMERSIVESOUL COUNTER*/
+/***************************************************************************
+***************************************************************************/
+.is-skill-counter .is-counter-span {
+    display: inline-block;
+    margin: 12px 0;
+}
+.is-skill-counter p {
+	letter-spacing: 2px;
+}
+.is-skill-counter.is-count-num-size-1 .is-counter-span {
+    font-size: 50px;
+	line-height: 50px;
+}
+.is-skill-counter.is-count-num-size-2 .is-counter-span {
+    font-size: 70px;
+	line-height: 70px;
+}
+.is-skill-counter.is-count-num-size-3 .is-counter-span {
+    font-size: 80px;
+	line-height: 80px;
+}
+
+.is-skill-counter.is-counter-icon-size-1 .is-counter-icon {
+    font-size: 70px;
+}
+.is-skill-counter.is-counter-icon-size-2 .is-counter-icon {
+    font-size: 90px;
+}
+.is-skill-counter.is-counter-icon-size-3 .is-counter-icon {
+    font-size: 110px;
+}
+.is-skill-counter .is-counter-icon {
+	text-shadow:0px 1px 0px rgba(0,0,0,0.15);
+}
+.is-skill-counter.is-v-one .is-counter-icon,
+.is-skill-counter.is-v-one .is-counter-span,
+.is-skill-counter.is-v-two .is-counter-icon,
+.is-skill-counter.is-v-two .is-counter-span {
+	color:/*#85d300*/;
+}
+.is-skill-counter.is-v-two {
+	border-style:solid;
+	border-width:1px;
+	border-color:/*#85d300*/;
+    padding: 15px 20px 14px;
+}
+.is-skill-counter.is-v-three {
+    padding: 15px 20px 14px;
+	background-color:/*#85d300*/;
+	color:#fff;
+}
+.is-skill-counter.is-v-three > p {
+    color: #fff;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*=============================================== IMMERSIVESOUL PIE CHARTS*/
+/***************************************************************************
+***************************************************************************/
+.is-pie-chart, 
+.q_pie_chart_with_icon_holder {
+    display: block;
+    margin: 0 0 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease 0s;
+	text-align:center;
+}
+.is-pie-percentage {
+    color: #303030;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.3s ease 0s;
+}
+.easyPieChart {
+    position: relative;
+}
+.easyPieChart canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.is-pie-chart-icon i {
+	font-size:50px;
+}
+.is-pie-chart-content {
+	text-align:center;
+	margin:10px 0 0 0;
+}

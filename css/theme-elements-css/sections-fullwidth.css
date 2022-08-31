@@ -1,0 +1,29 @@
+/***************************************************************************
+***************************************************************************/
+/*=======================IMMERSIVESOUL SECTION FULLWIDTH VERSION ONE | TWO*/
+/***************************************************************************
+***************************************************************************/
+.is-fullwidth-section {
+	position:relative;
+	background-color:#fff;
+	clear:both;
+	width:100%;
+	z-index:1;
+}
+.is-fullwidth-section.v-one {
+    background-color: #fafafa;
+    border-bottom: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+}
+.is-fullwidth-section.v-one .container,
+body .is-fullwidth-section.v-one .immersivesoul_row.page-content-wrapper {
+	background:none;
+}
+/* = BASE COLOR = */
+.is-fullwidth-section.v-one.base {
+	background-color:/*#85d300*/;
+}
+/* = BASE DARK COLOR = */
+.is-fullwidth-section.v-one.base-dark {
+	background-color:#0072b7;
+}

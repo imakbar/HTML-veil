@@ -1,0 +1,389 @@
+/* CSS Document */
+/***************************************************************************
+***************************************************************************/
+/*================================================ IMMERSIVESOUL RIGHT NAV*/
+/***************************************************************************
+***************************************************************************/
+.is-right-header {
+    padding-right: 250px;
+}
+.is-right-header .main-header {
+    height: 100%;
+    right: 0;
+    position: fixed;
+    top: 0;
+    width: 250px;
+    overflow: auto;
+}
+.is-right-header .main-header .container {
+    width: 100%;
+}
+.navbar-fixed-left {
+    position: fixed;
+    z-index: 1030;
+}
+.is-right-header .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+/* = HEADER SETTING = */
+.is-right-header .main-header .one_fifth {
+    width: 95%;
+    margin: 0 auto;
+    float: none;
+    display: table;
+	text-align:center;
+}
+.is-right-header .logo {
+    float: none;
+	margin-top: 18px;
+}
+.is-right-header h1.logo {
+    text-align: center !important;
+}
+.is-right-header .main-header .fourth_fifth {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    display: table;
+}
+.main-header.version_three .full-width-menu,
+.main-header.version_four .full-width-menu {
+    border-top: none;
+    box-shadow: none;
+}
+.is-left-header header.main-header .full-width-menu .one_one {
+    margin: 0;
+    width: 100%;
+}
+.is-left-header .version_three .right-widgets {
+    margin: 12px 0;
+}
+.is-left-header .version_three .right-widgets .search-input {
+    margin-top: 8px;
+}
+/* = MENU = */
+#main-menu li {
+    margin-top: 0;
+}
+#main-menu > li > .sub-menu > .inner-fill,
+#main-menu li ul.sub-menu ul.sub-menu {
+    box-shadow: none;
+}
+#main-menu li ul.sub-menu ul.sub-menu {
+    margin-top: 0px !important;
+}
+.is-right-header .main-header #main-menu {
+    border-top: 1px solid #444;
+	margin-top:0;
+}
+.is-right-header .main-header #main-menu > li {
+	display:inherit;
+	width:100%;
+}
+.is-right-header .main-header #main-menu ul.sub-menu {
+    left: 0;
+    position: relative;
+	padding-top:0;
+}
+.is-right-header #main-menu ul.sub-menu {
+    width: 100%;
+}
+.is-right-header #main-menu .sub-menu > li {
+    margin-top: 0;
+}
+/* = nav_s_one | nav_s_four = */
+.is-right-header .main-header #main-menu .nav_s_one,
+.is-right-header .main-header #main-menu .nav_s_four {
+    border-top: 1px solid #444;
+}
+.is-right-header .main-header .nav_s_one li a,
+.is-right-header .main-header .nav_s_four li a {
+    border-bottom: 1px solid #444;
+    padding: 8px 10px;
+    text-align: right;
+	margin:0;
+}
+.is-right-header .main-header .nav_s_one > li a i,
+.is-right-header .main-header .nav_s_four > li a i {
+    float: right;
+    font-size: 16px;
+    text-align: right;
+    width: 26px;
+}
+/* = nav_s_two | nav_s_three = */
+.is-right-header .main-header #main-menu .nav_s_two,
+.is-right-header .main-header #main-menu .nav_s_three {
+    border-top: 1px solid #444;
+}
+.is-right-header .main-header .nav_s_two li a,
+.is-right-header .main-header .nav_s_three li a {
+    border-bottom: 1px solid #444;
+    padding: 8px 10px;
+    text-align: right;
+}
+.is-right-header .main-header .nav_s_two > li a i,
+.is-right-header .main-header .nav_s_three > li a i {
+    float: right;
+    font-size: 16px;
+    text-align: right;
+    width: 26px;
+}
+/* = nav_s_five | nav_s_six = */
+.is-right-header .main-header #main-menu .nav_s_five,
+.is-right-header .main-header #main-menu .nav_s_six {
+    border-top: 1px solid #444;
+}
+.is-right-header .main-header .nav_s_five li a,
+.is-right-header .main-header .nav_s_six li a {
+    border-bottom: 1px solid #444;
+    padding: 8px 10px;
+    text-align: right;
+	border-radius:0;
+}
+.is-right-header .main-header .nav_s_five > li a i,
+.is-right-header .main-header .nav_s_six > li a i {
+    float: right;
+    font-size: 16px;
+    text-align: right;
+    width: 26px;
+}
+/* = nav_s_seven | nav_s_eight = */
+.is-right-header .main-header #main-menu .nav_s_seven,
+.is-right-header .main-header #main-menu .nav_s_eight {
+    border-top: 1px solid #444;
+}
+.is-right-header .main-header .nav_s_seven li a,
+.is-right-header .main-header .nav_s_eight li a {
+    border-bottom: 1px solid #444;
+	border-top: none;
+    padding: 8px 10px;
+    text-align: right;
+	margin:0;
+	border-radius:0;
+}
+.is-right-header .main-header .nav_s_seven > li a i,
+.is-right-header .main-header .nav_s_eight > li a i {
+    float: right;
+    font-size: 16px;
+    text-align: right;
+    width: 26px;
+}
+.is-right-header #main-menu .sub-menu {
+    height: auto !important;
+}
+/*.main-header.dark-header .nav_s_one > li > a,
+.main-header.dark-header .nav_s_four > li > a,
+.main-header.dark-header .nav_s_five > li > a,
+.main-header.dark-header .nav_s_six > li > a,
+.main-header.dark-header .nav_s_seven > li > a,
+.main-header.dark-header .nav_s_eight > li > a,
+.dark-header .nav_s_one > li > a,
+.dark-header .nav_s_four > li > a,
+.dark-header .nav_s_five > li > a,
+.dark-header .nav_s_six > li > a,
+.dark-header .nav_s_seven > li > a,
+.dark-header .nav_s_eight > li > a {
+	color:#ccc;
+}*/
+/* = mobilemenu-plus-indicator = */
+.is-right-header .slimmenu li .mobilemenu-plus-indicator {
+    display: block;
+}
+.is-right-header ul.slimmenu li .mobilemenu-plus-indicator {
+    color: #333;
+}
+.is-right-header .slimmenu li .mobilemenu-plus-indicator {
+    margin-top: 8px;
+    padding: 0 12px;
+    position: absolute;
+    left: 0;
+	right: auto;
+    top: 0;
+}
+@media all and (max-width: 960px) {
+	.is-right-header .main-header {
+		height: auto;
+		left: auto;
+		overflow: auto;
+		position: inherit;
+		top: auto;
+		width: auto;
+	}
+	body.is-right-header {
+		padding: 0;
+	}
+	.is-right-header .main-header .container {
+		width: 95%;
+	}
+	.is-right-header .main-header .one_fifth {
+		display: inherit !important;
+		float: left;
+		margin: inherit !important;
+		width: 18%;
+	}
+	.is-right-header .main-header .fourth_fifth {
+		display: inherit !important;
+		float: right;
+		margin: inherit !important;
+		width: 78%;
+	}
+	/* = MENU = */
+	.is-right-header .main-header #main-menu {
+		border-top: none;
+		margin-top:0;
+	}
+	.is-right-header .main-header #main-menu > li {
+		display:inherit;
+		width:100%;
+	}
+	.is-right-header .main-header #main-menu ul.sub-menu {
+		left: 0;
+		position: relative;
+		padding-top:0;
+	}
+	.is-right-header #main-menu ul.sub-menu {
+		width: 100%;
+	}
+	.is-right-header #main-menu .sub-menu > li {
+		margin-top: 1px;
+	}
+	/* = nav_s_one | nav_s_four = */
+	.is-right-header .main-header #main-menu .nav_s_one,
+	.is-right-header .main-header #main-menu .nav_s_four {
+		border-top: 1px solid #eee;
+	}
+	.is-right-header .main-header .nav_s_one li a,
+	.is-right-header .main-header .nav_s_four li a {
+		border-bottom: none;
+		padding: 5px 10px;
+		text-align: left;
+		margin:0;
+	}
+	.is-right-header .main-header .nav_s_one > li a i,
+	.is-right-header .main-header .nav_s_four > li a i {
+		float: left;
+		font-size: 16px;
+		text-align: left;
+		width: 26px;
+	}
+	/* = nav_s_two | nav_s_three = */
+	.is-right-header .main-header #main-menu .nav_s_two,
+	.is-right-header .main-header #main-menu .nav_s_three {
+		border-top: 1px solid #777;
+	}
+	.is-right-header .main-header .nav_s_two li a,
+	.is-right-header .main-header .nav_s_three li a {
+		border-bottom: 1px solid #777;
+		padding: 5px 10px;
+		text-align: left;
+	}
+	.is-right-header .main-header .nav_s_two > li a i,
+	.is-right-header .main-header .nav_s_three > li a i {
+		float: left;
+		font-size: 16px;
+		text-align: left;
+		width: 26px;
+	}
+	/* = nav_s_five | nav_s_six = */
+	.is-right-header .main-header #main-menu .nav_s_five,
+	.is-right-header .main-header #main-menu .nav_s_six {
+		border-top: 1px solid #eee;
+	}
+	.is-right-header .main-header .nav_s_five li a,
+	.is-right-header .main-header .nav_s_six li a {
+		border-bottom: 1px solid #eee;
+		padding: 5px 10px;
+		text-align: left;
+		border-radius:0;
+	}
+	.is-right-header .main-header .nav_s_five > li a i,
+	.is-right-header .main-header .nav_s_six > li a i {
+		float: left;
+		font-size: 16px;
+		text-align: left;
+		width: 26px;
+	}
+	/* = nav_s_seven | nav_s_eight = */
+	.is-right-header .main-header #main-menu .nav_s_seven,
+	.is-right-header .main-header #main-menu .nav_s_eight {
+		border-top: 1px solid #eee;
+	}
+	.is-right-header .main-header .nav_s_seven li a,
+	.is-right-header .main-header .nav_s_eight li a {
+		border-bottom: 1px solid #eee;
+		border-top: none;
+		padding: 5px 10px;
+		text-align: left;
+		margin:0;
+		border-radius:0;
+	}
+	.is-right-header .main-header .nav_s_seven > li a i,
+	.is-right-header .main-header .nav_s_eight > li a i {
+		float: left;
+		font-size: 16px;
+		text-align: left;
+		width: 26px;
+	}
+	.is-right-header .slimmenu li .mobilemenu-plus-indicator {
+		margin-top: 0;
+		padding: 0;
+	}
+	.is-right-header .collapse-button span {
+		margin-bottom:17px;
+	}
+	.is-right-header .logo { margin-top:0; margin-bottom:0;}
+	.is-right-header .main-header .nav_s_two li a, 
+	.is-right-header .main-header .nav_s_three li a,
+	.is-right-header .main-header .nav_s_five li a, 
+	.is-right-header .main-header .nav_s_six li a {
+		border-bottom:none;
+	}
+	.is-right-header .main-header .nav_s_seven li a, 
+	.is-right-header .main-header .nav_s_eight li a {
+		border:solid 1px #85d300;
+	}
+	.is-right-header ul.slimmenu.nav_s_seven li .mobilemenu-plus-indicator, 
+	.is-right-header ul.slimmenu.nav_s_eight li .mobilemenu-plus-indicator {
+		color:#333;
+	}	
+	.is-right-header .main-menu-div #main-menu li a {
+		text-align: right;
+	}	
+	.is-right-header .megamenu ul.sub-menu li a i,
+	.is-right-header #main-menu a i {
+		float: right !important;
+		margin-right: 3px;
+		margin-left: 5px;
+		text-align: right;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.is-right-header .main-header .one_fifth,
+	.is-right-header .main-header .fourth_fifth {
+		width: 100%;
+	}
+	.is-right-header .logo { margin-top:0; margin-bottom:0;}
+	.is-right-header .main-header .nav_s_two li a, 
+	.is-right-header .main-header .nav_s_three li a,
+	.is-right-header .main-header .nav_s_five li a, 
+	.is-right-header .main-header .nav_s_six li a {
+		border-bottom:none;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.is-right-header .main-header .one_fifth,
+	.is-right-header .main-header .fourth_fifth {
+		width: 100%;
+	}
+	.is-right-header .logo { margin-top:0; margin-bottom:0;}
+	.is-right-header .main-header .nav_s_two li a, 
+	.is-right-header .main-header .nav_s_three li a,
+	.is-right-header .main-header .nav_s_five li a, 
+	.is-right-header .main-header .nav_s_six li a {
+		border-bottom:none;
+	}
+}

@@ -1,0 +1,154 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================== IMMERSIVESOUL BUTTONS*/
+/***************************************************************************
+***************************************************************************/
+.is-button {
+   vertical-align: middle;
+   display:inline-block;
+   -webkit-text-shadow: rgba(0,0,0,0.15) 0 1px 0;
+   -moz-text-shadow: rgba(0,0,0,0.15) 0 1px 0;
+   text-shadow: rgba(0,0,0,0.15) 0 1px 0;
+   font-size:15px;
+   text-align:center;
+   line-height: 20px;
+   letter-spacing: 2px;
+}
+/* = CORNER 1 = *//* = CORNER 2 = *//* = CORNER 3 = */
+.is-corner-1 {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.is-corner-2 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.is-corner-3 {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+/* = SMALL 1 = *//* = MEDIUM 1 = *//* = LARGE 1 = */
+.is-button-small {
+    padding: 8px 24px;
+}
+.is-button-medium {
+    padding: 15px 24px;
+}
+.is-button-large {
+   padding: 22px 40px;
+}
+/*****************
+= BUTTON VERSION 1
+*****************/
+.is-button.is-v-one {
+	background: /*#85d300*/;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	color:#fff !important;
+}
+.is-button.is-v-one:hover {
+	border-top:none;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.is-button.is-v-one:active {
+   background: #90bb43;
+}
+/*****************
+= BUTTON VERSION 2
+*****************/
+.is-button.is-v-two {
+    background: none repeat scroll 0 0 /*#85d300*/;
+    border-color: #70ae05;
+    border-style: solid;
+    border-width: 1px 1px 5px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset;
+	transition-duration:0.2s;
+	color:#fff !important;
+}
+.is-button.is-v-two:hover {
+    border-width: 1px 1px 1px;
+	transition-duration:0.2s;
+	margin-top:5px;
+}
+.is-button.is-v-two:active {
+	background: #70ae05;
+}
+/*****************
+= BUTTON VERSION 3
+*****************/
+.is-button.is-v-three {
+    background: none repeat scroll 0 0 /*#85d300*/;
+	border-width:3px;
+	border-style:solid;
+	border-color:#70ae05;
+    box-shadow: 0 1px 0px rgba(255, 255, 255, 0.2) inset;
+	transition-duration:0.4s;
+	color:#fff !important;
+}
+.is-button.is-v-three:hover {
+	background: none repeat scroll 0 0 #70ae05;
+	box-shadow: 0 1px 0px rgba(255, 255, 255, 0.2) inset;
+	border-width:3px;
+	border-style:solid;
+	border-color:/*#85d300*/;
+	transition-duration:0.4s;
+}
+.is-button.is-v-three:active {
+	background: #70ae05;
+}
+/*****************
+= BUTTON VERSION 4
+*****************/
+.is-button.is-v-four {
+    border: 3px solid #fff;
+	transition-duration:0.4s;
+	background:none;
+	color:#fff;
+}
+.is-button.is-v-four:hover {
+	background: none repeat scroll 0 0 #fff;
+	transition-duration:0.4s;
+	color:#666 !important;
+}
+/*****************
+= BUTTON VERSION 4
+*****************/
+.is-button.is-v-five {
+    border: 3px solid #fff;
+	background: none repeat scroll 0 0 #fff;
+	transition-duration:0.4s;
+}
+.is-button.is-v-five:hover {
+    border: 3px solid #fff;
+	transition-duration:0.4s;
+	background:none !important;
+	color:#fff;
+}
+/****************************
+= BUTTON ALL VERSION FOR ICON
+****************************/
+.is-button.is-icon-left i {
+	float:left;
+	margin-right:5px;
+}
+.is-button.is-icon-right i {
+	float:right;
+	margin-left:5px;
+}
+.is-button.is-icon-top i {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.is-button.is-icon-top { text-align:center;}
+.is-button.is-button-small.is-icon-top {
+    padding: 1px 24px;
+}
+.is-button.is-button-medium.is-icon-top {
+    padding: 5px 24px;
+}
+.is-button.is-button-large.is-icon-top {
+    padding: 8px 40px;
+}

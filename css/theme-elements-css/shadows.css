@@ -1,0 +1,81 @@
+/***************************************************************************
+***************************************************************************/
+/*============================================= IMMERSIVESOUL SHADOW TYPES*/
+/***************************************************************************
+***************************************************************************/
+.is-shadow-top-v1:before,
+.is-shadow-top-v2:before,
+.is-shadow-top-v3:before,
+.is-shadow-top-v4:before,
+.is-shadow-top-v5:before,
+.is-shadow-top-v6:before,
+.is-shadow-top-v7:before,
+.is-shadow-top-v8:before {
+	background-repeat: no-repeat;
+    background-position: top center;
+	background-size:100%;
+    content: " ";
+    position: absolute;
+	left:0;
+    width: 100%;
+    height: 100%;
+	z-index:10;
+}
+.is-shadow-bottom-v1:after,
+.is-shadow-bottom-v2:after,
+.is-shadow-bottom-v3:after,
+.is-shadow-bottom-v4:after,
+.is-shadow-bottom-v5:after,
+.is-shadow-bottom-v6:after,
+.is-shadow-bottom-v7:after,
+.is-shadow-bottom-v8:after {
+	background-repeat: no-repeat;
+    background-position: top center;
+	background-size:100%;
+    content: " ";
+    position: absolute;
+	left:0;
+    width: 100%;
+    height: 100%;
+	z-index:10;
+}
+/* = SHADOW TYPE 1 = */
+.is-shadow-top-v1:before,
+.is-shadow-bottom-v1:after {
+    background-image: url("../../images/shadows/shadow-1.png");
+}
+/* = SHADOW TYPE 2 = */
+.is-shadow-top-v2:before,
+.is-shadow-bottom-v2:after {
+	background-image: url("../../images/shadows/shadow-2.png");
+}
+/* = SHADOW TYPE 3 = */
+.is-shadow-top-v3:before,
+.is-shadow-bottom-v3:after {
+	background-image: url("../../images/shadows/shadow-3.png");
+}
+/* = SHADOW TYPE 4 = */
+.is-shadow-top-v4:before,
+.is-shadow-bottom-v4:after {
+	background-image: url("../../images/shadows/shadow-4.png");
+}
+/* = SHADOW TYPE 5 = */
+.is-shadow-top-v5:before,
+.is-shadow-bottom-v5:after {
+	background-image: url("../../images/shadows/shadow-5.png");
+}
+/* = SHADOW TYPE 6 = */
+.is-shadow-top-v6:before,
+.is-shadow-bottom-v6:after {
+	background-image: url("../../images/shadows/shadow-6.png");
+}
+/* = SHADOW TYPE 7 = */
+.is-shadow-top-v7:before,
+.is-shadow-bottom-v7:after {
+	background-image: url("../../images/shadows/shadow-7.png");
+}
+/* = SHADOW TYPE 8 = */
+.is-shadow-top-v8:before,
+.is-shadow-bottom-v8:after {
+	background-image: url("../../images/shadows/shadow-8.png");
+}

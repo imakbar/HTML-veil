@@ -1,0 +1,31 @@
+/***************************************************************************
+***************************************************************************/
+/*================= IMMERSIVESOUL CLIENTS VERSION ONE | TWO | THREE | FOUR*/
+/***************************************************************************
+***************************************************************************/
+.is-client {
+	line-height:0;
+	text-align:center;
+}
+.is-client a {
+	display:inline-block;
+}
+.is-client img {
+    width: 100%;
+}
+.is-client.v-one:hover,
+.is-client.v-two,
+.is-client.v-three:hover,
+.is-client.v-four {
+	background:rgba(0,0,0,0.05);
+}
+.is-client.v-three,
+.is-client.v-four {
+	border-style:solid;
+	border-width:1px;
+	border-color: rgba(0,0,0,0.15);
+}
+.is-client.v-two:hover,
+.is-client.v-four:hover {
+	background:none;
+}

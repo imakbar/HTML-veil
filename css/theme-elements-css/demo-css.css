@@ -1,0 +1,167 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================= IMMERSIVESOUL DEMO CSS*/
+/***************************************************************************
+***************************************************************************/
+/* demo for list-icons start here */
+.demo-icons li {
+	line-height:30px;
+}
+.demo-icons li i {
+	font-size:15px;
+	display:inline-block;
+	margin-right:5px;
+}
+/* demo for list-icons end here */
+
+
+/* demo for toggle link start here */
+
+.demo-container {
+    display: block;
+    position:relative;
+	width:100%;
+    z-index: 2;
+}
+.demo-toggle-content { 
+	display: none;
+	padding-top:15px;
+}
+.demo-toggle {
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px 1% 35px;
+    width: 96%;
+    z-index: 999;
+}
+.demo-toggle:before {
+    background: none repeat scroll 0 0 #666;
+    color: #fff;
+    content: "+";
+    float: left;
+    font-size: 18px;
+    margin-right: 6px;
+    padding: 0 6px 2px;
+}
+.demo-toggle.active:before {
+	background: none repeat scroll 0 0 #666;
+    color: #fff;
+	content:"-";
+	float: left;
+    font-size: 18px;
+    margin-right: 6px;
+    padding: 0 8px 2px;
+}
+
+/* demo for toggle link start here */
+.demo-anchor-link { text-align:center; }
+.demo-anchor-link a {
+	margin-bottom:15px;
+}
+
+/*
+	Syntax Highlighter for Using HTML CODE
+*/
+.syntax_highlighter {
+    background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #eee;
+    padding: 1em;
+	overflow:auto;
+	position:relative;
+}
+.syntax_highlighter pre { margin:0; }
+.syntax_highlighter h1,
+.syntax_highlighter h2,
+.syntax_highlighter h3,
+.syntax_highlighter h4,
+.syntax_highlighter h5,
+.syntax_highlighter h6 { margin-top:0;}
+
+.syntax_highlighter code {
+    color: #333;
+    width: 100%;
+	line-height:18px;
+}
+.syntax_highlighter .tag {
+    color: #000080;
+}
+.syntax_highlighter .attribute {
+    color: #008080;
+}
+.syntax_highlighter .value {
+    color: #d14;
+}
+.syntax_highlighter .text {
+    color: #333;
+}
+.is-fullwidth-section.v-one .container .syntax_highlighter h5 {
+	color:initial;
+}
+
+/*
+==============================================
+Highlight floating
+==============================================
+*/
+.link-blink {
+    background:yellow;
+    animation:linkblink 1s;
+    -moz-animation:linkblink 1s infinite; /* yellowfox */
+    -webkit-animation:linkblink 1s infinite; /* Safari and Chrome */
+}
+@-moz-keyframes linkblink /* yellowfox */ {
+    0%   {background:none;}
+    50%  {background:yellow;}
+    100%   {background:none;}
+}
+@-webkit-keyframes linkblink /* Safari and Chrome */ {
+    0%   {background:none;}
+    50%  {background:yellow;}
+    100%   {background:none;}
+}
+/*================================================= IMMERSIVESOUL DEMO CSS*/
+
+
+
+
+
+.demo_preview {
+    border: 6px solid #ccc;
+    height: 112px;
+    left: 180px;
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 200px;
+	opacity:0;
+}
+.demo_preview_link_position_bottom .demo_preview {
+    bottom: 0;
+	top:auto;
+}
+/*.demo_preview .preview_image {
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}*/
+.demo_preview .preview_image {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100%;
+    width: 100%;
+}
+.demo_preview_link:hover .demo_preview {
+	display:block;
+	margin-left:0px;
+	opacity:1;
+	z-index:100;
+}
+@media all and (max-width: 960px) {
+	.demo_preview,
+	.demo_preview_link:hover .demo_preview {
+		display:none;
+	}
+}

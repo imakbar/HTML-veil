@@ -1,0 +1,54 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================== IMMERSIVESOUL DROPCAP*/
+/***************************************************************************
+***************************************************************************/
+.dropcap {
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 54px;
+    margin: 4px 10px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 56px;
+	color:/*#85d300*/;
+}
+/* = BOX = */
+body .dropcap.dropcapbox {
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+    -moz-border-radius:5px;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.15);
+	background-color:/*#85d300*/;
+	color:#fff !important;
+}
+/* = CIRCLE = */
+body .dropcap.dropcapcircle {
+	border-radius: 75px;
+	-webkit-border-radius:75px;
+    -moz-border-radius:75px;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.15);
+	background-color:/*#85d300*/;
+	color:#fff !important;
+}
+/* = BORDER BOX = */
+.dropcap.dropcapborderbox {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.15);
+	border-width:1px;
+	border-style:solid;
+	border-color:/*#85d300*/;
+}
+/* = BORDER CIRCLE = */
+.dropcap.dropcapbordercircle {
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.15);
+	border-width:1px;
+	border-style:solid;
+	border-color:/*#85d300*/;
+}

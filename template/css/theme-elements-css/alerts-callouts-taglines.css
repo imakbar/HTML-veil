@@ -1,0 +1,262 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================ IMMERSIVESOUL ALERT BOX*/
+/***************************************************************************
+***************************************************************************/
+.is-alert-box {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    display: inline-block;
+    padding: 12px 0;
+    width: 100%;
+}
+.is-alert-box i {
+    float: left;
+    font-size: 40px;
+    line-height: 16px;
+    margin: 10px;
+}
+.is-alert-box span {
+    float: left;
+    margin: 8px 12px;
+    line-height: 23px;
+}
+.is-alert-box button {
+    border: medium none;
+    cursor: pointer;
+    float: right;
+    font-size: 28px;
+    padding: 0;
+}
+/* = ALERT WARNING = */
+.alert_warning {
+    background: rgba(251,157,157,0.2);
+    border-color: #FB9D9D;
+}
+.alert_warning i {
+    color: #FB9D9D;
+}
+.alert_warning button {
+    background:none;
+}
+/* = ALERT SUCCESS = */
+.alert_success {
+    background: rgba(104,170,105,0.2);
+    border-color: #68AA69;
+}
+.alert_success i {
+    color: #68AA69;
+}
+.alert_success button {
+    background:none;
+}
+/* = ALERT GENERAL = */
+.alert_general {
+    background: rgba(194,194,194,0.2);
+    border-color: #c2c2c2;
+}
+.alert_general i {
+    color: #C2C2C2;
+}
+.alert_general button {
+	background:none;
+}
+/* = ALERT INFORMATION = */
+.alert_information {
+    background: rgba(58, 135, 158, 0.2);
+    border-color: #3A87AD;
+}
+.alert_information i {
+    color: #3A87AD;
+}
+.alert_information button {
+	background:none;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*================================================== IMMERSIVESOUL CALLOUT*/
+/***************************************************************************
+***************************************************************************/
+.is-callout h1,
+.is-callout h2,
+.is-callout h3,
+.is-callout h4,
+.is-callout h5,
+.is-callout h6 {
+	font-family: 'Alegreya Sans',sans-serif;
+}
+.is-callout .is-callout-container {
+    display: flex;
+    padding: 20px 15px;
+}
+.is-callout .is-callout-content {
+	float:left;
+	width:76%;
+}
+.is-callout .is-callout-button {
+    float: right;
+    margin-left: 2%;
+    margin-top: 10px;
+    text-align: right;
+    width: 22%;
+}
+.is-callout .is-callout-content > .heading-highlight {
+    color: /*#85d300*/;
+	line-height: 40px;
+}
+/* = CALLOUT VERSION ONE = */
+.is-callout.v-one {
+    background: none;
+    box-shadow: none;
+}
+.is-callout.v-one .is-callout-container { padding-left:0; padding-right:0;}
+
+/* = CALLOUT VERSION TWO = */
+.is-callout.v-two {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+/* = CALLOUT VERSION THREE = */
+.is-callout.v-three {
+	background:/*#85d300*/;
+}
+.is-callout.v-three .is-callout-content > .heading-highlight {
+	color:#fff;
+}
+.is-callout.v-three .is-callout-content > p {
+    color: #fff;
+}
+/* = CALLOUT VERSION FOUR = */
+.is-callout.v-four {
+    border: 1px solid #fafafa;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.is-callout.v-four .is-callout-container {
+    border-color: #fafafa;
+    border-width: 5px 5px 5px 14px;
+    border-style: solid;
+}
+.is-callout.v-four .is-callout-container {
+    background: none repeat scroll 0 0 #fff;
+}
+/* = CALLOUT VERSION FIVE = */
+.is-callout.v-five {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.is-callout.v-five .is-callout-container {
+    border-color: /*#85d300*/;
+    border-width: 5px 5px 5px 14px;
+    border-style: solid;
+}
+.is-callout.v-five .is-callout-container {
+    background: none repeat scroll 0 0 #fff;
+}
+/* = CALLOUT VERSION SIX = */
+.is-callout.v-six {
+    border: 1px solid #fafafa;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.is-callout.v-six .is-callout-container {
+    border-color: #fafafa;
+    border-width: 5px 5px 5px 14px;
+    border-style: solid;
+}
+.is-callout.v-six .is-callout-container {
+    background: none repeat scroll 0 0 /*#85d300*/;
+}
+.is-callout.v-six .is-callout-content > .heading-highlight {
+	color:#fff;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*===============================================IMMERSIVESOUL TAGLINE BOX*/
+/***************************************************************************
+***************************************************************************/
+.is-tagline-box {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 30px;
+}
+/* = TAGLINE VERSION ONE = */
+.is-tagline-box.v-one {
+    border: medium none;
+    box-shadow: none;
+}
+.is-tagline-box.v-one.left {
+	border-left-width:3px;
+	border-left-style:solid;
+	border-left-color:/*#85d300*/;
+}
+.is-tagline-box.v-one.right {
+	border-right-width:3px;
+	border-right-style:solid;
+	border-right-color:/*#85d300*/;
+}
+.is-tagline-box.v-one.top {
+	border-top-width:3px;
+	border-top-style:solid;
+	border-top-color:/*#85d300*/;
+}
+.is-tagline-box.v-one.bottom {
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:/*#85d300*/;
+}
+/* = TAGLINE VERSION TWO = */
+.is-tagline-box.v-two.left {
+	border-color: #eee #eee #eee /*#85d300*/;
+    border-style: solid solid solid solid;
+    border-width: 1px 1px 1px 3px;
+}
+.is-tagline-box.v-two.right {
+	border-color: #eee /*#85d300*/ #eee #eee;
+    border-style: solid solid solid solid;
+    border-width: 1px 3px 1px 1px;
+}
+.is-tagline-box.v-two.top {
+	border-color: /*#85d300*/ #eee #eee #eee;
+    border-style: solid solid solid solid;
+    border-width: 3px 1px 1px 1px;
+}
+.is-tagline-box.v-two.bottom {
+	border-color: #eee #eee /*#85d300*/ #eee;
+    border-style: solid solid solid solid;
+    border-width: 1px 1px 3px 1px;
+}
+/* = TAGLINE VERSION THREE = */
+.is-tagline-box.v-three {
+	background: none repeat scroll 0 0 #fafafa;
+}
+.is-tagline-box.v-three.left {
+	border-left-width:3px;
+	border-left-style:solid;
+	border-left-color:/*#85d300*/;
+}
+.is-tagline-box.v-three.right {
+	border-right-width:3px;
+	border-right-style:solid;
+	border-right-color:/*#85d300*/;
+}
+.is-tagline-box.v-three.top {
+	border-top-width:3px;
+	border-top-style:solid;
+	border-top-color:/*#85d300*/;
+}
+.is-tagline-box.v-three.bottom {
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:/*#85d300*/;
+}
+/* = TAGLINE VERSION FOUR = */
+.is-tagline-box.v-four {
+	background:/*#85d300*/;
+}
+.is-tagline-box.v-four .tb_description {
+    color: #FFFFFF;
+}

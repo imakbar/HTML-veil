@@ -1,0 +1,183 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================ IMMERSIVESOUL PORTFOLIO*/
+/***************************************************************************
+***************************************************************************/
+#portfolio-container {
+    margin-bottom: 25px;
+}
+.single-project-wide {
+	margin-bottom:30px;
+}
+.single-releated-project {
+	clear:both;
+}
+/* = PORTFOLIO SIDEBAR = */
+.project-single-nav {
+    font-size: 14px;
+    margin: 6px 0 22px;
+	display:inline-block;
+	width:100%;
+}
+.left-project-single-nav {
+    float: left;
+}
+.right-project-single-nav {
+    float: right;
+}
+.project-single-nav a {
+	color:#666;
+}
+.project-single-nav a:hover {
+	color:#85d300;
+}
+.project-details li {
+    border-bottom: 1px solid #EEEEEE;
+    display: inline-block;
+    margin-top: 5px;
+    padding-bottom: 8px;
+    width: 100%;
+	line-height:23px;
+}
+.project-details ul li h4 {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: inherit;
+    margin: 0;
+    width: 130px;
+}
+.project-details ul li h4 i {
+    font-size: 15px;
+    margin-right: 8px;
+}
+.project-details ul li span {
+	float:left;
+}
+.project-details ul li a {
+	padding:0px;
+	color:#85d300;
+}
+.project-details ul li a:hover {
+	padding:0px;
+}
+/* = FILTERABLE = */
+#filterable {
+	margin-left:1%;
+	margin-bottom:25px;
+    display: inline-block;
+	letter-spacing: 1px;
+}
+#portfolio-filter > ul {
+    display: inline-block;
+    margin-top: 0;
+}
+#filterable > li {
+    float: left;
+	margin-right:10px;
+	line-height:40px;
+	margin-bottom: 10px;
+}
+#filterable a {
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    color: #444;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 11px 13px;
+}
+#filterable a:hover,
+#filterable .active a {
+    background-color: #85d300;
+	color:#fff;
+	box-shadow: 0 -2px 0 #7EAC2C inset;
+}
+#filterable i {
+    font-size: 14px;
+    margin-right: 4px;
+}
+/* = SPEED = */
+.isotope, .isotope .isotope-item {
+    transition-duration: 0.8s;
+}
+.port-fourth-grid {
+    float: left;
+    width: 300px;
+	border-radius:200px;
+}
+.portfolio-box .custom-box-img {
+	box-shadow:none;
+	line-height:0;
+}
+.text-style {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    padding: 5px 0;
+}
+.custom-box-img > img {
+    width: 100%;
+}
+/* = IMMERSIVESOUL column-text-portfoliotext = */
+.column-text-portfoliotext {
+    background: none repeat scroll 0 0 #f5f5f5;
+    box-shadow: 0 -3px 0 #85d300 inset;
+    padding: 0px 14px 12px;
+    text-align: center;
+    transition-duration: 0.4s;
+    display: table;
+	width:100%;
+}
+.column-text-portfoliotext > h2 {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+.column-text-portfoliotext > h2 a{
+	color:#333;
+	transition-duration:0.4s;
+}
+.portfolio-box:hover .column-text-portfoliotext,
+.one_forth:hover .column-text-portfoliotext {
+	background:#85d300;
+	color:#fff;
+}
+.portfolio-box:hover .column-text-portfoliotext a,
+.item:hover .column-text-portfoliotext a {
+	color:#fff !important;
+}
+.is-color-white .column-text-portfoliotext > p,
+.column-text-portfoliotext > p {
+    color: #666 !important;
+    line-height: 22px;
+    margin-top: 8px;
+}
+.portfolio-box:hover .column-text-portfoliotext p,
+.item:hover .column-text-portfoliotext p {
+	color:#fff !important;
+}
+/* = scale-hover = */
+.custom-box-img.scale-hover {
+	overflow:hidden;
+}
+.custom-box-img.scale-hover img {
+	transition-duration:0.4s;
+}
+.custom-box-img.scale-hover:hover img {
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+
+	-ms-transform: scale(1.10);
+	transform: scale(2);
+	transition-duration:0.4s;
+}
+/* = no-item-bg = */
+.no-item-bg .column-text-portfoliotext {
+	background:none;
+}
+.no-item-border .column-text-portfoliotext {
+	box-shadow:none;
+}
+

@@ -1,0 +1,219 @@
+/***************************************************************************
+***************************************************************************/
+/*================================================ IMMERSIVESOUL SEPARATOR*/
+/***************************************************************************
+***************************************************************************/
+.separator {
+	clear:both;
+}
+.sep_shadow, .sep_single, .sep_double, .sep_dashed, .sep_doted, .sep_square, .sep_circle, .sep_square_border, .sep_circle_border {
+	border-color:#eee !important;
+}
+.sep_shadow {
+    background: url("../../images/separator-shadow.png" alt="image") no-repeat scroll center top rgba(0, 0, 0, 0);
+    height: 7px;
+    width: 100%;
+}
+.sep_single {
+	border-bottom:solid 1px;
+}
+.sep_double {
+	border-top:solid 1px;
+	border-bottom:solid 1px;
+	height:8px;
+}
+.sep_dashed {
+	border-bottom:dashed 2px;
+}
+.sep_doted {
+	border-bottom:dotted 2px;
+}
+/* Font Separator */
+.font_separator {
+	border-bottom:solid 1px #eee !important;
+	text-align:center;
+	position:relative;
+	z-index: 20;
+}
+.font_separator:after {
+    background: none repeat scroll 0 0 #eee;
+    content: " ";
+    height: 5px;
+    margin-left: -75px;
+    margin-top: -2px;
+    position: absolute;
+    width: 150px;
+    z-index: -1;
+	border-radius:1px;
+	left:50%;
+}
+.sep_square i {
+    background: none repeat scroll 0 0 /*#85d300*/;
+    border-radius: 2px;
+    color: #fff;
+    display: inline;
+    font-size: 30px;
+    height: 46px;
+    left: 50%;
+    line-height: 46px;
+    margin-left: -24px;
+    margin-top: -23px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.sep_square.is-font-size-10 i,
+.sep_square_border.is-font-size-10 i,
+.sep_circle.is-font-size-10 i,
+.sep_circle_border.is-font-size-10 i {
+	font-size: 10px !important;
+    height: 26px;
+    line-height: 26px;
+    margin-left: -13px;
+    margin-top: -13px;
+    width: 26px;
+}
+.sep_square.is-font-size-15 i,
+.sep_square_border.is-font-size-15 i,
+.sep_circle.is-font-size-15 i,
+.sep_circle_border.is-font-size-15 i {
+	font-size: 15px !important;
+    height: 31px;
+    line-height: 31px;
+    margin-left: -16px;
+    margin-top: -15px;
+    width: 31px;
+}
+.sep_square.is-font-size-20 i,
+.sep_square_border.is-font-size-20 i,
+.sep_circle.is-font-size-20 i,
+.sep_circle_border.is-font-size-20 i {
+	font-size:20px !important;
+    height: 36px;
+    line-height: 36px;
+    margin-left: -19px;
+    margin-top: -18px;
+    width: 36px;
+}
+.sep_square.is-font-size-25 i,
+.sep_square_border.is-font-size-25 i,
+.sep_circle.is-font-size-25 i,
+.sep_circle_border.is-font-size-25 i {
+	font-size: 25px !important;
+    height: 41px;
+    line-height: 41px;
+    margin-left: -22px;
+    margin-top: -21px;
+    width: 41px;
+}
+.sep_square.is-font-size-30 i,
+.sep_square_border.is-font-size-30 i,
+.sep_circle.is-font-size-30 i,
+.sep_circle_border.is-font-size-30 i {
+    font-size: 30px !important;
+    height: 46px;
+    line-height: 46px;
+    margin-left: -25px;
+    margin-top: -24px;
+    width: 46px;
+}
+.sep_square.is-font-size-35 i,
+.sep_square_border.is-font-size-35 i,
+.sep_circle.is-font-size-35 i,
+.sep_circle_border.is-font-size-35 i {
+	font-size: 35px !important;
+    height: 51px;
+    line-height: 51px;
+    margin-left: -28px;
+    margin-top: -25px;
+    width: 51px;
+}
+.sep_square.is-font-size-40 i,
+.sep_square_border.is-font-size-40 i,
+.sep_circle.is-font-size-40 i,
+.sep_circle_border.is-font-size-40 i {
+	font-size: 40px !important;
+    height: 56px;
+    line-height: 56px;
+    margin-left: -30px;
+    margin-top: -28px;
+    width: 56px;
+}
+.sep_square.is-font-size-45 i,
+.sep_square_border.is-font-size-45 i,
+.sep_circle.is-font-size-45 i,
+.sep_circle_border.is-font-size-45 i {
+	font-size: 45px !important;
+    height: 62px;
+    line-height: 61px;
+    margin-left: -33px;
+    margin-top: -31px;
+    width: 62px;
+}
+.sep_square.is-font-size-50 i,
+.sep_square_border.is-font-size-50 i,
+.sep_circle.is-font-size-50 i,
+.sep_circle_border.is-font-size-50 i {
+    font-size: 50px !important;
+    height: 72px;
+    line-height: 67px;
+    margin-left: -38px;
+    margin-top: -36px;
+    width: 72px;
+}
+/* = CIRCLE = */
+.sep_circle i {
+	background: none repeat scroll 0 0 /*#85d300*/;
+    border-radius: 100px;
+    color: #fff;
+    display: inline;
+    font-size: 30px;
+    height: 46px;
+    left: 50%;
+    line-height: 46px;
+    margin-left: -24px;
+    margin-top: -23px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+/* = SQUARE BORDER = */
+.sep_square_border i {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid /*#85d300*/;
+    border-radius: 2px;
+    color: /*#85d300*/;
+    display: inline;
+    font-size: 30px;
+    height: 46px;
+    left: 50%;
+    line-height: 46px;
+    margin-left: -24px;
+    margin-top: -23px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+/* = CIRCLE BORDER = */
+.sep_circle_border i {
+    background: none repeat scroll 0 0 #fff;
+	border-width:1px;
+	border-style:solid;
+	border-color:/*#85d300*/;
+    border-radius: 100px;
+    color: /*#85d300*/;
+    display: inline;
+    font-size: 30px;
+    height: 46px;
+    left: 50%;
+    line-height: 46px;
+    margin-left: -24px;
+    margin-top: -23px;
+    position: absolute;
+    top: 0;
+    width: 46px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,98 @@
+/***************************************************************************
+***************************************************************************/
+/*============================================= IMMERSIVESOUL TEAM MEMBERS*/
+/***************************************************************************
+***************************************************************************/
+.is-member-box-v1 {
+    background: #fafafa;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	border-bottom-color:/*#85d300*/;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.09);
+}
+.member-img img {
+    width: 100%;
+}
+.is-member-box-v1 .member-img, .is-member-box-v2 .member-img { overflow:hidden; line-height:0; }
+.is-member-box-v1 .member-img img, .is-member-box-v2 .member-img img {
+	transition-duration:0.4s;
+}
+.is-member-box-v1:hover .member-img img, .is-member-box-v2:hover .member-img img {
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-o-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(2);
+	transition-duration:0.4s;
+}
+.member-description {
+    margin: 10px;
+}
+.member-description > h4 {
+    background-color: /*#85d300*/;
+    float: left;
+    font-weight: normal;
+	margin-bottom:0;
+}
+.member-description > h5 {
+    clear: both;
+    float: left;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 4px;
+}
+.is-member-box-v1 .member-description > p {
+    color: #666 !important;
+    display: inline-block;
+    margin: 6px 0 0px; /* 22px 0 10px */
+}
+.member-social-icons {
+    margin: 0 10px;
+    padding-top: 0;
+}
+/* = TEAM MEMBER BOX VERSION TWO =*/
+.is-member-box-v2 .member-description {
+    margin-top: 18px;
+}
+.is-member-box-v2 .member-img {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px solid #efefef;
+    border-radius: 500px;
+    margin: 0 auto;
+    padding: 8px;
+    width: 62%;
+}
+.is-member-box-v2 .member-img img {
+    border-radius: 500px;
+}
+.is-member-box-v2 {
+    background: none repeat scroll 0 0 /*#85d300*/;
+	display:inline-block;
+}
+.is-member-box-v2 .member-description > h4 {
+    background: none;
+    float: none;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0;
+    padding: 6px 0 0;
+    text-align: center;
+}
+.is-member-box-v2 .member-description > h5 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+    color: #666;
+	font-size: 15px;
+    float: none;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-top: 1px;
+    padding: 0;
+    text-align: center;
+}
+.is-member-box-v2 .member-description > p {
+    margin: 0px 0 12px;
+    text-align: center;
+}

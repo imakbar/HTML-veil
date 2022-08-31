@@ -1,0 +1,585 @@
+/* CSS Document */
+/***************************************************************************
+***************************************************************************/
+/*====================================================== IMMERSIVESOUL RTL*/
+/***************************************************************************
+***************************************************************************/
+html, body,
+.gridblog-item,
+.testimonials-v-one, .testimonials-v-two {
+	direction:rtl;
+}
+
+/*********************************************************
+	TOPBAR HEADER
+*********************************************************/
+.topbar-header .topbar-item-left {
+    float: right;
+    margin-left: 0;
+}
+.topbar-header .topbar-item-right {
+    float: left;
+}
+.topbar-header .topbar-item-right .topbar-social,
+.topbar-header .topbar-item-right .language-box,
+.topbar-header .topbar-item-right .register,
+.topbar-header .topbar-item-right .login,
+.topbar-header .topbar-item-right .mail,
+.topbar-header .topbar-item-right .call {
+    margin-left: 0;
+    margin-right: 20px;
+	float:right;
+}
+.topbar-header .topbar-item-left .topbar-social,
+.topbar-header .topbar-item-left .language-box,
+.topbar-header .topbar-item-left .register,
+.topbar-header .topbar-item-left .login,
+.topbar-header .topbar-item-left .mail,
+.topbar-header .topbar-item-left .call {
+    margin-left: 20px;
+    margin-right: 0;
+    float: right;
+}
+.topbar-item-right .topbar-social li {
+    float: right;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.topbar-menu ul li .sub-menu {
+    left: auto;
+    right: 0;
+}
+
+/*********************************************************
+	HEADERS
+*********************************************************/
+.main-header.version_one h1.logo,
+.main-header.version_three h1.logo {
+    text-align: right;
+}
+.main-header.version_two .one_fifth h1 {
+    text-align: left;
+}
+.version_three .right-widgets {
+    float: left;
+}
+.version_three .right-widgets .mail, .version_three .right-widgets .call, .version_three .right-widgets .login, .version_three .right-widgets .register, .version_three .right-widgets .language-box, .version_three .right-widgets .search-input {
+    float: right;
+    margin-left: 0;
+    margin-right: 14px;
+}
+.version_three .right-widgets {
+    margin-top: 31px;
+}
+.widget .search-input input, .version_three .right-widgets .search-input input {
+    text-align: right;
+}
+
+/*********************************************************
+	MAIN MENU
+*********************************************************/
+.main-menu-div #main-menu .megamenu.parent > ul.sub-menu > li,
+.main-menu-div #main-menu .megamenu.column6 > .sub-menu li.parent,
+.main-menu-div #main-menu .megamenu.column5 > .sub-menu li.parent,
+.main-menu-div #main-menu .megamenu.column4 > .sub-menu li.parent,
+.main-menu-div #main-menu .megamenu.column3 > .sub-menu li.parent {
+    float: right !important;
+}
+#main-menu li {
+    text-align: right;
+}
+#main-menu ul.sub-menu ul.sub-menu {
+    right: 175px;
+}
+.main-menu-div #main-menu li.megamenu ul.sub-menu ul.sub-menu {
+	right:0;
+}
+#main-menu li.dropdown-left ul.sub-menu ul.sub-menu {
+    right: -175px;
+}
+ul.slimmenu li .mobilemenu-plus-indicator {
+    margin-left: 8px;
+    left: 0;
+	right:auto;
+}
+.main-header .main-menu-div.left #main-menu.nav_s_two > li, .main-header .main-menu-div.right #main-menu.nav_s_two > li, .main-header .main-menu-div.center #main-menu.nav_s_two > li,
+.main-header .main-menu-div.left #main-menu.nav_s_three > li, .main-header .main-menu-div.right #main-menu.nav_s_three > li, .main-header .main-menu-div.center #main-menu.nav_s_three > li,
+.main-header .main-menu-div.left #main-menu.nav_s_four > li, .main-header .main-menu-div.right #main-menu.nav_s_four > li, .main-header .main-menu-div.center #main-menu.nav_s_four > li,
+.main-header .main-menu-div.left #main-menu.nav_s_five > li, .main-header .main-menu-div.right #main-menu.nav_s_five > li, .main-header .main-menu-div.center #main-menu.nav_s_five > li,
+.main-header .main-menu-div.left #main-menu.nav_s_six > li, .main-header .main-menu-div.right #main-menu.nav_s_six > li, .main-header .main-menu-div.center #main-menu.nav_s_six > li,
+.main-header .main-menu-div.left #main-menu.nav_s_seven > li, .main-header .main-menu-div.right #main-menu.nav_s_seven > li, .main-header .main-menu-div.center #main-menu.nav_s_seven > li,
+.main-header .main-menu-div.left #main-menu.nav_s_eight > li, .main-header .main-menu-div.right #main-menu.nav_s_eight > li, .main-header .main-menu-div.center #main-menu.nav_s_eight > li {
+    float: right;
+}
+.nav_s_three > li > a > i,
+.nav_s_four > li > a > i,
+.nav_s_five > li > a > i,
+.nav_s_six > li > a > i,
+.nav_s_seven > li > a > i,
+.nav_s_eight > li > a > i {
+    margin-left: 3px;
+    margin-right: 0;
+}
+.single-column3 .sub-menu i, .single-column4 .sub-menu i, .single-column5 .sub-menu i {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+.is-left-header #main-menu ul.sub-menu ul.sub-menu,
+.is-right-header #main-menu ul.sub-menu ul.sub-menu {
+    right: 0;
+}
+#main-menu li.dropdown-left > ul.sub-menu {
+    margin-right: -95px;
+    margin-left: 0;
+}
+#main-menu li.dropdown-left ul.sub-menu ul.sub-menu {
+	right: -175px;
+	left: 0;
+}
+.megamenu.fill-bg ul li.parent.menu-heading a.parent::before {
+    right: 0;
+}
+
+
+
+.demo_preview {
+    right: 180px;
+    margin-right: 50px;
+	left:auto;
+    margin-left: 50px;
+}
+.demo_preview_link:hover .demo_preview {
+	margin-right:0px;
+}
+
+/*********************************************************
+	SHORTCODES
+*********************************************************/
+/* = ACCORDION = */
+.accordion-single-v1 li > h3.active::before, .accordion-multiple-v1 li > h3.active::before,
+.accordion-single-v1 > li > h3::before, .accordion-multiple-v1 > li > h3::before,
+.accordion-single-v2 li > h3.active::before, .accordion-multiple-v2 li > h3.active::before,
+.accordion-single-v2 > li > h3::before, .accordion-multiple-v2 > li > h3::before,
+.accordion-single-v2 li:hover > h3.active::before, .accordion-multiple-v2 li > h3.active:hover::before {
+	float:right;
+	margin-right:0;
+}
+.accordion-single-v1 li > h3.active::before, .accordion-multiple-v1 li > h3.active::before,
+.accordion-single-v2 li > h3.active::before, .accordion-multiple-v2 li > h3.active::before,
+.accordion-single-v1 > li > h3::before, .accordion-multiple-v1 > li > h3::before,
+.accordion-single-v2 > li > h3::before, .accordion-multiple-v2 > li > h3::before {
+	margin-left:10px;
+}
+.accordion-single-v3 > li > h3::before, .accordion-multiple-v3 > li > h3::before,
+.accordion-single-v3 li > h3.active::before, .accordion-multiple-v3 li > h3.active::before {
+	float:left;
+}
+/* = ALERTS = */
+.is-alert-box i,
+.is-alert-box span {
+    float: right;
+}
+.is-alert-box button {
+    float: left;
+}
+/* = CALLOUT = */
+.is-callout .is-callout-button {
+    text-align: left;
+}
+/* = BLOG SECTION = */
+.post-item .post-type {
+    float: right;
+    margin-left: 10px;
+}
+.post-item .post-content {
+    display: table-cell;
+}
+.grid-post-item .post-meta .meta-post-format {
+    float: left;
+}
+.avatar .avt-img {
+    float: right;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+.blog.medium-img .featured-image,
+.blog.medium-img .company-slider,
+.blog.medium-img .featured-video,
+.blog.medium-img .featured-audio {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.post-readmore a:before {
+	content: "\e8d1";
+	float: none;
+    font-family: 'fontello';
+    padding: 0 5px 0 0px;
+}
+.post-readmore a:after {
+	display:none;
+}
+/* = ICON CONTENT = */
+.v-four i.icon-effect,
+.v-five i.icon-effect,
+.v-six i.icon-effect,
+.v-seven i.icon-effect {
+    float: right;
+    margin-left: 10px;
+}
+.v-four.align-left i.icon-effect,
+.v-five.align-left i.icon-effect,
+.v-six.align-left i.icon-effect,
+.v-seven.align-left i.icon-effect {
+    float: left;
+    margin-right: 10px;
+}
+.is_icon_content_box .read_more:before {
+	content: "\e8d1";
+    font-family: 'fontello';
+    padding: 0 5px 0 0px;
+}
+.is_icon_content_box .read_more:after {
+	display:none;
+}
+/* = FORMS = */
+.immersivesoul-form .form-column1,
+.immersivesoul-form .form-column2,
+.immersivesoul-form .form-column3,
+.immersivesoul-form .form-column4 {
+    text-align: right;
+}
+.immersivesoul-form .form-column2,
+.immersivesoul-form .form-column3,
+.immersivesoul-form .form-column4 {
+	float:right;
+	margin-right:auto;
+	margin-left:1%;
+}
+.immersivesoul-form .form-columnlast {
+    margin-left: 0%;
+    margin-right: auto;
+}
+.checkbox input, .radio input {
+    float: right;
+    margin-left: 10px;
+}
+.immersivesoul-form.with-icons .input-field-clm .input-icon {
+    right: 10px;
+	left:auto;
+}
+.immersivesoul-form.with-icons .input-field-clm .input-field-control {
+    padding-right: 30px;
+}
+/* = FONT ICONS FOR DEMO = */
+.demo-icons li i {
+    margin-left: 5px;
+}
+/* = FILTER MASONERY = */
+#filterable > li {
+    float: right;
+}
+#filterable i {
+    margin-left: 4px;
+}
+/* = MAP = */
+.gm-style .gm-style-iw {
+    line-height: 23px;
+}
+
+/* = LIST ICONS = */
+.is-list-icon li {
+    padding-right: 35px;
+	padding-left:0;
+    float: right;
+}
+.is-list-icon.is-list-circle-border > li::before,
+.is-list-icon.is-list-square-border > li::before {
+    margin-left: 5px;
+}
+.is-list-icon > li::before {
+    margin-right: 5px;
+    right: 0;
+}
+.is-list-icon.large li {
+    padding-right: 60px;
+	padding-left:0;
+}
+.is-list-style-circle, .is-list-style-inside, .is-list-style-square, .is-list-style-circle ul, .is-list-style-inside ul, .is-list-style-square ul {
+    padding-right: 20px;
+	padding-left:0;
+}
+/* = SKILLS BAR = */
+.is-counter-line .is-counter-progress {
+    right: 0;
+}
+.is-skillbar.v-one p span, .is-skillbar.v-two p span {
+    float: left;
+}
+.is-skillbar.v-one p i, .is-skillbar.v-two p i,
+.is-skillbar.v-three p i, .is-skillbar.v-four p i {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.is-skillbar.v-two p .is-skillbar-span, .is-skillbar.v-four p .is-skillbar-span {
+    float: left;
+}
+.is-skillbar.v-one p, .is-skillbar.v-two p {
+    text-align: justify;
+}
+/* = TEAM = */
+.member-description > h4 {
+    float: right;
+    margin: 2px -10px 0 0;
+	padding:0 10px 0 30px;
+}
+.member-description > h5 {
+    float: right;
+    margin-right: -10px;
+	padding:0 10px 0 30px;
+}
+/* = TYPOGRAPHY = */
+.dropcap {
+    float: right;
+    margin: 4px 0 0 10px;
+}
+/* = TESTIMONIALS = */
+.testimonials-v-one .author-image {
+    float: right;
+    margin-left: 15px;
+}
+.testimonials-v-one .author-wrapper::after {
+    right: 30px;
+	left:auto;
+}
+.testimonials-v-two > blockquote::before {
+    left: 80px;
+}
+.testimonials-v-two > blockquote::after {
+    right: 0px;
+}
+/* = PRICING TABLES = */
+.pricing-table-v1 .prices,
+.pricing-table-v2 .prices {
+    direction: ltr;
+}
+/* = WIDGETS = */
+.tag_clouds > li {
+    float: none;
+    margin-left: 10px;
+    margin-right: 0;
+    display: inline-block;
+}
+.post-widget-items .post-widget-img {
+    float: right;
+    margin-left: 12px;
+}
+.product_list_widget .wp-post-image {
+    float: right;
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+/* = SEARCH INPUT = */
+.widget .search-input button,
+.version_three .right-widgets .search-input button {
+    margin-right: -32px;
+	margin-left:0;
+}
+.widget .search-input input,
+.version_three .right-widgets .search-input input {
+    float: right;
+    padding: 8px 6px 8px 0;
+}
+/* = LANGUAGE = */
+.language-text .language-link::before {
+    margin-left: 0;
+    left: auto;
+}
+
+/*********************************************************
+	TITLEBARS
+*********************************************************/
+.is-titlebar.v-one a, .is-titlebar.v-two a, .is-titlebar.v-three a, .is-titlebar.v-four a {
+    float: right;
+}
+.titlebar-breadcrumb span {
+    display: inline-block;
+}
+.is-titlebar .titlebar-breadcrumb a.home::before {
+    margin: 3px 0 0 6px;
+}
+.is-titlebar .titlebar-breadcrumb a:last-child::after {
+    margin-left: 0;
+}
+.is-titlebar.v-four.title-left .titlebar-breadcrumb .container,
+.is-titlebar.v-four.title-center .titlebar-breadcrumb .container,
+.is-titlebar.v-four.title-right .titlebar-breadcrumb .container,
+.is-titlebar.v-three.title-left .titlebar-breadcrumb .container,
+.is-titlebar.v-three.title-center .titlebar-breadcrumb .container,
+.is-titlebar.v-three.title-right .titlebar-breadcrumb .container {
+    padding: 6px 1% 6px;
+}
+.titlebar-breadcrumb .no-css {
+    margin-top: 2px;
+}
+
+/*********************************************************
+	SHOP
+*********************************************************/
+.is-single-product {
+    float: left;
+}
+.comment-form-rating .stars a.star-1::after, .comment-form-rating .stars a.star-2::after, .comment-form-rating .stars a.star-3::after, .comment-form-rating .stars a.star-4::after, .comment-form-rating .stars a.star-5::after,
+.comment-form-rating .stars a.star-1:hover::after, .comment-form-rating .stars a.star-2:hover::after, .comment-form-rating .stars a.star-3:hover::after, .comment-form-rating .stars a.star-4:hover::after, .comment-form-rating .stars a.star-5:hover::after {
+	left:10px;
+	text-align:left;
+}
+.project-details ul li h4,
+.project-details ul li span {
+    float: right;
+}
+.is-shop-v-one .is-product-container .onsale {
+    right: auto;
+    left: 0;
+}
+
+.is-shop-v-one .is-product-container .is-rating-container {
+    margin-left: -80px;
+}
+.is-shop-v-one .is-product-container:hover .is-rating-container {
+	margin-right:10px;
+}
+/*********************************************************
+	FOOTER BOTTOM AREA
+*********************************************************/
+.footer_bottom_area .align-left {
+    float: right;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.footer_bottom_area .align-right {
+    float: left;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+/*********************************************************
+	PRETTY PHOTO
+*********************************************************/
+.pp_content_container a {
+    font-size: 0;
+}
+
+/*********************************************************
+	OWL CAROUSEL
+*********************************************************/
+.owl-carousel {
+    direction:ltr;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*================================================== IMMERSIVESOUL COLUMNS*/
+/***************************************************************************
+***************************************************************************/
+.one_one, .one_half, .one_third, .one_forth, .two_third, .three_fourth, .one_fifth, .fourth_fifth,
+.is_shop_column_1 .shop_column, .is_shop_column_2 .shop_column, .is_shop_column_3 .shop_column, .is_shop_column_4 .shop_column,
+.is_port_column_1 .port_column, .is_port_column_2 .port_column, .is_port_column_3 .port_column, .is_port_column_4 .port_column,
+.is_blog_column_1 .blog_column, .is_blog_column_2 .blog_column, .is_blog_column_3 .blog_column, .is_blog_column_4 .blog_column,
+.is_gallery_column_1 .gallery_column, .is_gallery_column_2 .gallery_column, .is_gallery_column_3 .gallery_column, .is_gallery_column_4 .gallery_column,
+.is_team_column_1 .team_column, .is_team_column_2 .team_column, .is_team_column_3 .team_column, .is_team_column_4 .team_column {
+	float:right;
+}
+	
+.topbar-social ul {
+    right: auto;
+    left: 10px;
+}
+@media all and (max-width: 1060px) {
+.main-menu-div #main-menu li a {
+    text-align: right;
+}
+.main-menu-div #main-menu i,
+.megamenu ul.sub-menu li a i {
+	float: none !important;
+}
+.megamenu ul.sub-menu li a i, #main-menu a i {
+    margin-left: 5px;
+    text-align: right;
+    margin-right: 5px;
+}
+#main-menu ul.sub-menu ul.sub-menu,
+#main-menu li.dropdown-left ul.sub-menu ul.sub-menu {
+    right: 0;
+}
+#main-menu li.dropdown-left > ul.sub-menu {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.is-left-header .slimmenu li .mobilemenu-plus-indicator,
+.is-right-header .slimmenu li .mobilemenu-plus-indicator {
+    left: 0;
+    right: auto;
+}
+
+/*********************************************************
+	TOPBAR HEADER
+*********************************************************/
+.topbar-header .mobilemenu-plus-indicator {
+    right: auto;
+    left: 0;
+}
+
+/*********************************************************
+	HEADERS
+*********************************************************/
+.main-header.version_one h1.logo,
+.main-header.version_three h1.logo {
+    text-align: center;
+}
+#search-input {
+    left: 0;
+	right:auto;
+}
+.widget .search-input input,
+.version_three .right-widgets .search-input input {
+    text-align: right;
+}
+}
+@media only screen and (min-width: 3301px) and (max-width: 4300px) {}
+@media only screen and (min-width: 2301px) and (max-width: 3300px) {}
+@media only screen and (min-width: 1301px) and (max-width: 2300px) {}
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {}
+@media only screen and (min-width: 1161px) and (max-width: 1200px) {}
+@media only screen and (min-width: 1061px) and (max-width: 1160px) {}
+@media only screen and (min-width: 960px) and (max-width: 1060px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.version_three .right-widgets {
+    float: none;
+}
+.blog.medium-img .featured-image,
+.blog.medium-img .company-slider,
+.blog.medium-img .featured-video,
+.blog.medium-img .featured-audio {
+    float: none;
+	clear:both;
+}
+}
+@media only screen and (max-width: 480px) {
+.post-item .post-content {
+    display: inherit;
+}
+.version_three .right-widgets {
+    float: none;
+}
+.blog.medium-img .featured-image,
+.blog.medium-img .company-slider,
+.blog.medium-img .featured-video,
+.blog.medium-img .featured-audio {
+	margin-bottom:20px;
+}
+}

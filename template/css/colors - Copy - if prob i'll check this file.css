@@ -1,0 +1,748 @@
+/*
+Our Selected 30 Colors
+
+1:	royalblue
+2: 	politicalblue
+3: 	coolblue
+4: 	skyblue
+5: 	vistablue
+6: 	black
+7: 	tealgrey
+8: 	grey
+9: 	bluegrey
+10: saffronblue
+11: steelgreen
+12: tufgreen
+13: silver
+14: coffee
+15: autumn
+16: teal
+17: alphagreen
+18: frenchgreen
+19: yogigreen
+20: forestgreen
+21: limegreen
+22: golden
+23: orange
+24: yellow
+25: buoyred
+26: cherry
+27: purple
+28: pink
+29: periwinkle
+30: violet
+
+======================================================================================================================
+NOTE: If you want to add any new color you can go on 31 number and you can replace with your color name and color code
+======================================================================================================================
+
+===
+31: YourColorName
+===
+
+Color Name: YourColorName					NOTE: replace "YourColorName" with your COLOR NAME here
+      Base: #YourColoCodeBase				NOTE: replace "YourColoCodeBase" with your COLOR CODE in HEXADECIMAL value like this "#123456"
+ Base Dark: #YourColorCodeBaseDark			NOTE: replace "YourColorCodeBaseDark" with your COLOR CODE in HEXADECIMAL value like this "#123456"
+  Base RGB: rgbCode1,rgbCode2,rgbCode3		NOTE: replace "rgbCode1,rgbCode2,rgbCode3" with your COLOR CODE in RGB value like this "123,456,789"
+
+======================================================================================================================================
+NOTE: We have set-up the all things(code) for new color, so you only need to replace above things(color name and code) as have mention
+======================================================================================================================================
+
+*/
+
+
+
+
+
+/*
+Color Name: skyblue
+      Base: #00BCD5
+ Base Dark: #079aae
+  Base RGB: 0,188,213
+*/
+.gridblog-item.skyblue:hover .grid-post-item,
+.post-item.skyblue .post-type,
+.icon-effect-1.skyblue .icon-effect,
+.icon-effect-2.skyblue .icon-effect,
+.icon-effect-3.skyblue .icon-effect:after,
+.icon-effect-3.skyblue:hover .icon-effect:after,
+.icon-effect-4.skyblue .icon-effect:after,
+.v-five.skyblue i.icon-effect,
+.v-seven.skyblue i.icon-effect,
+.skyblue .portfolio-box:hover .column-text-portfoliotext,
+.portfolio-box.skyblue:hover .column-text-portfoliotext,
+.item.skyblue:hover .column-text-portfoliotext,
+#portfolio-filter.skyblue #filterable a,
+.pricing-table-v2.skyblue .table_heading,
+.is-fullwidth-section.skyblue,
+#shop-filter.skyblue #filterable a,
+.is-social-network.is-v-two.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-two.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-four.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-four.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-six.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-six.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-two.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-two.is-hover-effect-6.skyblue a:hover,
+.is-social-network.is-v-four.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-four.is-hover-effect-6.skyblue a:hover,
+.is-social-network.is-v-six.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-six.is-hover-effect-6.skyblue a:hover,
+.testimonials-v-one.skyblue blockquote,
+.is-titlebar.v-one.skyblue,
+.is-titlebar.v-two.skyblue,
+.is-titlebar.v-three.skyblue .titlebar-title,
+.is-titlebar.v-four.skyblue .titlebar-breadcrumb,
+.skyblue .widget-sidebar-menu.left ul.nested-menu li.active a:after,
+.skyblue .widget-sidebar-menu.left ul.nested-menu li a:hover:after,
+.skyblue .widget-sidebar-menu.right ul.nested-menu li.active a:after,
+.skyblue .widget-sidebar-menu.right ul.nested-menu li a:hover:after,
+.skyblue .tag_clouds a:hover,body.is-dark-version .is-fullwidth-section.skyblue,
+.is-background-color{background-color:#00BCD5}.grid-post-item.skyblue:hover,
+.accordion-single-v2.skyblue li > h3.active::before,
+.accordion-multiple-v2.skyblue li > h3.active::before,
+.accordion-single-v2.skyblue li:hover > h3::before,
+.accordion-multiple-v2.skyblue li:hover > h3::before,
+.accordion-single-v3.skyblue li > h3.active,
+.accordion-multiple-v3.skyblue li > h3.active,
+.accordion-single-v3.skyblue li > h3:hover,
+.accordion-multiple-v3.skyblue li > h3:hover,
+.is-callout.v-three.skyblue,
+.is-fullwidth-section.v-one.skyblue .is-callout.v-three,
+.is-fullwidth-section.v-one.skyblue,body.is-dark-version .is-fullwidth-section.v-one.skyblue,
+.v-nine.skyblue,
+.dropcapbox.skyblue,
+.dropcapcircle.skyblue{background-color:#00BCD5 !important}.is_icon_content_box.v-three.skyblue i.icon-effect,
+
+.is-heading.h-v-one.skyblue hr:before,
+.is-heading.h-v-three.skyblue .span,
+.is-callout.v-six.skyblue .is-callout-container,
+.is-tagline-box.v-four.skyblue,
+.icon-effect-7.skyblue:hover .icon-effect,
+.icon-effect-8.skyblue:hover .icon-effect,
+.icon-effect-9.skyblue:hover .icon-effect,
+.icon-effect-10.skyblue:hover .icon-effect,
+.icon-effect-11.skyblue:hover .icon-effect{background:#00BCD5 !important}
+
+
+
+
+.is-button.is-v-one.skyblue,
+.is-button.is-v-two.skyblue,
+.is-button.is-v-three.skyblue,
+.is-button.is-v-four.skyblue:hover,
+.is-button.is-v-four.skyblue:active,
+.is-button.is-v-five.skyblue,
+.icon-effect-2.skyblue:hover .icon-effect,
+.icon-effect-5.skyblue .icon-effect:after,
+.icon-effect-6.skyblue .icon-effect:after,
+.icon-effect-14.skyblue .icon-effect,
+.icon-effect-14.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.skyblue,
+.immersivesoul-form.with-bg.skyblue,
+.is-list-circle li.skyblue:before,
+.is-list-square li.skyblue:before,
+.pricing-table-v1.skyblue .prices,
+.sep_square.skyblue i,
+.sep_circle.skyblue i,
+.is-skillbar.skyblue .is-counter-line .is-counter-progress,
+.is-tab-container.skyblue ul.is-tab-nav li.active a.active:after,
+.topbar-header.skyblue .topbar-menu > ul > li > a:hover:after,
+.topbar-header.skyblue .topbar-menu ul li .sub-menu:before,
+.topbar-header.skyblue .topbar-menu > ul > li.current-item > a:after,
+.topbar-header.skyblue.topbar-header-base,
+.highlight.v-one.skyblue,
+.highlight.v-two.skyblue,
+.blog.large-img .post.skyblue .post-meta span,
+.blog.medium-img .post.skyblue .post-meta span,
+.blog.large-img .post.skyblue .post-readmore a,
+.blog.large-img-alternate .post.skyblue .post-readmore a,
+.blog.medium-img .post.skyblue .post-readmore a,
+.blog.medium-img-alternate .post.skyblue .post-readmore a{background:#00BCD5}.is-button.is-v-one.skyblue:active,
+.is-button.is-v-three.skyblue:hover,
+.blog.large-img .post.skyblue .post-readmore a:hover,
+.blog.large-img-alternate .post.skyblue .post-readmore a:hover,
+.blog.medium-img .post.skyblue .post-readmore a:hover,
+.blog.medium-img-alternate .post.skyblue .post-readmore a:hover{background:#079aae}.is-button.is-v-two.skyblue:active,
+.is-button.is-v-three.skyblue:active,
+.is-button.is-v-four.skyblue:active,
+.is-button.is-v-five.skyblue:active{background:#079aae}.is-fullwidth-section.skyblue.v-one.base-dark,
+.carousel-buttons.skyblue a:hover{background-color:#079aae !important}.is-client.v-one.skyblue:hover,
+.is-client.v-two.skyblue,
+.is-client.v-three.skyblue:hover,
+.is-client.v-four.skyblue{background:rgba(0,188,213,0.8)}.v-eleven.skyblue .cbox-container > section{background-color:rgba(0,188,213,0.9)}.skyblue .bg-v1 .ImageOverlay,
+.skyblue .bg-v2 .ImageOverlay,
+.skyblue .bg-v3 .ImageOverlay:before,
+.skyblue .bg-v3 .ImageOverlay:after,
+.skyblue .bg-v4 .ImageOverlay:before,
+.skyblue .bg-v4 .ImageOverlay:after,
+.skyblue .bg-v5 .ImageOverlay,
+.skyblue .bg-v6 .ImageOverlay:before,
+.skyblue .bg-v6 .ImageOverlay:after,
+.skyblue .bg-v7 .ImageOverlay:before,
+.skyblue .bg-v7 .ImageOverlay:after,
+.skyblue .bg-v8 .ImageOverlay,
+.skyblue .bg-v9 .ImageOverlay,
+.skyblue .bg-v10 .ImageOverlay,
+.skyblue .bg-v11 .ImageOverlay,
+.skyblue .bg-v12 .ImageOverlay,
+.skyblue .bg-v13 .ImageOverlay,
+.skyblue .bg-v14 .ImageOverlay,
+.skyblue .bg-v15 .ImageOverlay,
+.skyblue .bg-v16 .ImageOverlay,
+.skyblue .bg-v17 .ImageOverlay,
+.skyblue .bg-v18 .ImageOverlay,
+.skyblue .bg-v19 .ImageOverlay,
+.skyblue .bg-v20 .ImageOverlay,
+.skyblue .bg-v21 .ImageOverlay{background-color:rgba(0,188,213,0.9) !important}.skyblue.is-image-frame-overlay-v1 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v2 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v3 .ImageOverlay:before,
+.skyblue.is-image-frame-overlay-v3 .ImageOverlay:after,
+.skyblue.is-image-frame-overlay-v4 .ImageOverlay:before,
+.skyblue.is-image-frame-overlay-v4 .ImageOverlay:after,
+.skyblue.is-image-frame-overlay-v5 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v6 .ImageOverlay:before,
+.skyblue.is-image-frame-overlay-v6 .ImageOverlay:after,
+.skyblue.is-image-frame-overlay-v7 .ImageOverlay:before,
+.skyblue.is-image-frame-overlay-v7 .ImageOverlay:after,
+.skyblue.is-image-frame-overlay-v8 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v9 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v10 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v11 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v12 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v13 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v14 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v15 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v16 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v17 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v18 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v19 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v20 .ImageOverlay,
+.skyblue.is-image-frame-overlay-v21 .ImageOverlay{background-color:rgba(0,188,213,0.7)}.is-overlay.skyblue0 .is-overlay-base,
+.is-titlebar-overlay.skyblue0 .is-titlebar-overlay{background-color:rgba(0,188,213,0.0)}.is-overlay.skyblue1 .is-overlay-base,
+.is-titlebar-overlay.skyblue1 .is-titlebar-overlay{background-color:rgba(0,188,213,0.1) !important}.is-overlay.skyblue2 .is-overlay-base,
+.is-titlebar-overlay.skyblue2 .is-titlebar-overlay{background-color:rgba(0,188,213,0.2) !important}.is-overlay.skyblue3 .is-overlay-base,
+.is-titlebar-overlay.skyblue3 .is-titlebar-overlay{background-color:rgba(0,188,213,0.3) !important}.is-overlay.skyblue4 .is-overlay-base,
+.is-titlebar-overlay.skyblue4 .is-titlebar-overlay{background-color:rgba(0,188,213,0.4) !important}.is-overlay.skyblue5 .is-overlay-base,
+.is-titlebar-overlay.skyblue5 .is-titlebar-overlay{background-color:rgba(0,188,213,0.5) !important}.is-overlay.skyblue6 .is-overlay-base,
+.is-titlebar-overlay.skyblue6 .is-titlebar-overlay{background-color:rgba(0,188,213,0.6) !important}.is-overlay.skyblue7 .is-overlay-base,
+.is-titlebar-overlay.skyblue7 .is-titlebar-overlay{background-color:rgba(0,188,213,0.7) !important},
+.is-overlay.skyblue8 .is-overlay-base,
+.is-titlebar-overlay.skyblue8 .is-titlebar-overlay{background-color:rgba(0,188,213,0.8) !important},
+.is-overlay.skyblue9 .is-overlay-base,
+.is-titlebar-overlay.skyblue9 .is-titlebar-overlay{background-color:rgba(0,188,213,0.9) !important},
+.is-overlay.skyblue10 .is-overlay-base,
+.is-titlebar-overlay.skyblue10 .is-titlebar-overlay{background-color:rgba(0,188,213,1) !important},
+.is-overlay.skyblue8 .is-overlay-base,
+.is-overlay.skyblue .is-overlay-base,
+.is-titlebar-overlay.skyblue8 .is-titlebar-overlay,
+.is-titlebar-overlay.skyblue .is-titlebar-overlay,body.is-dark-version .is-client.v-one.skyblue:hover,body.is-dark-version .is-client.v-two.skyblue,body.is-dark-version .is-client.v-three.skyblue:hover,body.is-dark-version .is-client.v-four.skyblue,
+.is-shop-v-two .shop-item.skyblue .is-product-container a .is-shop-overlay,
+.is-parallax-section .is-member-box-v2.skyblue{background-color:rgba(0,188,213,0.8) !important}.is-overlay.skyblue9 .is-overlay-base,
+.is-titlebar-overlay.skyblue9 .is-titlebar-overlay{background-color:rgba(0,188,213,0.9)}.is-overlay.skyblue10 .is-overlay-base,
+.is-titlebar-overlay.skyblue10 .is-titlebar-overlay{background-color:rgba(0,188,213,1)}.is_icon_content_box.v-two.icon-effect-2.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-5.skyblue .icon-effect:after,
+.is_icon_content_box.v-two.icon-effect-6.skyblue .icon-effect:after,
+.is_icon_content_box.v-two.icon-effect-14.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-14.skyblue:hover .icon-effect{background:#fff}.is_icon_content_box.v-two.icon-effect-1.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-2.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-3.skyblue .icon-effect:after,
+.is_icon_content_box.v-two.icon-effect-3.skyblue:hover .icon-effect:after,
+.is_icon_content_box.v-two.icon-effect-4.skyblue .icon-effect:after,
+
+.is-social-network.is-v-two.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-two.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-four.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-four.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-six.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-six.is-hover-effect-6.skyblue a{background-color:#fff}
+
+.is_icon_content_box.v-two.icon-effect-7.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-8.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-9.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-10.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.skyblue:hover .icon-effect{background:#fff !important}.icon-effect-14.skyblue:hover .icon-effect:after{-webkit-animation:sonarEffectskyblue 1.5s ease-out 75ms;-moz-animation:sonarEffectskyblue 1.5s ease-out 75ms;animation:sonarEffectskyblue 1.5s ease-out 75ms} @-webkit-keyframes sonarEffectskyblue{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(0,188,213,0.1), 0 0 1px 1px #00BCD5, 0 0 0 10px rgba(0,188,213,1);}100%{box-shadow:0 0 0 2px rgba(0,188,213,0.1), 0 0 10px 10px #00BCD5, 0 0 0 10px rgba(0,188,213,1);-moz-transform:scale(1.5);opacity:0;}}@-moz-keyframes sonarEffectskyblue{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(0,188,213,0.1), 0 0 1px 1px #00BCD5, 0 0 0 10px rgba(0,188,213,1);}100%{box-shadow:0 0 0 2px rgba(0,188,213,0.1), 0 0 10px 10px #00BCD5, 0 0 0 10px rgba(0,188,213,1);-moz-transform:scale(1.5);opacity:0;}}@keyframes sonarEffectskyblue{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(0,188,213,0.1), 0 0 1px 1px #00BCD5, 0 0 0 10px rgba(0,188,213,1);}100%{box-shadow:0 0 0 2px rgba(0,188,213,0.1), 0 0 10px 10px #00BCD5, 0 0 0 10px rgba(0,188,213,1);-moz-transform:scale(1.5);opacity:0;}}.is_icon_content_box.v-two.icon-effect-14.skyblue:hover .icon-effect:after{-webkit-animation:sonarEffectskybluetwo 1.5s ease-out 75ms;-moz-animation:sonarEffectskybluetwo 1.5s ease-out 75ms;animation:sonarEffectskybluetwo 1.5s ease-out 75ms}@-webkit-keyframes sonarEffectskybluetwo{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 1px 1px #fff, 0 0 0 10px rgba(255,255,255,1);}100%{box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255,255,255,1);-moz-transform:scale(1.5);opacity:0;}}@-moz-keyframes sonarEffectskybluetwo{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 1px 1px #fff, 0 0 0 10px rgba(255,255,255,1);}100%{box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255,255,255,1);-moz-transform:scale(1.5);opacity:0;}}@keyframes sonarEffectskybluetwo{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 1px 1px #fff, 0 0 0 10px rgba(255,255,255,1);}100%{box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255,255,255,1);-moz-transform:scale(1.5);opacity:0;}}.is-skillbar.skyblue .is-counter-line .progress-striped{background-color:#00BCD5;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);-webkit-background-size:40px 40px;-moz-background-size:40px 40px;-o-background-size:40px 40px;background-size:40px 40px}.is-titlebar.v-one.is-gradient-bg.skyblue,
+.is-titlebar.v-two.is-gradient-bg.skyblue,
+.is-titlebar.v-three.is-gradient-bg.skyblue .titlebar-title,
+.is-titlebar.v-four.is-gradient-bg.skyblue .titlebar-breadcrumb{background:#00BCD5;background:-moz-linear-gradient(top,
+#00BCD5 0%,
+#079aae 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,
+#00BCD5), color-stop(100%,
+#079aae));background:-webkit-linear-gradient(top,
+#00BCD5 0%,
+#079aae 100%);background:-o-linear-gradient(top,
+#00BCD5 0%,
+#079aae 100%);background:-ms-linear-gradient(top,
+#00BCD5 0%,
+#079aae 100%);background:linear-gradient(to bottom,
+#00BCD5 0%,
+#079aae 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00BCD5', endColorstr='#079aae',GradientType=0 )}
+
+.post-item.skyblue a:hover,
+.is-button.is-v-four.skyblue,
+.icon-effect-1.skyblue:hover .read_more,
+.icon-effect-2.skyblue:hover .read_more,
+.icon-effect-3.skyblue:hover .read_more,
+.icon-effect-4.skyblue:hover .icon-effect,
+.icon-effect-4.skyblue:hover .read_more,
+.icon-effect-5.skyblue:hover .icon-effect,
+.icon-effect-5.skyblue:hover .read_more,
+.icon-effect-6.skyblue .icon-effect,
+.icon-effect-6.skyblue:hover .read_more,
+.icon-effect-7.skyblue .icon-effect,
+.icon-effect-7.skyblue:hover .read_more,
+.icon-effect-8.skyblue .icon-effect,
+.icon-effect-8.skyblue:hover .read_more,
+.icon-effect-9.skyblue .icon-effect,
+.icon-effect-9.skyblue:hover .read_more,
+.icon-effect-10.skyblue .icon-effect,
+.icon-effect-10.skyblue:hover .read_more,
+.icon-effect-11.skyblue .icon-effect,
+.icon-effect-11.skyblue:hover .read_more,
+.icon-effect-12.skyblue .icon-effect,
+.icon-effect-12.skyblue:hover .icon-effect,
+.icon-effect-12.skyblue:hover .read_more,
+.icon-effect-13.skyblue .icon-effect,
+.icon-effect-13.skyblue:hover .icon-effect,
+.icon-effect-13.skyblue:hover .read_more,
+.icon-effect-14.skyblue:hover .read_more,
+.icon-effect-15.skyblue .icon-effect,
+.icon-effect-15.skyblue:hover .icon-effect,
+.icon-effect-15.skyblue:hover .read_more,
+.is_icon_content_box.v-two.icon-effect-1.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-2.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-3.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-3.skyblue:hover .icon-effect:after,
+.is_icon_content_box.v-two.icon-effect-4.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-5.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-6.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-7.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-8.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-9.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-10.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-14.skyblue .icon-effect,
+.v-four.skyblue i.icon-effect,
+.v-four.skyblue:hover h6 .read_more,
+.v-five.skyblue:hover h6 .read_more,
+.v-six.skyblue i.icon-effect,
+.v-six.skyblue:hover h6 .read_more,
+.v-seven.skyblue:hover h6 .read_more,
+.v-eight.skyblue i.icon-effect,
+.v-eight.skyblue:hover h6 .read_more,
+.is_icon_content_box.skyblue section h2 a:hover,
+.is-list-color > li.skyblue:before,
+.is-list-circle-border > li.skyblue:before,
+.is-list-square-border > li.skyblue:before,
+.pricing-table-v2.skyblue .prices,
+.sep_square_border.skyblue i,
+.sep_circle_border.skyblue i,
+.is-shop-v-one .shop-item.skyblue .price span.amount,
+.is-skillbar.v-two.skyblue p .is-skillbar-span,
+.is-skillbar.v-four.skyblue p .is-skillbar-span,
+.testimonials-v-one.skyblue .author-wrapper:after,
+.testimonials-v-one.skyblue .author-name a,
+.testimonials-v-two.skyblue .author-name a,
+.is-titlebar.v-three.skyblue .titlebar-breadcrumb a:hover,
+.topbar-header.skyblue .call a:hover,
+.topbar-header.skyblue .mail a:hover,
+.topbar-header.skyblue .login a:hover,
+.topbar-header.skyblue .register a:hover,
+.topbar-header.skyblue .topbar-social a:hover,
+.topbar-header.skyblue .topbar-menu ul li a:hover,
+.topbar-header.skyblue .topbar-menu > ul > li.current-item > a,
+.topbar-header.skyblue .topbar-menu > ul > li.current-item .sub-menu li.current-item a,
+.skyblue .widget .categories a:hover,
+.skyblue .post-widget-items .post-text a{color:#00BCD5}.accordion-single-v1.skyblue li > h3:hover,
+.accordion-multiple-v1.skyblue li > h3:hover,
+.accordion-single-v1.skyblue li > h3.active,
+.accordion-multiple-v1.skyblue li > h3.active,
+.is-button.is-v-five.skyblue:hover,
+.is-button.is-v-five.skyblue:active,
+.is_icon_content_box.v-three.skyblue .icon-effect:after,
+.is_icon_content_box.v-three.skyblue:hover .read_more,
+.v-nine.skyblue:hover h6 .read_more,
+.v-ten.skyblue:hover h6 .read_more,
+.dropcap.skyblue,
+.single-page-nav .nav_s_one > li.skyblue:hover > a,
+.single-page-nav .nav_s_one > li.current.skyblue a,
+.single-page-nav #main-menu.nav_s_one > li.skyblue:hover > a,
+.single-page-nav #main-menu.nav_s_one > li.current.skyblue a,
+.is-skyblue-text,
+.is-callout.v-five.skyblue .is-callout-content > .heading-highlight,
+.is-social-network.is-v-one.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-one.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-two.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-two.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-four.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-four.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-six.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-six.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-two.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-two.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-four.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-four.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-six.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-six.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-three.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-three.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-three.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-three.is-hover-effect-6.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-6.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-6.skyblue a:hover,
+.is-social-network.is-v-one.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-one.is-hover-effect-6.skyblue a:hover,
+.blog .post.skyblue .post-title a:hover,
+.blog.large-img-alternate .post.skyblue .post-meta a:hover,
+.blog.medium-img-alternate .post.skyblue .post-meta a:hover{color:#00BCD5 !important}.gridblog-item.skyblue:hover .grid-post-item h4 a,
+.gridblog-item.skyblue:hover .grid-post-item .post-excerpt,
+.gridblog-item.skyblue:hover .grid-post-item .post-readmore a,
+.gridblog-item.skyblue:hover .grid-post-item .post-meta span,
+.gridblog-item.skyblue:hover .grid-post-item .post-meta a,
+.is-button.is-v-five.skyblue,
+.is_icon_content_box.v-two.skyblue,
+.is_icon_content_box.v-two.icon-effect-1.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-2.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-3.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-4.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-4.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-5.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-5.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-6.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-6.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-7.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-7.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-8.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-8.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-9.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-9.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-10.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-10.skyblue .read_more,
+.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.skyblue .icon-effect,
+.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-12.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-12.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-12.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-13.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-13.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-13.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-14.skyblue .read_more,
+.is_icon_content_box.v-two.icon-effect-15.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-15.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-15.skyblue .read_more,
+.is_icon_content_box.v-two.skyblue section h2 a:hover,
+.is_icon_content_box.v-nine.skyblue section h2 a:hover,
+.is_icon_content_box.v-eleven.skyblue section h2 a:hover,
+.testimonials-v-one.skyblue > blockquote p,
+.is-parallax-section .testimonials-v-one.skyblue blockquote p{color:#fff}
+.is-button.is-v-four.skyblue:hover,
+.is-button.is-v-four.skyblue:active,
+.dropcapbox.skyblue,
+.dropcapcircle.skyblue,
+.is-social-network.is-v-three.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-three.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-6.skyblue a{color:#fff !important}.is-shop-v-two .shop-item.skyblue .is-product-container .onsale{color:rgba(0,188,213, 1)}
+
+.gridblog-item.skyblue .grid-post-item{border-bottom:solid medium #00BCD5}.grid-post-item.skyblue,
+.accordion-single-v1.skyblue li > h3.active,
+.accordion-multiple-v1.skyblue li > h3.active,
+.accordion-single-v2.skyblue li > h3.active,
+.accordion-multiple-v2.skyblue li > h3.active{border-bottom-color:#00BCD5 !important}.is-shop-v-one .shop-item.skyblue .is-product-container,
+.is-member-box-v1.skyblue,
+.skyblue .widget-heading > h2 span{border-bottom-color:#00BCD5}.gridblog-item.skyblue:hover .grid-post-item .post-meta{border-color:#fff}.is-tagline-box.v-one.skyblue.top,
+.is-tagline-box.v-two.skyblue.top,
+.is-tagline-box.v-three.skyblue.top{border-top-color:#00BCD5 !important}.is-tagline-box.v-one.skyblue.bottom,
+.is-tagline-box.v-two.skyblue.bottom,
+.is-tagline-box.v-three.skyblue.bottom{border-bottom-color:#00BCD5 !important}.is-tagline-box.v-one.skyblue.left,
+.is-tagline-box.v-two.skyblue.left,
+.is-tagline-box.v-three.skyblue.left{border-left-color:#00BCD5 !important}.is-tagline-box.v-one.skyblue.right,
+.is-tagline-box.v-two.skyblue.right,
+.is-tagline-box.v-three.skyblue.right{border-right-color:#00BCD5 !important}.is-button.is-v-two.skyblue{border-color:#079aae}.is-border-color-skyblue{border-color:#00BCD5}.is-button.is-v-three.skyblue{border:3px solid #079aae}.is-button.is-v-three.skyblue:hover,
+.is-button.is-v-four.skyblue,
+.is-button.is-v-five.skyblue,
+.is-button.is-v-five.skyblue:hover,
+.is-button.is-v-five.skyblue:active{border:3px solid #00BCD5}.is-client.v-three.skyblue,
+.is-client.v-four.skyblue,body.is-dark-version .is-client.v-three.skyblue,body.is-dark-version .is-client.v-four.skyblue{border-color:rgba(0,188,213,1)}.is_icon_content_box.v-three.skyblue:hover{border-bottom:solid #00BCD5 !important}
+.is-heading.h-v-two.skyblue .span,
+.is-heading.h-v-three.skyblue hr,
+.is-callout.v-five.skyblue .is-callout-container{border-color:#00BCD5 !important}.dropcapborderbox.skyblue,
+.dropcapbordercircle.skyblue{border:1px solid #00BCD5 !important}.immersivesoul-form.with-bg.skyblue .input-field-control,
+.is-list-circle-border > li.skyblue:before,
+.is-list-square-border > li.skyblue:before,
+
+.is-social-network.is-v-three.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-three.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-three.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-5.skyblue a,
+.is-social-network.is-v-three.is-hover-effect-6.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-6.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-6.skyblue a:hover,
+.sep_square_border.skyblue i,
+.sep_circle_border.skyblue i,
+.highlight.v-three.skyblue,
+.is-image-frame.v-four.skyblue .is-image img{border-color:#00BCD5}
+
+.icon-effect-3.skyblue .icon-effect,
+.icon-effect-4.skyblue .icon-effect,
+.icon-effect-15.skyblue .icon-effect:after{box-shadow:0 0 0 3px #00BCD5}.icon-effect-1.skyblue .icon-effect:after,
+.icon-effect-2.skyblue .icon-effect:after,
+.icon-effect-5.skyblue .icon-effect,
+.icon-effect-6.skyblue .icon-effect,
+.icon-effect-7.skyblue .icon-effect,
+.icon-effect-8.skyblue .icon-effect,
+.icon-effect-9.skyblue .icon-effect,
+.icon-effect-10.skyblue .icon-effect,
+.icon-effect-11.skyblue .icon-effect,
+.icon-effect-12.skyblue .icon-effect,
+.icon-effect-13.skyblue .icon-effect{box-shadow:0 0 0 4px #00BCD5}.icon-effect-7.skyblue:hover .icon-effect,
+.icon-effect-8.skyblue:hover .icon-effect,
+.icon-effect-9.skyblue:hover .icon-effect,
+.icon-effect-10.skyblue:hover .icon-effect{box-shadow:0 0 0 8px rgba(0,188,213,0.3) !important}.icon-effect-12.skyblue .icon-effect:after{box-shadow:0 0 0 #00BCD5}.icon-effect-12.skyblue:hover .icon-effect:after{box-shadow:3px 3px 0 #00BCD5}.icon-effect-13.skyblue .icon-effect:after{box-shadow:3px 3px #00BCD5}.icon-effect-15.skyblue:hover .icon-effect{box-shadow:0 0 0 10px #00BCD5}.is_icon_content_box.v-three.skyblue:hover{box-shadow:0 0 1px #00BCD5 !important}.skyblue .portfolio-box .column-text-portfoliotext,
+.portfolio-box.skyblue .column-text-portfoliotext,
+.item.skyblue .column-text-portfoliotext{box-shadow:0 -3px 0 #00BCD5 inset}#portfolio-filter.skyblue #filterable a:hover,
+#portfolio-filter.skyblue #filterable .active a,
+#shop-filter.skyblue #filterable a:hover,
+#shop-filter.skyblue #filterable .active a{box-shadow:0 -2px 0 #079aae inset}.highlight.v-four.skyblue{box-shadow:-2px 2px 0 #00BCD5}
+
+/*= OTHER COLORS =*/ .is-button.is-v-one.skyblue{border-top:1px solid rgba(255,255,255,0.2)}.is-button.is-v-one.skyblue:hover{border-top:none;border-bottom:1px solid rgba(255,255,255,0.2)}.is-button.is-v-two.skyblue{box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset}.is-button.is-v-three.skyblue{box-shadow:0 1px 0px rgba(255, 255, 255, 0.2) inset}.is-button.is-v-three.skyblue:hover{box-shadow:none}.is-button.is-v-four,
+.is-button.is-v-five{text-shadow:none}.is-client.v-two.skyblue:hover,
+.is-client.v-four.skyblue:hover,body.is-dark-version .is-client.v-two.skyblue:hover{background:none}.is_icon_content_box.v-two.icon-effect-1.skyblue .icon-effect:after,
+.is_icon_content_box.v-two.icon-effect-2.skyblue .icon-effect:after,
+.is_icon_content_box.v-two.icon-effect-5.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-6.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-7.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-8.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-9.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-10.skyblue .icon-effect,
+.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-12.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-13.skyblue .icon-effect{box-shadow:0 0 0 4px #fff}.is_icon_content_box.v-two.icon-effect-3.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-4.skyblue .icon-effect,
+.is_icon_content_box.v-two.icon-effect-15.skyblue .icon-effect:after{box-shadow:0 0 0 3px #fff}.is_icon_content_box.v-two.icon-effect-7.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-8.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-9.skyblue:hover .icon-effect,
+.is_icon_content_box.v-two.icon-effect-10.skyblue:hover .icon-effect{box-shadow:0 0 0 8px rgba(255,255,255,0.3) !important}.is_icon_content_box.v-two.icon-effect-12.skyblue .icon-effect:after{box-shadow:0 0 0 #fff}.is_icon_content_box.v-two.icon-effect-12.skyblue:hover .icon-effect:after{box-shadow:3px 3px 0 #fff}.is_icon_content_box.v-two.icon-effect-13.skyblue .icon-effect:after{box-shadow:3px 3px #fff}.is_icon_content_box.v-two.icon-effect-15.skyblue:hover .icon-effect{box-shadow:0 0 0 10px #fff}.loading-skyblue#loading-v-1 #loading{background:url('../images/loading/loading-v-1/loading-skyblue.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-skyblue#loading-v-2 #loading{background:url('../images/loading/loading-v-2/loading-skyblue.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-skyblue#loading-v-3 #loading{background:url('../images/loading/loading-v-3/loading-skyblue.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-skyblue#loading-v-4 #loading{background:url('../images/loading/loading-v-4/loading-skyblue.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-skyblue#loading-v-5 #loading{background:url('../images/loading/loading-v-5/loading-skyblue.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-skyblue#loading-v-6 #loading{background:url('../images/loading/loading-v-6/loading-skyblue.gif') 50% 50% no-repeat rgb(249,249,249)}.is-social-network.is-v-two.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-two.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-four.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-four.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-six.is-hover-effect-1.skyblue a,
+.is-social-network.is-v-six.is-hover-effect-2.skyblue a:hover,
+.is-social-network.is-v-three.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-three.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-2.skyblue a{color:#000 !important}.is-social-network.is-v-two.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-two.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-four.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-four.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-six.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-six.is-hover-effect-2.skyblue a{background-color:#000}.is-social-network.is-v-three.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-1.skyblue a:hover,
+.is-social-network.is-v-three.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-2.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-2.skyblue a{border-color:#000}.is-social-network.is-v-three.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-five.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-seven.is-hover-effect-5.skyblue a:hover,
+.is-social-network.is-v-three.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-five.is-hover-effect-6.skyblue a,
+.is-social-network.is-v-seven.is-hover-effect-6.skyblue a{border-color:#fff}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+2 3 5 6 BG, COLOR WHITE
+
+1 4 COLOR COLORED
+
+7 8 COLOR COLORED, BORDER
+
+*/
+
+/*		MENU START		 *************************************************************/
+
+.nav_s_two > li.skyblue:hover > a,
+.nav_s_three > li.skyblue:hover > a,
+.nav_s_five > li.skyblue:hover > a,
+.nav_s_six > li.skyblue:hover > a,
+
+.nav_s_two > li.skyblue.current-menu-item > a,
+.nav_s_three > li.skyblue.current-menu-item > a,
+.nav_s_five > li.skyblue.current-menu-item > a,
+.nav_s_six > li.skyblue.current-menu-item > a {
+	background:#00BCD5 !important;
+}
+.nav_s_two li.skyblue .sub-menu a,
+.nav_s_three li.skyblue .sub-menu a,
+.nav_s_five li.skyblue .sub-menu a,
+.nav_s_six li.skyblue .sub-menu a {
+	background:#00BCD5;
+	color:#fff !important;
+}
+.nav_s_two > li.skyblue .sub-menu a:hover,
+.nav_s_three > li.skyblue .sub-menu a:hover,
+.nav_s_five > li.skyblue .sub-menu a:hover,
+.nav_s_six > li.skyblue .sub-menu a:hover,
+
+.nav_s_two li.skyblue .sub-menu li.current-menu-item > a,
+.nav_s_three li.skyblue .sub-menu li.current-menu-item > a,
+.nav_s_five li.skyblue .sub-menu li.current-menu-item > a,
+.nav_s_six li.skyblue .sub-menu li.current-menu-item > a {
+	color:#00BCD5 !important;
+	background:#fff !important;
+}
+
+.single-page-nav .nav_s_two > li.skyblue:hover > a,
+.single-page-nav .nav_s_three > li.skyblue:hover > a,
+.single-page-nav .nav_s_five > li.skyblue:hover > a,
+.single-page-nav .nav_s_six > li.skyblue:hover > a,
+
+.single-page-nav .nav_s_two > li.skyblue.current > a,
+.single-page-nav .nav_s_three > li.skyblue.current > a,
+.single-page-nav .nav_s_five > li.skyblue.current > a,
+.single-page-nav .nav_s_six > li.skyblue.current > a {
+    background: #00BCD5;
+	color:#fff;
+}
+
+
+.nav_s_one > li.skyblue:hover > a,
+.nav_s_four > li.skyblue:hover > a,
+.nav_s_seven > li.skyblue:hover > a,
+.nav_s_eight > li.skyblue:hover > a,
+
+.nav_s_one > li.skyblue.current-menu-item > a,
+.nav_s_four > li.skyblue.current-menu-item > a,
+.nav_s_seven > li.skyblue.current-menu-item > a,
+.nav_s_eight > li.skyblue.current-menu-item > a {
+	color: #00BCD5 !important;
+}
+.nav_s_one li.skyblue .sub-menu a,
+.nav_s_four li.skyblue .sub-menu a,
+.nav_s_seven li.skyblue .sub-menu a,
+.nav_s_eight li.skyblue .sub-menu a {
+    background: #00BCD5;
+	color:#fff !important;
+}
+.nav_s_one > li.skyblue .sub-menu a:hover,
+.nav_s_four > li.skyblue .sub-menu a:hover,
+.nav_s_seven > li.skyblue .sub-menu a:hover,
+.nav_s_eight > li.skyblue .sub-menu a:hover,
+
+.nav_s_one li.skyblue .sub-menu li.current-menu-item > a,
+.nav_s_four li.skyblue .sub-menu li.current-menu-item > a,
+.nav_s_seven li.skyblue .sub-menu li.current-menu-item > a,
+.nav_s_eight li.skyblue .sub-menu li.current-menu-item > a {
+	color:#00BCD5 !important;
+	background:#fff !important;
+}
+.nav_s_seven > li.skyblue:hover > a,
+.nav_s_eight > li.skyblue:hover > a,
+
+.nav_s_seven > li.skyblue.current-menu-item > a,
+.nav_s_eight > li.skyblue.current-menu-item > a {
+	border-color:#00BCD5;
+}
+
+.single-page-nav .nav_s_one > li.skyblue:hover > a,
+.single-page-nav .nav_s_four > li.skyblue:hover > a,
+
+.single-page-nav .nav_s_one > li.skyblue.current > a,
+.single-page-nav .nav_s_four > li.skyblue.current > a {
+	color: #00BCD5;
+}
+.single-page-nav .nav_s_seven > li.skyblue:hover > a,
+.single-page-nav .nav_s_eight > li.skyblue:hover > a,
+
+.single-page-nav .nav_s_seven > li.skyblue.current > a,
+.single-page-nav .nav_s_eight > li.skyblue.current > a {
+	border-color:#00BCD5;
+    color: #00BCD5;
+}
+
+/*.nav_s_one .sub-menu a:hover,
+.nav_s_two .sub-menu a:hover,
+.nav_s_three .sub-menu a:hover,
+.nav_s_four .sub-menu a:hover,
+.nav_s_five .sub-menu a:hover,
+.nav_s_six .sub-menu a:hover,
+.nav_s_seven .sub-menu a:hover,
+.nav_s_eight .sub-menu a:hover,
+*/
+.nav_s_one .sub-menu li.skyblue.current-menu-item > a,
+.nav_s_two .sub-menu li.skyblue.current-menu-item > a,
+.nav_s_three .sub-menu li.skyblue.current-menu-item > a,
+.nav_s_four .sub-menu li.skyblue.current-menu-item > a,
+.nav_s_five .sub-menu li.skyblue.current-menu-item > a,
+.nav_s_six .sub-menu li.skyblue.current-menu-item > a,
+.nav_s_seven .sub-menu li.skyblue.current-menu-item > a,
+.nav_s_eight .sub-menu li.skyblue.current-menu-item > a {
+	background:#fff;
+}
+/* = DropDown Fill BG = */
+.fill-bg.skyblue > ul.sub-menu div.inner-fill {
+	background-color:#00BCD5;
+}
+/*		MENU START		 *************************************************************/
+
+
+ /********************************************************************************************************************************************************************/ /********************************************************************************************************************************************************************/ /********************************************************************************************************************************************************************/ /********************************************************************************************************************************************************************/
+
+
+/*
+Color Name: cherry
+      Base: #BE1C03
+ Base Dark: #670600
+  Base RGB: 190,28,3
+*/
+.gridblog-item.cherry:hover .grid-post-item,.post-item.cherry .post-type,.icon-effect-1.cherry .icon-effect,.icon-effect-2.cherry .icon-effect,.icon-effect-3.cherry .icon-effect:after,.icon-effect-3.cherry:hover .icon-effect:after,.icon-effect-4.cherry .icon-effect:after,.v-five.cherry i.icon-effect,.v-seven.cherry i.icon-effect,.cherry .portfolio-box:hover .column-text-portfoliotext,.portfolio-box.cherry:hover .column-text-portfoliotext,.item.cherry:hover .column-text-portfoliotext,#portfolio-filter.cherry #filterable a,.pricing-table-v2.cherry .table_heading,.is-fullwidth-section.cherry,#shop-filter.cherry #filterable a,.is-social-network.is-v-two.is-hover-effect-1.cherry a,.is-social-network.is-v-two.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-four.is-hover-effect-1.cherry a,.is-social-network.is-v-four.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-six.is-hover-effect-1.cherry a,.is-social-network.is-v-six.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-two.is-hover-effect-5.cherry a,.is-social-network.is-v-two.is-hover-effect-6.cherry a:hover,.is-social-network.is-v-four.is-hover-effect-5.cherry a,.is-social-network.is-v-four.is-hover-effect-6.cherry a:hover,.is-social-network.is-v-six.is-hover-effect-5.cherry a,.is-social-network.is-v-six.is-hover-effect-6.cherry a:hover,.is-member-box-v1.cherry .member-description > h4,.is-member-box-v2.cherry,.testimonials-v-one.cherry blockquote,.is-titlebar.v-one.cherry,.is-titlebar.v-two.cherry,.is-titlebar.v-three.cherry .titlebar-title,.is-titlebar.v-four.cherry .titlebar-breadcrumb,.cherry .widget-sidebar-menu.left ul.nested-menu li.active a:after,.cherry .widget-sidebar-menu.left ul.nested-menu li a:hover:after,.cherry .widget-sidebar-menu.right ul.nested-menu li.active a:after,.cherry .widget-sidebar-menu.right ul.nested-menu li a:hover:after,.cherry .tag_clouds a:hover,body.is-dark-version .is-fullwidth-section.cherry{background-color:#BE1C03}.grid-post-item.cherry:hover,.accordion-single-v2.cherry li > h3.active::before,.accordion-multiple-v2.cherry li > h3.active::before,.accordion-single-v2.cherry li:hover > h3::before,.accordion-multiple-v2.cherry li:hover > h3::before,.accordion-single-v3.cherry li > h3.active,.accordion-multiple-v3.cherry li > h3.active,.accordion-single-v3.cherry li > h3:hover,.accordion-multiple-v3.cherry li > h3:hover,.is-callout.v-three.cherry,.is-fullwidth-section.v-one.cherry .is-callout.v-three,.is-fullwidth-section.v-one.cherry,body.is-dark-version .is-fullwidth-section.v-one.cherry,.v-nine.cherry,.is-skill-counter.is-v-three.is-bg-cherry,.dropcapbox.cherry,.dropcapcircle.cherry{background-color:#BE1C03 !important}.is_icon_content_box.v-three.cherry i.icon-effect,#main-menu.nav_s_one .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_four .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_two .cherry-bg.active-menu-item a,#main-menu.nav_s_three .cherry-bg.active-menu-item a,#main-menu.nav_s_five .cherry-bg.active-menu-item a,#main-menu.nav_s_six .cherry-bg.active-menu-item a,#main-menu.nav_s_two > li.cherry-bg:hover > a,#main-menu.nav_s_two > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_three > li.cherry-bg:hover > a,#main-menu.nav_s_three > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_five > li.cherry-bg:hover > a,#main-menu.nav_s_five > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_six > li.cherry-bg:hover > a,#main-menu.nav_s_six > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_two .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_three .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_five .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_six .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_seven .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_eight .cherry-bg ul.sub-menu > li > a,.is-heading.h-v-one.cherry hr:before,.is-heading.h-v-three.cherry .span,.is-callout.v-six.cherry .is-callout-container,.is-tagline-box.v-four.cherry,.icon-effect-7.cherry:hover .icon-effect,.icon-effect-8.cherry:hover .icon-effect,.icon-effect-9.cherry:hover .icon-effect,.icon-effect-10.cherry:hover .icon-effect,.icon-effect-11.cherry:hover .icon-effect{background:#BE1C03 !important}.is-button.is-v-one.cherry,.is-button.is-v-two.cherry,.is-button.is-v-three.cherry,.is-button.is-v-four.cherry:hover,.is-button.is-v-four.cherry:active,.is-button.is-v-five.cherry,.icon-effect-2.cherry:hover .icon-effect,.icon-effect-5.cherry .icon-effect:after,.icon-effect-6.cherry .icon-effect:after,.icon-effect-14.cherry .icon-effect,.icon-effect-14.cherry:hover .icon-effect,.is_icon_content_box.v-two.cherry,.immersivesoul-form.with-bg.cherry,.is-list-circle li.cherry:before,.is-list-square li.cherry:before,.single-page-nav .nav_s_two > li.cherry-bg:hover > a,.single-page-nav .nav_s_two > li.cherry-bg > a.current,.single-page-nav .nav_s_three > li.cherry-bg:hover > a,.single-page-nav .nav_s_three > li.cherry-bg > a.current,.single-page-nav .nav_s_five > li.cherry-bg:hover > a,.single-page-nav .nav_s_five > li.cherry-bg > a.current,.single-page-nav .nav_s_six > li.cherry-bg:hover > a,.single-page-nav .nav_s_six > li.cherry-bg > a.curren,#main-menu.nav_s_two > li.cherry-bg:hover > a,#main-menu.nav_s_two > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_two > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_three > li.cherry-bg:hover > a,#main-menu.nav_s_three > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_three > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_five > li.cherry-bg:hover > a,#main-menu.nav_s_five > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_five > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_six > li.cherry-bg:hover > a,#main-menu.nav_s_six > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_six > li.cherry-bg.current-menu-item > a,.pricing-table-v1.cherry .prices,.sep_square.cherry i,.sep_circle.cherry i,.is-shop-v-one .shop-item.cherry .is-product-container:hover,.is-shop-v-one .shop-item.cherry .is-product-container .onsale,.is-shop-v-one .shop-item.cherry .is-product-container .is-rating-container,.is-shop-v-one .shop-item.cherry .is-product-container .is-product-add span.add-to-cart,.is-skillbar.cherry .is-counter-line .is-counter-progress,.is-tab-container.cherry ul.is-tab-nav li.active a.active:after,.topbar-header.cherry .topbar-menu > ul > li > a:hover:after,.topbar-header.cherry .topbar-menu ul li .sub-menu:before,.topbar-header.cherry .topbar-menu > ul > li.current-item > a:after,.topbar-header.cherry.topbar-header-base,.highlight.v-one.cherry,.highlight.v-two.cherry,.blog.large-img .post.cherry .post-meta span, .blog.medium-img .post.cherry .post-meta span,.blog.large-img .post.cherry .post-readmore a, .blog.large-img-alternate .post.cherry .post-readmore a, .blog.medium-img .post.cherry .post-readmore a, .blog.medium-img-alternate .post.cherry .post-readmore a{background:#BE1C03}.is-button.is-v-one.cherry:active,.is-button.is-v-three.cherry:hover,.blog.large-img .post.cherry .post-readmore a:hover, .blog.large-img-alternate .post.cherry .post-readmore a:hover, .blog.medium-img .post.cherry .post-readmore a:hover, .blog.medium-img-alternate .post.cherry .post-readmore a:hover{background:#670600}.is-button.is-v-two.cherry:active,.is-button.is-v-three.cherry:active,.is-button.is-v-four.cherry:active,.is-button.is-v-five.cherry:active{background:#670600}.is-member-box-v1.cherry .member-description > h5{background-color:#670600}.is-fullwidth-section.cherry.v-one.base-dark,.carousel-buttons.cherry a:hover{background-color:#670600 !important}.is-client.v-one.cherry:hover,.is-client.v-two.cherry,.is-client.v-three.cherry:hover,.is-client.v-four.cherry{background:rgba(190,28,3,0.8)}.v-eleven.cherry .cbox-container > section{background-color:rgba(190,28,3,0.9)}.cherry .bg-v1 .ImageOverlay,.cherry .bg-v2 .ImageOverlay,.cherry .bg-v3 .ImageOverlay:before,.cherry .bg-v3 .ImageOverlay:after,.cherry .bg-v4 .ImageOverlay:before,.cherry .bg-v4 .ImageOverlay:after,.cherry .bg-v5 .ImageOverlay,.cherry .bg-v6 .ImageOverlay:before,.cherry .bg-v6 .ImageOverlay:after,.cherry .bg-v7 .ImageOverlay:before,.cherry .bg-v7 .ImageOverlay:after,.cherry .bg-v8 .ImageOverlay,.cherry .bg-v9 .ImageOverlay,.cherry .bg-v10 .ImageOverlay,.cherry .bg-v11 .ImageOverlay,.cherry .bg-v12 .ImageOverlay,.cherry .bg-v13 .ImageOverlay,.cherry .bg-v14 .ImageOverlay,.cherry .bg-v15 .ImageOverlay,.cherry .bg-v16 .ImageOverlay,.cherry .bg-v17 .ImageOverlay,.cherry .bg-v18 .ImageOverlay,.cherry .bg-v19 .ImageOverlay,.cherry .bg-v20 .ImageOverlay,.cherry .bg-v21 .ImageOverlay{background-color:rgba(190,28,3,0.9) !important}.cherry.is-image-frame-overlay-v1 .ImageOverlay,.cherry.is-image-frame-overlay-v2 .ImageOverlay,.cherry.is-image-frame-overlay-v3 .ImageOverlay:before,.cherry.is-image-frame-overlay-v3 .ImageOverlay:after,.cherry.is-image-frame-overlay-v4 .ImageOverlay:before,.cherry.is-image-frame-overlay-v4 .ImageOverlay:after,.cherry.is-image-frame-overlay-v5 .ImageOverlay,.cherry.is-image-frame-overlay-v6 .ImageOverlay:before,.cherry.is-image-frame-overlay-v6 .ImageOverlay:after,.cherry.is-image-frame-overlay-v7 .ImageOverlay:before,.cherry.is-image-frame-overlay-v7 .ImageOverlay:after,.cherry.is-image-frame-overlay-v8 .ImageOverlay,.cherry.is-image-frame-overlay-v9 .ImageOverlay,.cherry.is-image-frame-overlay-v10 .ImageOverlay,.cherry.is-image-frame-overlay-v11 .ImageOverlay,.cherry.is-image-frame-overlay-v12 .ImageOverlay,.cherry.is-image-frame-overlay-v13 .ImageOverlay,.cherry.is-image-frame-overlay-v14 .ImageOverlay,.cherry.is-image-frame-overlay-v15 .ImageOverlay,.cherry.is-image-frame-overlay-v16 .ImageOverlay,.cherry.is-image-frame-overlay-v17 .ImageOverlay,.cherry.is-image-frame-overlay-v18 .ImageOverlay,.cherry.is-image-frame-overlay-v19 .ImageOverlay,.cherry.is-image-frame-overlay-v20 .ImageOverlay,.cherry.is-image-frame-overlay-v21 .ImageOverlay{background-color:rgba(190,28,3,0.7)}.is-overlay.cherry0 .is-overlay-base,.is-titlebar-overlay.cherry0 .is-titlebar-overlay{background:rgba(190,28,3,0.0)}.is-overlay.cherry1 .is-overlay-base,.is-titlebar-overlay.cherry1 .is-titlebar-overlay{background:rgba(190,28,3,0.1)}.is-overlay.cherry2 .is-overlay-base,.is-titlebar-overlay.cherry2 .is-titlebar-overlay{background:rgba(190,28,3,0.2)}.is-overlay.cherry3 .is-overlay-base,.is-titlebar-overlay.cherry3 .is-titlebar-overlay{background:rgba(190,28,3,0.3)}.is-overlay.cherry4 .is-overlay-base,.is-titlebar-overlay.cherry4 .is-titlebar-overlay{background:rgba(190,28,3,0.4)}.is-overlay.cherry5 .is-overlay-base,.is-titlebar-overlay.cherry5 .is-titlebar-overlay{background:rgba(190,28,3,0.5)}.is-overlay.cherry6 .is-overlay-base,.is-titlebar-overlay.cherry6 .is-titlebar-overlay{background:rgba(190,28,3,0.6)}.is-overlay.cherry7 .is-overlay-base,.is-titlebar-overlay.cherry7 .is-titlebar-overlay{background:rgba(190,28,3,0.7)}.is-overlay.cherry8 .is-overlay-base,.is-overlay.cherry .is-overlay-base,.is-titlebar-overlay.cherry8 .is-titlebar-overlay,.is-titlebar-overlay.cherry .is-titlebar-overlay,body.is-dark-version .is-client.v-one.cherry:hover,body.is-dark-version .is-client.v-two.cherry,body.is-dark-version .is-client.v-three.cherry:hover,body.is-dark-version .is-client.v-four.cherry,.is-shop-v-two .shop-item.cherry .is-product-container a .is-shop-overlay,.is-parallax-section .is-member-box-v2.cherry{background:rgba(190,28,3,0.8) !important}.is-overlay.cherry9 .is-overlay-base,.is-titlebar-overlay.cherry9 .is-titlebar-overlay{background:rgba(190,28,3,0.9)}.is-overlay.cherry10 .is-overlay-base,.is-titlebar-overlay.cherry10 .is-titlebar-overlay{background:rgba(190,28,3,1)}.is_icon_content_box.v-two.icon-effect-2.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-5.cherry .icon-effect:after,.is_icon_content_box.v-two.icon-effect-6.cherry .icon-effect:after,.is_icon_content_box.v-two.icon-effect-14.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-14.cherry:hover .icon-effect{background:#fff}.is_icon_content_box.v-two.icon-effect-1.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-2.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-3.cherry .icon-effect:after,.is_icon_content_box.v-two.icon-effect-3.cherry:hover .icon-effect:after,.is_icon_content_box.v-two.icon-effect-4.cherry .icon-effect:after,.single-page-nav .nav_s_one > li.cherry-bg:hover > a,.single-page-nav .nav_s_one > li.cherry-bg > a.current,/*.single-page-nav .nav_s_two > li.cherry-bg:hover > a,.single-page-nav .nav_s_two > li.cherry-bg > a.current,.single-page-nav .nav_s_three > li.cherry-bg:hover > a,.single-page-nav .nav_s_three > li.cherry-bg > a.current,.single-page-nav .nav_s_four > li.cherry-bg:hover > a,.single-page-nav .nav_s_four > li.cherry-bg > a.current,.single-page-nav .nav_s_five > li.cherry-bg:hover > a,.single-page-nav .nav_s_five > li.cherry-bg > a.current,.single-page-nav .nav_s_six > li.cherry-bg:hover > a,.single-page-nav .nav_s_six > li.cherry-bg > a.current,.single-page-nav .nav_s_seven > li.cherry-bg:hover > a,.single-page-nav .nav_s_seven > li.cherry-bg > a.current,.single-page-nav .nav_s_eight > li.cherry-bg:hover > a,.single-page-nav .nav_s_eight > li.cherry-bg > a.current,*/.is-social-network.is-v-two.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-two.is-hover-effect-6.cherry a,.is-social-network.is-v-four.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-four.is-hover-effect-6.cherry a,.is-social-network.is-v-six.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-six.is-hover-effect-6.cherry a{background-color:#fff}#main-menu.nav_s_one .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_four .cherry-bg ul.sub-menu > li > a:hover,header.main-header ul#main-menu .cherry-bg ul li.current-menu-item > a,#main-menu.nav_s_two .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_three .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_five .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_six .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_seven .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_eight .cherry-bg ul.sub-menu > li > a:hover,.is_icon_content_box.v-two.icon-effect-7.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-8.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-9.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-10.cherry:hover .icon-effect,.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.cherry:hover .icon-effect{background:#fff !important}.icon-effect-14.cherry:hover .icon-effect:after{-webkit-animation:sonarEffectcherry 1.5s ease-out 75ms;-moz-animation:sonarEffectcherry 1.5s ease-out 75ms;animation:sonarEffectcherry 1.5s ease-out 75ms} @-webkit-keyframes sonarEffectcherry{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(190,28,3,0.1), 0 0 1px 1px #BE1C03, 0 0 0 10px rgba(190,28,3,1);}100%{box-shadow:0 0 0 2px rgba(190,28,3,0.1), 0 0 10px 10px #BE1C03, 0 0 0 10px rgba(190,28,3,1);-moz-transform:scale(1.5);opacity:0;}}@-moz-keyframes sonarEffectcherry{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(190,28,3,0.1), 0 0 1px 1px #BE1C03, 0 0 0 10px rgba(190,28,3,1);}100%{box-shadow:0 0 0 2px rgba(190,28,3,0.1), 0 0 10px 10px #BE1C03, 0 0 0 10px rgba(190,28,3,1);-moz-transform:scale(1.5);opacity:0;}}@keyframes sonarEffectcherry{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(190,28,3,0.1), 0 0 1px 1px #BE1C03, 0 0 0 10px rgba(190,28,3,1);}100%{box-shadow:0 0 0 2px rgba(190,28,3,0.1), 0 0 10px 10px #BE1C03, 0 0 0 10px rgba(190,28,3,1);-moz-transform:scale(1.5);opacity:0;}}.is_icon_content_box.v-two.icon-effect-14.cherry:hover .icon-effect:after{-webkit-animation:sonarEffectcherrytwo 1.5s ease-out 75ms;-moz-animation:sonarEffectcherrytwo 1.5s ease-out 75ms;animation:sonarEffectcherrytwo 1.5s ease-out 75ms}@-webkit-keyframes sonarEffectcherrytwo{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 1px 1px #fff, 0 0 0 10px rgba(255,255,255,1);}100%{box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255,255,255,1);-moz-transform:scale(1.5);opacity:0;}}@-moz-keyframes sonarEffectcherrytwo{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 1px 1px #fff, 0 0 0 10px rgba(255,255,255,1);}100%{box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255,255,255,1);-moz-transform:scale(1.5);opacity:0;}}@keyframes sonarEffectcherrytwo{0%{opacity:0.8;}40%{opacity:0.9;box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 1px 1px #fff, 0 0 0 10px rgba(255,255,255,1);}100%{box-shadow:0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #fff, 0 0 0 10px rgba(255,255,255,1);-moz-transform:scale(1.5);opacity:0;}}.is-skillbar.cherry .is-counter-line .progress-striped{background-color:#BE1C03;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));background-image:linear-gradient(-45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);-webkit-background-size:40px 40px;-moz-background-size:40px 40px;-o-background-size:40px 40px;background-size:40px 40px}.is-titlebar.v-one.is-gradient-bg.cherry,.is-titlebar.v-two.is-gradient-bg.cherry,.is-titlebar.v-three.is-gradient-bg.cherry .titlebar-title,.is-titlebar.v-four.is-gradient-bg.cherry .titlebar-breadcrumb{background:#BE1C03;background:-moz-linear-gradient(top, #BE1C03 0%, #670600 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#BE1C03), color-stop(100%,#670600));background:-webkit-linear-gradient(top, #BE1C03 0%,#670600 100%);background:-o-linear-gradient(top, #BE1C03 0%,#670600 100%);background:-ms-linear-gradient(top, #BE1C03 0%,#670600 100%);background:linear-gradient(to bottom, #BE1C03 0%,#670600 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#BE1C03', endColorstr='#670600',GradientType=0 )}
+
+.post-item.cherry a:hover,.is-button.is-v-four.cherry,.icon-effect-1.cherry:hover .read_more,.icon-effect-2.cherry:hover .read_more,.icon-effect-3.cherry:hover .read_more,.icon-effect-4.cherry:hover .icon-effect,.icon-effect-4.cherry:hover .read_more,.icon-effect-5.cherry:hover .icon-effect,.icon-effect-5.cherry:hover .read_more,.icon-effect-6.cherry .icon-effect,.icon-effect-6.cherry:hover .read_more,.icon-effect-7.cherry .icon-effect,.icon-effect-7.cherry:hover .read_more,.icon-effect-8.cherry .icon-effect,.icon-effect-8.cherry:hover .read_more,.icon-effect-9.cherry .icon-effect,.icon-effect-9.cherry:hover .read_more,.icon-effect-10.cherry .icon-effect,.icon-effect-10.cherry:hover .read_more,.icon-effect-11.cherry .icon-effect,.icon-effect-11.cherry:hover .read_more,.icon-effect-12.cherry .icon-effect,.icon-effect-12.cherry:hover .icon-effect,.icon-effect-12.cherry:hover .read_more,.icon-effect-13.cherry .icon-effect,.icon-effect-13.cherry:hover .icon-effect,.icon-effect-13.cherry:hover .read_more,.icon-effect-14.cherry:hover .read_more,.icon-effect-15.cherry .icon-effect,.icon-effect-15.cherry:hover .icon-effect,.icon-effect-15.cherry:hover .read_more,.is_icon_content_box.v-two.icon-effect-1.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-2.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-3.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-3.cherry:hover .icon-effect:after,.is_icon_content_box.v-two.icon-effect-4.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-5.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-6.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-7.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-8.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-9.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-10.cherry:hover .icon-effect,.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-14.cherry .icon-effect,.v-four.cherry i.icon-effect,.v-four.cherry:hover h6 .read_more,.v-five.cherry:hover h6 .read_more,.v-six.cherry i.icon-effect,.v-six.cherry:hover h6 .read_more,.v-seven.cherry:hover h6 .read_more,.v-eight.cherry i.icon-effect,.v-eight.cherry:hover h6 .read_more,.is_icon_content_box.cherry section h2 a:hover,.is-list-color > li.cherry:before,.is-list-circle-border > li.cherry:before,.is-list-square-border > li.cherry:before,.single-page-nav .nav_s_one > li.cherry-bg:hover > a,.single-page-nav .nav_s_one > li.cherry-bg > a.current,.single-page-nav .nav_s_four > li.cherry-bg:hover > a,.single-page-nav .nav_s_four > li.cherry-bg > a.current,.single-page-nav .nav_s_seven > li.cherry-bg:hover > a,.single-page-nav .nav_s_seven > li.cherry-bg > a.current,.single-page-nav .nav_s_eight > li.cherry-bg:hover > a,.single-page-nav .nav_s_eight > li.cherry-bg > a.current,.pricing-table-v2.cherry .prices,.sep_square_border.cherry i,.sep_circle_border.cherry i,.is-shop-v-one .shop-item.cherry .price span.amount,.is-skillbar.v-two.cherry p .is-skillbar-span,.is-skillbar.v-four.cherry p .is-skillbar-span,.testimonials-v-one.cherry .author-wrapper:after,.testimonials-v-one.cherry .author-name a,.testimonials-v-two.cherry .author-name a,.is-titlebar.v-one.h1-cherry .titlebar-title h1,.is-titlebar.v-one.h2-cherry .titlebar-title h2,.is-titlebar.v-two.h1-cherry .titlebar-title h1,.is-titlebar.v-two.h2-cherry .titlebar-title h2,.is-titlebar.v-three.h1-cherry .titlebar-title h1,.is-titlebar.v-three.h2-cherry .titlebar-title h2,.is-titlebar.v-four.h1-cherry .titlebar-title h1,.is-titlebar.v-four.h2-cherry .titlebar-title h2,.is-titlebar.v-three.cherry .titlebar-breadcrumb a:hover,.topbar-header.cherry .call a:hover,.topbar-header.cherry .mail a:hover,.topbar-header.cherry .login a:hover,.topbar-header.cherry .register a:hover,.topbar-header.cherry .topbar-social a:hover,.topbar-header.cherry .topbar-menu ul li a:hover,.topbar-header.cherry .topbar-menu > ul > li.current-item > a,.topbar-header.cherry .topbar-menu > ul > li.current-item .sub-menu li.current-item a,.cherry .widget .categories a:hover,.cherry .post-widget-items .post-text a{color:#BE1C03}.accordion-single-v1.cherry li > h3:hover,.accordion-multiple-v1.cherry li > h3:hover,.accordion-single-v1.cherry li > h3.active,.accordion-multiple-v1.cherry li > h3.active,.is-button.is-v-five.cherry:hover,.is-button.is-v-five.cherry:active,.is_icon_content_box.v-three.cherry .icon-effect:after,.is_icon_content_box.v-three.cherry:hover .read_more,.v-nine.cherry:hover h6 .read_more,.v-ten.cherry:hover h6 .read_more,.is-skill-counter.is-icon-cherry .is-counter-icon,.is-skill-counter.is-text-cherry .is-counter-span,.is-skill-counter.is-v-three.is-icon-cherry .is-counter-icon,.is-skill-counter.is-v-three.is-text-cherry .is-counter-span,.dropcap.cherry,#main-menu.nav_s_one .cherry-bg.active-menu-item a,#main-menu.nav_s_four .cherry-bg.active-menu-item a,#main-menu.nav_s_one > li.cherry-bg:hover > a,#main-menu.nav_s_one > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_one > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_four > li.cherry-bg:hover > a,#main-menu.nav_s_four > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_four > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_one .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_four .cherry-bg ul.sub-menu > li > a:hover,header.main-header ul#main-menu .cherry-bg ul li.current-menu-item > a,#main-menu.nav_s_two .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_three .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_five .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_six .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_seven > li.cherry-bg:hover > a,#main-menu.nav_s_seven > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_eight > li.cherry-bg:hover > a,#main-menu.nav_s_eight > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_seven .cherry-bg ul.sub-menu > li > a:hover,#main-menu.nav_s_eight .cherry-bg ul.sub-menu > li > a:hover,.single-page-nav .nav_s_one > li.cherry:hover > a,.single-page-nav .nav_s_one > li.cherry a.current,.single-page-nav #main-menu.nav_s_one > li.cherry:hover > a,.single-page-nav #main-menu.nav_s_one > li.cherry a.current,.is-cherry-text,.is-callout.v-five.cherry .is-callout-content > .heading-highlight,.is-social-network.is-v-one.is-hover-effect-1.cherry a,.is-social-network.is-v-one.is-hover-effect-5.cherry a,.is-social-network.is-v-two.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-two.is-hover-effect-2.cherry a,.is-social-network.is-v-four.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-four.is-hover-effect-2.cherry a,.is-social-network.is-v-six.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-six.is-hover-effect-2.cherry a,.is-social-network.is-v-two.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-two.is-hover-effect-6.cherry a,.is-social-network.is-v-four.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-four.is-hover-effect-6.cherry a,.is-social-network.is-v-six.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-six.is-hover-effect-6.cherry a,.is-social-network.is-v-three.is-hover-effect-1.cherry a,.is-social-network.is-v-five.is-hover-effect-1.cherry a,.is-social-network.is-v-seven.is-hover-effect-1.cherry a,.is-social-network.is-v-three.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-three.is-hover-effect-5.cherry a,.is-social-network.is-v-five.is-hover-effect-5.cherry a,.is-social-network.is-v-seven.is-hover-effect-5.cherry a,.is-social-network.is-v-three.is-hover-effect-6.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-6.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-6.cherry a:hover,.is-social-network.is-v-one.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-one.is-hover-effect-6.cherry a:hover,.blog .post.cherry .post-title a:hover,.blog.large-img-alternate .post.cherry .post-meta a:hover, .blog.medium-img-alternate .post.cherry .post-meta a:hover{color:#BE1C03 !important}.gridblog-item.cherry:hover .grid-post-item h4 a,.gridblog-item.cherry:hover .grid-post-item .post-excerpt,.gridblog-item.cherry:hover .grid-post-item .post-readmore a,.gridblog-item.cherry:hover .grid-post-item .post-meta span,.gridblog-item.cherry:hover .grid-post-item .post-meta a,.is-button.is-v-five.cherry,.is_icon_content_box.v-two.cherry,.is_icon_content_box.v-two.icon-effect-1.cherry .read_more,.is_icon_content_box.v-two.icon-effect-2.cherry .read_more,.is_icon_content_box.v-two.icon-effect-3.cherry .read_more,.is_icon_content_box.v-two.icon-effect-4.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-4.cherry .read_more,.is_icon_content_box.v-two.icon-effect-5.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-5.cherry .read_more,.is_icon_content_box.v-two.icon-effect-6.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-6.cherry .read_more,.is_icon_content_box.v-two.icon-effect-7.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-7.cherry .read_more,.is_icon_content_box.v-two.icon-effect-8.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-8.cherry .read_more,.is_icon_content_box.v-two.icon-effect-9.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-9.cherry .read_more,.is_icon_content_box.v-two.icon-effect-10.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-10.cherry .read_more,.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.cherry .icon-effect,.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.cherry .read_more,.is_icon_content_box.v-two.icon-effect-12.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-12.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-12.cherry .read_more,.is_icon_content_box.v-two.icon-effect-13.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-13.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-13.cherry .read_more,.is_icon_content_box.v-two.icon-effect-14.cherry .read_more,.is_icon_content_box.v-two.icon-effect-15.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-15.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-15.cherry .read_more,.is_icon_content_box.v-two.cherry section h2 a:hover,.is_icon_content_box.v-nine.cherry section h2 a:hover,.is_icon_content_box.v-eleven.cherry section h2 a:hover,.testimonials-v-one.cherry > blockquote p,.is-parallax-section .testimonials-v-one.cherry blockquote p{color:#fff}.is-button.is-v-four.cherry:hover,.is-button.is-v-four.cherry:active,.dropcapbox.cherry,.dropcapcircle.cherry,#main-menu.nav_s_one .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_four .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_one .cherry-bg ul.sub-menu > li > a.parent:after,#main-menu.nav_s_four .cherry-bg ul.sub-menu > li > a.parent:after,#main-menu.nav_s_two > li.cherry-bg:hover > a,#main-menu.nav_s_two > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_three > li.cherry-bg:hover > a,#main-menu.nav_s_three > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_five > li.cherry-bg:hover > a,#main-menu.nav_s_five > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_six > li.cherry-bg:hover > a,#main-menu.nav_s_six > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_two .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_three .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_five .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_six .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_two .cherry-bg ul.sub-menu > li > a.parent:after,#main-menu.nav_s_three .cherry-bg ul.sub-menu > li > a.parent:after,#main-menu.nav_s_seven .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_eight .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_two > li.cherry-bg:hover > a,#main-menu.nav_s_two > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_two > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_three > li.cherry-bg:hover > a,#main-menu.nav_s_three > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_three > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_five > li.cherry-bg:hover > a,#main-menu.nav_s_five > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_five > li.cherry-bg.current-menu-item > a,#main-menu.nav_s_six > li.cherry-bg:hover > a,#main-menu.nav_s_six > li.cherry-bg.active-menu-item > a,.transparent-header.transparent100-header-menu-white header.main-header .transparent-menu #main-menu.nav_s_six > li.cherry-bg.current-menu-item > a,.is-social-network.is-v-three.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-three.is-hover-effect-6.cherry a,.is-social-network.is-v-five.is-hover-effect-6.cherry a,.is-social-network.is-v-seven.is-hover-effect-6.cherry a,#main-menu.nav_s_one .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_two .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_three .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_four .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_five .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_six .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_seven .cherry-bg ul.sub-menu > li > a,#main-menu.nav_s_eight .cherry-bg ul.sub-menu > li > a{color:#fff !important}.is-shop-v-two .shop-item.cherry .is-product-container .onsale{color:rgba(190,28,3, 1)}
+
+.gridblog-item.cherry .grid-post-item{border-bottom:solid medium #BE1C03}.grid-post-item.cherry,.accordion-single-v1.cherry li > h3.active,.accordion-multiple-v1.cherry li > h3.active,.accordion-single-v2.cherry li > h3.active,.accordion-multiple-v2.cherry li > h3.active{border-bottom-color:#BE1C03 !important}.is-shop-v-one .shop-item.cherry .is-product-container,.is-member-box-v1.cherry,.cherry .widget-heading > h2 span{border-bottom-color:#BE1C03}.gridblog-item.cherry:hover .grid-post-item .post-meta{border-color:#fff}.is-tagline-box.v-one.cherry.top,.is-tagline-box.v-two.cherry.top,.is-tagline-box.v-three.cherry.top{border-top-color:#BE1C03 !important}.is-tagline-box.v-one.cherry.bottom,.is-tagline-box.v-two.cherry.bottom,.is-tagline-box.v-three.cherry.bottom{border-bottom-color:#BE1C03 !important}.is-tagline-box.v-one.cherry.left,.is-tagline-box.v-two.cherry.left,.is-tagline-box.v-three.cherry.left{border-left-color:#BE1C03 !important}.is-tagline-box.v-one.cherry.right,.is-tagline-box.v-two.cherry.right,.is-tagline-box.v-three.cherry.right{border-right-color:#BE1C03 !important}.is-button.is-v-two.cherry{border-color:#670600}.is-button.is-v-three.cherry{border:3px solid #670600}.is-button.is-v-three.cherry:hover,.is-button.is-v-four.cherry,.is-button.is-v-five.cherry,.is-button.is-v-five.cherry:hover,.is-button.is-v-five.cherry:active{border:3px solid #BE1C03}.is-client.v-three.cherry,.is-client.v-four.cherry,body.is-dark-version .is-client.v-three.cherry,body.is-dark-version .is-client.v-four.cherry{border-color:rgba(190,28,3,1)}.is_icon_content_box.v-three.cherry:hover{border-bottom:solid #BE1C03 !important}.is-skill-counter.is-v-two.is-border-cherry,#main-menu.nav_s_seven > li.cherry-bg:hover > a,#main-menu.nav_s_seven > li.cherry-bg.active-menu-item > a,#main-menu.nav_s_eight > li.cherry-bg:hover > a,#main-menu.nav_s_eight > li.cherry-bg.active-menu-item > a,.is-heading.h-v-two.cherry .span,.is-heading.h-v-three.cherry hr,.is-callout.v-five.cherry .is-callout-container{border-color:#BE1C03 !important}.dropcapborderbox.cherry,.dropcapbordercircle.cherry{border:1px solid #BE1C03 !important}.immersivesoul-form.with-bg.cherry .input-field-control,.is-list-circle-border > li.cherry:before,.is-list-square-border > li.cherry:before,.single-page-nav .nav_s_seven > li.cherry-bg:hover > a,.single-page-nav .nav_s_seven > li.cherry-bg > a.current,.single-page-nav .nav_s_eight > li.cherry-bg:hover > a,.single-page-nav .nav_s_eight > li.cherry-bg > a.current,.is-social-network.is-v-three.is-hover-effect-1.cherry a,.is-social-network.is-v-five.is-hover-effect-1.cherry a,.is-social-network.is-v-seven.is-hover-effect-1.cherry a,.is-social-network.is-v-three.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-three.is-hover-effect-5.cherry a,.is-social-network.is-v-five.is-hover-effect-5.cherry a,.is-social-network.is-v-seven.is-hover-effect-5.cherry a,.is-social-network.is-v-three.is-hover-effect-6.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-6.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-6.cherry a:hover,.sep_square_border.cherry i,.sep_circle_border.cherry i,.highlight.v-three.cherry,.is-image-frame.v-four.cherry .is-image img{border-color:#BE1C03}
+
+.icon-effect-3.cherry .icon-effect,.icon-effect-4.cherry .icon-effect,.icon-effect-15.cherry .icon-effect:after{box-shadow:0 0 0 3px #BE1C03}.icon-effect-1.cherry .icon-effect:after,.icon-effect-2.cherry .icon-effect:after,.icon-effect-5.cherry .icon-effect,.icon-effect-6.cherry .icon-effect,.icon-effect-7.cherry .icon-effect,.icon-effect-8.cherry .icon-effect,.icon-effect-9.cherry .icon-effect,.icon-effect-10.cherry .icon-effect,.icon-effect-11.cherry .icon-effect,.icon-effect-12.cherry .icon-effect,.icon-effect-13.cherry .icon-effect{box-shadow:0 0 0 4px #BE1C03}.icon-effect-7.cherry:hover .icon-effect,.icon-effect-8.cherry:hover .icon-effect,.icon-effect-9.cherry:hover .icon-effect,.icon-effect-10.cherry:hover .icon-effect{box-shadow:0 0 0 8px rgba(190,28,3,0.3) !important}.icon-effect-12.cherry .icon-effect:after{box-shadow:0 0 0 #BE1C03}.icon-effect-12.cherry:hover .icon-effect:after{box-shadow:3px 3px 0 #BE1C03}.icon-effect-13.cherry .icon-effect:after{box-shadow:3px 3px #BE1C03}.icon-effect-15.cherry:hover .icon-effect{box-shadow:0 0 0 10px #BE1C03}.is_icon_content_box.v-three.cherry:hover{box-shadow:0 0 1px #BE1C03 !important}.cherry .portfolio-box .column-text-portfoliotext,.portfolio-box.cherry .column-text-portfoliotext,.item.cherry .column-text-portfoliotext{box-shadow:0 -3px 0 #BE1C03 inset}#portfolio-filter.cherry #filterable a:hover,#portfolio-filter.cherry #filterable .active a,#shop-filter.cherry #filterable a:hover,#shop-filter.cherry #filterable .active a{box-shadow:0 -2px 0 #670600 inset}.highlight.v-four.cherry{box-shadow:-2px 2px 0 #BE1C03}
+
+/*= OTHER COLORS =*/ .is-button.is-v-one.cherry{border-top:1px solid rgba(255,255,255,0.2)}.is-button.is-v-one.cherry:hover{border-top:none;border-bottom:1px solid rgba(255,255,255,0.2)}.is-button.is-v-two.cherry{box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset}.is-button.is-v-three.cherry{box-shadow:0 1px 0px rgba(255, 255, 255, 0.2) inset}.is-button.is-v-three.cherry:hover{box-shadow:none}.is-button.is-v-four,.is-button.is-v-five{text-shadow:none}.is-client.v-two.cherry:hover,.is-client.v-four.cherry:hover,body.is-dark-version .is-client.v-two.cherry:hover{background:none}.is_icon_content_box.v-two.icon-effect-1.cherry .icon-effect:after,.is_icon_content_box.v-two.icon-effect-2.cherry .icon-effect:after,.is_icon_content_box.v-two.icon-effect-5.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-6.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-7.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-8.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-9.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-10.cherry .icon-effect,.is_icon_content_box.v-two.is_icon_content_box.v-two.icon-effect-11.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-12.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-13.cherry .icon-effect{box-shadow:0 0 0 4px #fff}.is_icon_content_box.v-two.icon-effect-3.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-4.cherry .icon-effect,.is_icon_content_box.v-two.icon-effect-15.cherry .icon-effect:after{box-shadow:0 0 0 3px #fff}.is_icon_content_box.v-two.icon-effect-7.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-8.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-9.cherry:hover .icon-effect,.is_icon_content_box.v-two.icon-effect-10.cherry:hover .icon-effect{box-shadow:0 0 0 8px rgba(255,255,255,0.3) !important}.is_icon_content_box.v-two.icon-effect-12.cherry .icon-effect:after{box-shadow:0 0 0 #fff}.is_icon_content_box.v-two.icon-effect-12.cherry:hover .icon-effect:after{box-shadow:3px 3px 0 #fff}.is_icon_content_box.v-two.icon-effect-13.cherry .icon-effect:after{box-shadow:3px 3px #fff}.is_icon_content_box.v-two.icon-effect-15.cherry:hover .icon-effect{box-shadow:0 0 0 10px #fff}.loading-cherry#loading-v-1 #loading{background:url('../images/loading/loading-v-1/loading-cherry.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-cherry#loading-v-2 #loading{background:url('../images/loading/loading-v-2/loading-cherry.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-cherry#loading-v-3 #loading{background:url('../images/loading/loading-v-3/loading-cherry.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-cherry#loading-v-4 #loading{background:url('../images/loading/loading-v-4/loading-cherry.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-cherry#loading-v-5 #loading{background:url('../images/loading/loading-v-5/loading-cherry.gif') 50% 50% no-repeat rgb(249,249,249)}.loading-cherry#loading-v-6 #loading{background:url('../images/loading/loading-v-6/loading-cherry.gif') 50% 50% no-repeat rgb(249,249,249)}.is-social-network.is-v-two.is-hover-effect-1.cherry a,.is-social-network.is-v-two.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-four.is-hover-effect-1.cherry a,.is-social-network.is-v-four.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-six.is-hover-effect-1.cherry a,.is-social-network.is-v-six.is-hover-effect-2.cherry a:hover,.is-social-network.is-v-three.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-three.is-hover-effect-2.cherry a,.is-social-network.is-v-five.is-hover-effect-2.cherry a,.is-social-network.is-v-seven.is-hover-effect-2.cherry a{color:#000 !important}.is-social-network.is-v-two.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-two.is-hover-effect-2.cherry a,.is-social-network.is-v-four.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-four.is-hover-effect-2.cherry a,.is-social-network.is-v-six.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-six.is-hover-effect-2.cherry a{background-color:#000}.is-social-network.is-v-three.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-1.cherry a:hover,.is-social-network.is-v-three.is-hover-effect-2.cherry a,.is-social-network.is-v-five.is-hover-effect-2.cherry a,.is-social-network.is-v-seven.is-hover-effect-2.cherry a{border-color:#000}.is-social-network.is-v-three.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-five.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-seven.is-hover-effect-5.cherry a:hover,.is-social-network.is-v-three.is-hover-effect-6.cherry a,.is-social-network.is-v-five.is-hover-effect-6.cherry a,.is-social-network.is-v-seven.is-hover-effect-6.cherry a{border-color:#fff} /********************************************************************************************************************************************************************/ /********************************************************************************************************************************************************************/ /********************************************************************************************************************************************************************/ /********************************************************************************************************************************************************************/
+
+
+
+
+
+@media all and (max-width: 960px) {
+
+
+
+
+/* 4: skyblue */
+body #main-menu.nav_s_one > li.skyblue:hover > a, .nav_s_one > li.skyblue.current-menu-item > a, body #main-menu.nav_s_two > li.skyblue:hover > a, .nav_s_two > li.skyblue.current-menu-item > a, body #main-menu.nav_s_three > li.skyblue:hover > a, .nav_s_three > li.skyblue.current-menu-item > a, body #main-menu.nav_s_four > li.skyblue:hover > a, .nav_s_four > li.skyblue.current-menu-item > a, body #main-menu.nav_s_five > li.skyblue:hover > a, .nav_s_five > li.skyblue.current-menu-item > a, body #main-menu.nav_s_six > li.skyblue:hover > a, .nav_s_six > li.skyblue.current-menu-item > a, body #main-menu.nav_s_seven > li.skyblue:hover > a, .nav_s_seven > li.skyblue.current-menu-item > a, body #main-menu.nav_s_eight > li.skyblue:hover > a, .nav_s_eight > li.skyblue.current-menu-item > a { background: #00BCD5; color: #fff !important; }body #main-menu.nav_s_one .skyblue.active-menu-item a, body #main-menu.nav_s_two .skyblue.active-menu-item a, body #main-menu.nav_s_three .skyblue.active-menu-item a, body #main-menu.nav_s_four .skyblue.active-menu-item a, body #main-menu.nav_s_five .skyblue.active-menu-item a, body #main-menu.nav_s_six .skyblue.active-menu-item a, body #main-menu.nav_s_seven .skyblue.active-menu-item a, body #main-menu.nav_s_eight .skyblue.active-menu-item a { background:#00BCD5 !important; color:#fff !important; } .main-header .single-page-nav .nav_s_one li.skyblue > a:hover, .main-header .single-page-nav .nav_s_four li.skyblue > a:hover, .main-header .single-page-nav .nav_s_seven li.skyblue > a:hover, .main-header .single-page-nav .nav_s_eight li.skyblue > a:hover { background:#fff !important; } .main-header .single-page-nav .nav_s_two li.skyblue > a.current, .main-header .single-page-nav .nav_s_three li.skyblue > a.current, .main-header .single-page-nav .nav_s_five li.skyblue > a.current, .main-header .single-page-nav .nav_s_six li.skyblue > a.current { background: #00BCD5 !important; color: #fff; }
+
+/* 26: cherry */
+body #main-menu.nav_s_one > li.cherry-bg:hover > a, .nav_s_one > li.cherry-bg.current-menu-item > a, body #main-menu.nav_s_two > li.cherry-bg:hover > a, .nav_s_two > li.cherry-bg.current-menu-item > a, body #main-menu.nav_s_three > li.cherry-bg:hover > a, .nav_s_three > li.cherry-bg.current-menu-item > a, body #main-menu.nav_s_four > li.cherry-bg:hover > a, .nav_s_four > li.cherry-bg.current-menu-item > a, body #main-menu.nav_s_five > li.cherry-bg:hover > a, .nav_s_five > li.cherry-bg.current-menu-item > a, body #main-menu.nav_s_six > li.cherry-bg:hover > a, .nav_s_six > li.cherry-bg.current-menu-item > a, body #main-menu.nav_s_seven > li.cherry-bg:hover > a, .nav_s_seven > li.cherry-bg.current-menu-item > a, body #main-menu.nav_s_eight > li.cherry-bg:hover > a, .nav_s_eight > li.cherry-bg.current-menu-item > a { background: #BE1C03; color: #fff !important; }body #main-menu.nav_s_one .cherry-bg.active-menu-item a, body #main-menu.nav_s_two .cherry-bg.active-menu-item a, body #main-menu.nav_s_three .cherry-bg.active-menu-item a, body #main-menu.nav_s_four .cherry-bg.active-menu-item a, body #main-menu.nav_s_five .cherry-bg.active-menu-item a, body #main-menu.nav_s_six .cherry-bg.active-menu-item a, body #main-menu.nav_s_seven .cherry-bg.active-menu-item a, body #main-menu.nav_s_eight .cherry-bg.active-menu-item a { background:#BE1C03 !important; color:#fff !important; } .main-header .single-page-nav .nav_s_one li.cherry-bg > a:hover, .main-header .single-page-nav .nav_s_four li.cherry-bg > a:hover, .main-header .single-page-nav .nav_s_seven li.cherry-bg > a:hover, .main-header .single-page-nav .nav_s_eight li.cherry-bg > a:hover { background:#fff !important; } .main-header .single-page-nav .nav_s_two li.cherry-bg > a.current, .main-header .single-page-nav .nav_s_three li.cherry-bg > a.current, .main-header .single-page-nav .nav_s_five li.cherry-bg > a.current, .main-header .single-page-nav .nav_s_six li.cherry-bg > a.current { background: #BE1C03 !important; color: #fff; }
+
+}

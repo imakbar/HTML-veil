@@ -1,0 +1,41 @@
+/***************************************************************************
+***************************************************************************/
+/*==========================================LOADING EFFECT ON PAGE LOADING*/
+/***************************************************************************
+***************************************************************************/
+#loading {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 999999;
+	display:none;
+}
+#loading-v-1 #loading, #loading-v-2 #loading, #loading-v-3 #loading, #loading-v-4 #loading, #loading-v-5 #loading, #loading-v-6 #loading {
+	display:block;
+}
+/* = LOADING VERSION 1 = */
+#loading-v-1 #loading {
+	background: url('../../images/loading/loading-v-1/loading-black.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+/* = LOADING VERSION 2 = */
+#loading-v-2 #loading {
+	background: url('../../images/loading/loading-v-2/loading-black.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+/* = LOADING VERSION 3 = */
+#loading-v-3 #loading {
+	background: url('../../images/loading/loading-v-3/loading-black.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+/* = LOADING VERSION 4 = */
+#loading-v-4 #loading {
+	background: url('../../images/loading/loading-v-4/loading-black.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+/* = LOADING VERSION 5 = */
+#loading-v-5 #loading {
+	background: url('../../images/loading/loading-v-5/loading-black.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+/* = LOADING VERSION 6 = */
+#loading-v-6 #loading {
+	background: url('../../images/loading/loading-v-6/loading-black.gif') 50% 50% no-repeat rgb(249,249,249);
+}

@@ -1,0 +1,320 @@
+/*#style-switcher.style-switcher {
+    display: none;
+}*/
+
+.switcher-version-links .three_versions img {
+    width: 70px;
+}
+
+.style-switcher{
+	/*box-shadow: 6px 2px 3px rgba(0, 0, 0, 0.2);*/
+	width:266px;
+	background-color:#434955;
+	border-right:1px solid #353b47;
+	border-bottom:1px solid #353b47;
+	z-index:9999;
+	position:fixed;
+	top:100px;
+	right:-266px;
+	text-align:left;
+	height:100%;
+	/*-moz-border-bottom-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;*/
+	-webkit-transition:right 300ms;
+	-moz-transition:right 300ms;
+	-o-transition:right 300ms;
+	transition:right 300ms;
+	direction: ltr;
+}
+
+.style-switcher{top:0px}
+
+.style-switcher.open{right:0}
+.style-switcher .style-switcher-heading{
+	padding:0 15px;
+	background-color:#8dc153;
+	color:white;
+	font-size:18px;
+	line-height:50px;
+	position:relative;
+}
+
+.style-switcher .style-switcher-heading .custom_icon{
+	box-shadow: -6px 2px 3px rgba(0, 0, 0, 0.2);
+	position:absolute;
+	top:220px;
+	left:-50px;
+	line-height:50px;
+	width:50px;
+	text-align:center;
+	background-color:#434955;
+	cursor:pointer;
+	-moz-border-top-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.style-switcher .style-switcher-body {
+    height: 100%;
+    overflow: auto;
+    padding: 15px;
+}
+
+.style-switcher .style-switcher-body .style-switcher-title{color:#eaedf2;font-size:14px;text-transform:uppercase;display:block;margin-bottom:15px}
+
+.style-switcher .style-switcher-body .style-switcher-color {
+    display: inline-block;
+    height: 30px;
+    width: 19px;
+}
+
+.style-switcher .style-switcher-body .style-switcher-color.active{border:2px solid white; }
+
+/* COLORS */
+/* 1: Royal Blue */
+.style-switcher .style-switcher-body .style-switcher-color.royalblue { background-color: #375885; }
+/* 2: Political Blue */
+.style-switcher .style-switcher-body .style-switcher-color.politicalblue { background-color: #013558; }
+/* 3: Cool Blue */
+.style-switcher .style-switcher-body .style-switcher-color.coolblue { background-color: #008BC6; }
+/* 4: Sky Blue */
+.style-switcher .style-switcher-body .style-switcher-color.skyblue { background-color: #00BCD5; }
+/* 5: Vista Blue */
+.style-switcher .style-switcher-body .style-switcher-color.vistablue { background-color: #50C3CF; }
+/* 6: Black */
+.style-switcher .style-switcher-body .style-switcher-color.black { background-color: #222; }
+/* 7: Teal Grey */
+.style-switcher .style-switcher-body .style-switcher-color.tealgrey { background-color: #4E6A75; }
+/* 8: Grey */
+.style-switcher .style-switcher-body .style-switcher-color.grey { background-color: #585F67; }
+/* 9: Blue Grey */
+.style-switcher .style-switcher-body .style-switcher-color.bluegrey { background-color: #626377; }
+/* 10: Saffron Blue */
+.style-switcher .style-switcher-body .style-switcher-color.saffronblue { background-color: #677B89; }
+/* 11: Steel Green */
+.style-switcher .style-switcher-body .style-switcher-color.steelgreen { background-color: #6A8D94; }
+/* 12: Tuf Green */
+.style-switcher .style-switcher-body .style-switcher-color.tufgreen { background-color: #7C807D; }
+/* 13: Silver */
+.style-switcher .style-switcher-body .style-switcher-color.silver { background-color: #A5A5A5; }
+/* 14: Coffee */
+.style-switcher .style-switcher-body .style-switcher-color.coffee { background-color: #7E6C5E; }
+/* 15: Autumn */
+.style-switcher .style-switcher-body .style-switcher-color.autumn { background-color: #CC6810; }
+/* 16: Teal */
+.style-switcher .style-switcher-body .style-switcher-color.teal { background-color: #4DA597; }
+/* 17: Alpha Green */
+.style-switcher .style-switcher-body .style-switcher-color.alphagreen { background-color: #38917F; }
+/* 18: French Green */
+.style-switcher .style-switcher-body .style-switcher-color.frenchgreen { background-color: #93BEB7; }
+/* 19: Yogi Green */
+.style-switcher .style-switcher-body .style-switcher-color.yogigreen { background-color: #BBC8A7; }
+/* 20: Forest Green */
+.style-switcher .style-switcher-body .style-switcher-color.forestgreen { background-color: #7A9045; }
+/* 21: Lime Green */
+.style-switcher .style-switcher-body .style-switcher-color.limegreen { background-color: #BBC701; }
+/* 22: Golden */
+.style-switcher .style-switcher-body .style-switcher-color.golden { background-color: #C3A22E; }
+/* 23: Orange */
+.style-switcher .style-switcher-body .style-switcher-color.orange { background-color: #FDA41E; }
+/* 24: yellow */
+.style-switcher .style-switcher-body .style-switcher-color.yellow { background-color: #eded02; }
+/* 25: Buoy Red */
+.style-switcher .style-switcher-body .style-switcher-color.buoyred { background-color: #CE4A4B; }
+/* 26: Cherry */
+.style-switcher .style-switcher-body .style-switcher-color.cherry { background-color: #BE1C03; }
+/* 27: Purple */
+.style-switcher .style-switcher-body .style-switcher-color.purple { background-color: #893F62; }
+/* 28: Pink */
+.style-switcher .style-switcher-body .style-switcher-color.pink { background-color: #BD5094; }
+/* 29: Periwinkle */
+.style-switcher .style-switcher-body .style-switcher-color.periwinkle { background-color: #b75adf; }
+/* 30: Violet */
+.style-switcher .style-switcher-body .style-switcher-color.violet { background-color: #822DE0; }
+
+
+
+.style-switcher .style-switcher-body .style-switcher-button{display:block;background-color:#676f7a;text-align:center;padding:10px 5px;color:white;text-decoration:none; }
+.style-switcher .style-switcher-body .style-switcher-button.active{background-color:#8dc153; }
+
+.style-switcher .style-switcher-body .style-switcher-layouts{margin-top:15px; }
+.style-switcher .style-switcher-body .style-switcher-layouts .style-switcher-button{display:inline-block;width:82px; }
+
+.style-switcher .style-switcher-body .style-switcher-reset {
+    border-top: 1px solid #676f7a;
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c_rotating {
+    /*-webkit-transform: rotate(360deg);
+    -webkit-transition-duration: 1s;
+    -webkit-transition-delay: now;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;*/
+
+	display: inline-block;
+    font-size: 23px;
+    height: 32px;
+}
+@-webkit-keyframes c_rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes c_rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.c_rotating {
+  -webkit-animation: c_rotating 2s linear infinite;
+  -moz-animation: c_rotating 2s linear infinite;
+  -ms-animation: c_rotating 2s linear infinite;
+  -o-animation: c_rotating 2s linear infinite;
+  animation: c_rotating 2s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+/* Colours to be set for accessibility choice */
+.style-switcher-bg img {
+    width: 41px;
+}
+body {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.switcher-Background-1 { background-image:url("../../images/switcher/switcher-Background-1.jpg"); }
+.switcher-Background-2 { background-image:url("../../images/switcher/switcher-Background-2.jpg"); }
+.switcher-Background-3 { background-image:url("../../images/switcher/switcher-Background-3.jpg"); }
+.switcher-Background-4 { background-image:url("../../images/switcher/switcher-Background-4.jpg"); }
+.switcher-Background-5 { background-image:url("../../images/switcher/switcher-Background-5.jpg"); }
+.switcher-Background-6 { background-image:url("../../images/switcher/switcher-Background-6.jpg"); }
+.switcher-Background-7 { background-image:url("../../images/switcher/switcher-Background-7.jpg"); }
+.switcher-Background-8 { background-image:url("../../images/switcher/switcher-Background-8.jpg"); }
+.switcher-Background-9 { background-image:url("../../images/switcher/switcher-Background-9.jpg"); }
+.switcher-Background-10 { background-image:url("../../images/switcher/switcher-Background-10.jpg"); }
+.switcher-Background-11 { background-image:url("../../images/switcher/switcher-Background-11.jpg"); }
+.switcher-Background-12 { background-image:url("../../images/switcher/switcher-Background-12.jpg"); }
+.switcher-Background-13 { background-image:url("../../images/switcher/switcher-Background-13.jpg"); }
+.switcher-Background-14 { background-image:url("../../images/switcher/switcher-Background-14.jpg"); }
+.switcher-Background-15 { background-image:url("../../images/switcher/switcher-Background-15.jpg"); }
+
+body.switcher-Background-6, body.switcher-Background-7, body.switcher-Background-8, body.switcher-Background-9, body.switcher-Background-10,
+body.switcher-Background-11, body.switcher-Background-12, body.switcher-Background-13, body.switcher-Background-14, body.switcher-Background-15 {
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.three_versions a {
+    width: 70px;
+    display: inline-block;
+    height: 100px;
+    background-position: top center;
+    background-size: 100%;
+}
+.three_versions a.layout-bg1 {
+	height:284px;
+}
+.three_versions a.layout-bg2 {
+	height:286px;
+}
+.three_versions a.layout-bg3 {
+	height:284px;
+}
+.three_versions a.layout-bg4 {
+	height:284px;
+}
+.three_versions a.layout-bg5 {
+	height:288px;
+}
+.three_versions a.layout-bg6 {
+	height:284px;
+}
+.three_versions a.layout-bg7 {
+	height:281px;
+}
+.three_versions a.layout-bg8 {
+	height:285px;
+}
+.three_versions a.layout-bg9 {
+	height:281px;
+}
+.three_versions a.layout-bg10 {
+	height:295px;
+}
+.three_versions a.layout-bg11 {
+	height:296px;
+}
+.three_versions a.layout-bg12 {
+	height:296px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.style-switcher { display:none; }
+}
+
+@media only screen and (max-width: 480px) {
+	.style-switcher { display:none; }
+}

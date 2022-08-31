@@ -1,0 +1,294 @@
+/***************************************************************************
+***************************************************************************/
+/*=================================== IMMERSIVESOUL TABS VERSION ONE | TWO*/
+/***************************************************************************
+***************************************************************************/
+.is-tab-container .is-tab-nav li.active a.active {
+	color:#000;
+}
+.is-tab-container .is-tab-nav li a i {
+    margin: 4px 6px 2px;
+}
+/* = ICON POSITION = */
+.is-tab-container.is-tab-icon-left .is-tab-nav li a i {
+	float:left;
+}
+.is-tab-container.is-tab-icon-top .is-tab-nav li a { text-align:center;}
+.is-tab-container.is-tab-icon-top .is-tab-nav li a i {
+    float: left;
+    margin: 0 0 4px;
+    width: 100%;
+}
+.is-tab-container.is-tab-icon-right .is-tab-nav li a i {
+	float:right;
+}
+.is-tab-container.is-tab-left.is-tab-icon-right .is-tab-nav li a,
+.is-tab-container.is-tab-right.is-tab-icon-right .is-tab-nav li a { text-align:right; }
+
+.is-tab-container.is-v-one ul.is-tab-nav li,
+.is-tab-container.is-v-two ul.is-tab-nav li {
+	float:left;
+	position:relative;
+}
+.is-tab-container.is-v-one .is-tabs-content .is-tab-box {
+    margin: 25px 20px;
+}
+.is-tab-container.is-v-two .is-tabs-content .is-tab-box {
+    margin: 25px 0;
+}
+.is-tab-container .is-tab-nav a {
+    background: #f5f5f5 none repeat scroll 0 0;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 14px 18px;
+    width: 100%;
+	line-height: 23px;
+}
+.is-tab-container .is-tab-nav a:hover {
+	color:#000;
+}
+.is-tab-container.is-v-one .is-tabs-content > p,
+.is-color-white .is-tab-container.is-v-one .is-list-icon li,
+.is-color-white .is-tab-container p {
+    color: #999 !important;
+}
+.is-color-white .is-tab-container.is-v-one .is_icon_content_box a {
+    color: #666 !important;
+}
+/* = TAB TOP VERSION ONE = */
+.is-tab-container.is-v-one.is-tab-top .is-tabs-content {
+	background:#fff;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 1px;
+	display:inline-block;
+	width:100%;
+}
+.is-tab-container.is-v-one.is-tab-top .is-tabs-content .is-tab-box {
+    margin: 25px 20px;
+	width:auto;
+}
+.is-tab-container.is-v-one.is-tab-top ul.is-tab-nav,
+.is-tab-container.is-v-one.is-tab-bottom ul.is-tab-nav {
+	display:flex;
+}
+.is-tab-container.is-v-one.is-tab-top ul.is-tab-nav li.active a.active {
+	background: #fff;
+    border-color: #eee #eee;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+	margin-bottom: -1px;
+}
+/* = TAB TOP VERSION TWO = */
+.is-tab-container.is-v-two.is-tab-top .is-tabs-content {
+	display:inline-block;
+	width:100%;
+	border-top:solid 1px #eee;
+}
+.is-tab-container.is-v-two.is-tab-top .is-tabs-content .is-tab-box {
+    margin: 25px 20px;
+	width:auto;
+}
+.is-tab-container.is-v-two.is-tab-top ul.is-tab-nav,
+.is-tab-container.is-v-two.is-tab-bottom ul.is-tab-nav {
+	display:flex;
+}
+.is-tab-container.is-v-two.is-tab-top ul.is-tab-nav li.active a.active {
+	background: #fff;
+    border-color: #eee #eee;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+	margin-bottom: -1px;
+}
+/* = TAB BOTTOM VERSION ONE = */
+.is-tab-container.is-v-one.is-tab-bottom ul.is-tab-nav li.active a.active {
+	background: #fff;
+    border-color: #eee #eee;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+	margin-top: -1px;
+}
+.is-tab-container.is-v-one.is-tab-bottom .is-tabs-content {
+    border-color: #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+/* = TAB BOTTOM VERSION TWO = */
+.is-tab-container.is-v-two.is-tab-bottom .is-tabs-content {
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: flex;
+}
+.is-tab-container.is-v-two.is-tab-bottom ul.is-tab-nav li.active a.active {
+	background: #fff;
+    border-color: #eee #eee;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+	margin-top: -1px;
+}
+/* = TAB LEFT VERSION ONE = */
+.is-tab-container.is-v-one.is-tab-left .is-tab-nav {
+    float: left;
+    width: 20%;
+}
+.is-tab-container.is-v-one.is-tab-left ul.is-tab-nav li {
+	clear:both;
+	width:100%;
+}
+.is-tab-container.is-v-one.is-tab-left .is-tabs-content {
+    border: 1px solid #eee;
+    display: inline-block;
+    width: 80%;
+}
+.is-tab-container.is-v-one.is-tab-left ul.is-tab-nav li.active a.active {
+	background: none repeat scroll 0 0 #fff;
+    border-color: #eee;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    float: right;
+    margin-right: -1px;
+	margin-left:1px;
+}
+/* = TAB LEFT VERSION TWO = */
+.is-tab-container.is-v-two.is-tab-left .is-tab-nav {
+    float: left;
+    width: 20%;
+} 
+.is-tab-container.is-v-two.is-tab-left ul.is-tab-nav li {
+	clear:both;
+	width:100%;
+}
+.is-tab-container.is-v-two.is-tab-left .is-tabs-content {
+    border-left: 1px solid #eee;
+    display: inline-block;
+    width: 80%;
+}
+.is-tab-container.is-v-two.is-tab-left .is-tabs-content .is-tab-box {
+    margin: 10px 20px;
+	width:auto;
+}
+.is-tab-container.is-v-two.is-tab-left ul.is-tab-nav li.active a.active {
+	background: none repeat scroll 0 0 #fff;
+    border-color: #eee;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    float: right;
+    margin-right: -1px;
+	margin-left:1px;
+}
+/* = TAB RIGHT VERSION ONE = */
+.is-tab-container.is-v-one.is-tab-right .is-tab-nav {
+    float: right;
+    width: 20%;
+}
+.is-tab-container.is-v-one.is-tab-right ul.is-tab-nav li {
+	clear:both;
+	width:100%;
+}
+.is-tab-container.is-v-one.is-tab-right .is-tabs-content {
+	border: 1px solid #eee;
+    display: inline-block;
+    width: 80%;
+}
+.is-tab-container.is-v-one.is-tab-right ul.is-tab-nav li.active a.active {
+	background: none repeat scroll 0 0 #fff;
+    border-color: #eee;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    float: left;
+    margin-left: -1px;
+}
+/* = TAB RIGHT VERSION TWO = */
+.is-tab-container.is-v-two.is-tab-right .is-tab-nav {
+    float: right;
+    width: 20%;
+} 
+.is-tab-container.is-v-two.is-tab-right ul.is-tab-nav li {
+	clear:both;
+	width:100%;
+}
+.is-tab-container.is-v-two.is-tab-right .is-tabs-content {
+    border-right-color: #eee;
+    border-right-style: solid;
+    border-right-width: 1px;
+	border-left: 1px solid #eee;
+    display: inline-block;
+    width: 80%;
+}
+.is-tab-container.is-v-two.is-tab-right .is-tabs-content .is-tab-box {
+    margin: 10px 20px;
+}
+.is-tab-container.is-v-two.is-tab-right ul.is-tab-nav li.active a.active {
+	background: none repeat scroll 0 0 #fff;
+    border-color: #eee;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    float: left;
+    margin-left: -1px;
+}
+/* = TAB LEFT FULL WIDTH = */
+.is-tab-container.is-full-width.is-tab-left ul.is-tab-nav li {
+    display: inherit;
+    float: none;
+    text-align: left;
+    width: inherit;
+}
+/* = TAB RIGHT FULL WIDTH = */
+.is-tab-container.is-full-width.is-tab-right ul.is-tab-nav li {
+    display: inherit;
+    float: none;
+    text-align: right;
+    width: inherit;
+}
+/* = a.active BORDER | TAB TOP | TAB BOTTOM | TAB LEFT | TAB RIGHT = */
+.is-tab-container ul.is-tab-nav li.active a.active:after {
+	background: none repeat scroll 0 0 /*#85d300*/;
+    content: "";
+	position: absolute;
+	z-index: 1;
+}
+.is-tab-container.is-tab-top ul.is-tab-nav li.active a.active:after {
+    height: 3px;
+    left: 0;
+    right: 0;
+    top: -2px;
+}
+.is-tab-container.is-tab-bottom ul.is-tab-nav li.active a.active:after {
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+}
+.is-tab-container.is-tab-left ul.is-tab-nav li.active a.active:after {
+	bottom: 0px;
+    height: auto;
+    left: -2px;
+    right: auto;
+    top: 0px;
+    width: 3px;
+}
+.is-tab-container.is-tab-right ul.is-tab-nav li.active a.active:after {
+    height: auto;
+    right: -2px;
+    top: 0px;
+	left:auto;
+    width: 3px;
+    bottom: 0px;
+}
+/* = TAB FULL WIDTH = */
+.is-tab-container.is-full-width ul.is-tab-nav li {
+    display: table-cell;
+    float: none;
+    width: 1%;
+}
+.is-tab-container.is-font-size-10 .is-tab-nav li a i { font-size:10px; }
+.is-tab-container.is-font-size-15 .is-tab-nav li a i { font-size:15px; }
+.is-tab-container.is-font-size-20 .is-tab-nav li a i { font-size:20px; }
+.is-tab-container.is-font-size-25 .is-tab-nav li a i { font-size:25px; }
+.is-tab-container.is-font-size-30 .is-tab-nav li a i { font-size:30px; }
+.is-tab-container.is-font-size-35 .is-tab-nav li a i { font-size:35px; }
+.is-tab-container.is-font-size-40 .is-tab-nav li a i { font-size:40px; }
+.is-tab-container.is-font-size-45 .is-tab-nav li a i { font-size:45px; }
+.is-tab-container.is-font-size-50 .is-tab-nav li a i { font-size:50px; }

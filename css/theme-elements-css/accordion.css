@@ -1,0 +1,156 @@
+/***************************************************************************
+***************************************************************************/
+/*======================IMMERSIVESOUL ACCORDIONS VERSION ONE | TWO | THREE*/
+/***************************************************************************
+***************************************************************************/
+.accordion-single-v1,
+.accordion-single-v2,
+.accordion-single-v3 {
+	list-style: none;
+}
+.accordion-single-v1 > li, .accordion-multiple-v1 > li,
+.accordion-single-v2 > li, .accordion-multiple-v2 > li,
+.accordion-single-v3 > li, .accordion-multiple-v3 > li {
+	display: block;
+	list-style: none;
+}
+.accordion-single-v1 > li > h3, .accordion-multiple-v1 > li > h3,
+.accordion-single-v2 > li > h3, .accordion-multiple-v2 > li > h3,
+.accordion-single-v3 > li > h3, .accordion-multiple-v3 > li > h3 {
+	display: block;
+	margin: 2px 0;
+	background-size: 20px;
+	font-weight: 600;
+	cursor: pointer; 
+	font-size:14px;
+	text-transform: capitalize;
+	transition-duration:0.3s;
+}
+.accordion-single-v1 > li > h3::before, .accordion-multiple-v1 > li > h3::before,
+.accordion-single-v2 > li > h3::before, .accordion-multiple-v2 > li > h3::before,
+.accordion-single-v3 > li > h3::before, .accordion-multiple-v3 > li > h3::before {
+	content:"\e842";
+	font-family: 'fontello';
+}
+.accordion-single-v1 > li > div, .accordion-multiple-v1 > li > div,
+.accordion-single-v2 > li > div, .accordion-multiple-v2 > li > div,
+.accordion-single-v3 > li > div, .accordion-multiple-v3 > li > div {
+	list-style: none;
+	padding: 16px 0 12px;
+	display: none; 
+	overflow:auto;
+}
+.accordion-single-v1 > ul li,
+.accordion-single-v2 > ul li,
+.accordion-single-v3 > ul li {
+	font-weight: normal;
+	cursor: auto;
+	padding: 0 0 0 7px;
+}
+.accordion-single-v1 li > h3.active::before, .accordion-multiple-v1 li > h3.active::before,
+.accordion-single-v2 li > h3.active::before, .accordion-multiple-v2 li > h3.active::before,
+.accordion-single-v3 li > h3.active::before, .accordion-multiple-v3 li > h3.active::before {
+	content:"\e846";
+	font-family: 'fontello';
+	margin-right:10px;
+	font-size:14px;
+}
+/************************************
+= open one at a time		version 1
+= multiple open at a time	version 1
+************************************/
+.accordion-single-v1 > li > h3, .accordion-multiple-v1 > li > h3 {
+	padding: 3px 6px;
+	border-bottom:solid 1px #eee;
+}
+.accordion-single-v1 > li > h3::before, .accordion-multiple-v1 > li > h3::before {
+	margin-right:10px;
+	font-size:14px;
+	float:left;
+}
+.accordion-single-v1 li > h3:hover, .accordion-multiple-v1 li > h3:hover {
+	transition-duration:0.3s;
+	color: /*#85d300*/;
+}
+.accordion-single-v1 li > h3.active, .accordion-multiple-v1 li > h3.active {
+    color: /*#85d300*/;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:/*#85d300*/;
+}
+.accordion-single-v1 li > h3.active::before, .accordion-multiple-v1 li > h3.active::before {
+	float:left;
+}
+/************************************
+= open one at a time		version 2
+= multiple open at a time	version 2
+************************************/
+.accordion-single-v2 > li > h3, .accordion-multiple-v2 > li > h3 {
+	padding: 6px 0;
+	border-bottom:solid 1px #eee;
+}
+.accordion-single-v2 > li > h3::before, .accordion-multiple-v2 > li > h3::before {
+	float:left;
+	font-size: 14px;
+    margin-right: 10px;
+    text-align: center;
+    width: 30px;
+	background-color:#eee;
+	color:#666;
+}
+.accordion-single-v2 li > h3.active, .accordion-multiple-v2 li > h3.active {
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:/*#85d300*/;
+}
+.accordion-single-v2 li:hover > h3::before, .accordion-multiple-v2 li:hover > h3::before {
+	background-color:/*#85d300*/;
+	color:#fff;
+	transition-duration:0.3s;
+}
+.accordion-single-v2 li > h3.active::before, .accordion-multiple-v2 li > h3.active::before {
+	float:left;
+    text-align: center;
+    width: 30px;
+	background-color:/*#85d300*/;
+	transition-duration:0.3s;
+	color:#fff;
+}
+.accordion-single-v2 li:hover > h3.active::before, .accordion-multiple-v2 li > h3.active:hover::before {
+	/*content:"\e9f0";
+	font-family: 'fontello';*/
+	float:left;
+	font-size: 14px;
+    margin-right: 10px;
+    text-align: center;
+    width: 30px;
+	background-color:/*#85d300*/;
+	color:#fff;
+}
+/*************************************
+= open one at a time		version 3
+= multiple open at a time	version 3
+*************************************/
+.accordion-single-v3 > li > h3, .accordion-multiple-v3 > li > h3 {
+	padding: 6px 10px;
+	border:solid 1px #eee;
+}
+.accordion-single-v3 > li > h3::before, .accordion-multiple-v3 > li > h3::before {
+	margin-right:10px;
+	font-size:14px;
+	float:right;
+}
+.accordion-single-v3 li > h3.active::before, .accordion-multiple-v3 li > h3.active::before {
+	float:right;
+}
+.accordion-single-v3 li > h3:hover, .accordion-multiple-v3 li > h3:hover {
+	background: /*#85d300*/;
+	color:#fff;
+	transition-duration:0.3s;
+	box-shadow:0 0 3px rgba(0,0,0,0.15);
+}
+.accordion-single-v3 li > h3.active, .accordion-multiple-v3 li > h3.active {
+	background: /*#85d300*/;
+	color:#fff;
+	box-shadow:0 0 3px rgba(0,0,0,0.15);
+}

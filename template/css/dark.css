@@ -1,0 +1,764 @@
+/* CSS Document */
+/***************************************************************************
+***************************************************************************/
+/*============================================= IMMERSIVESOUL DARK VERSION*/
+/***************************************************************************
+***************************************************************************/
+body.is-dark-version h1,
+body.is-dark-version h2,
+body.is-dark-version h3,
+body.is-dark-version h4,
+body.is-dark-version h5,
+body.is-dark-version h6,
+
+/*body.is-dark-version a,*/
+body.is-dark-version strong,
+
+body.is-dark-version .widget-heading > h2,
+
+body.is-dark-version .post-widget-items .post-text .date,
+body.is-dark-version .product_list_widget li,
+
+body.is-dark-version .column-text-portfoliotext > h2 a,
+body.is-dark-version .post-item .post-content a,
+body.is-dark-version .blog .post-title a,
+body.is-dark-version .post-content a,
+body.is-dark-version .post-readmore a,
+
+body.is-dark-version .blog.large-img-alternate .post-meta span a,
+body.is-dark-version .blog.medium-img-alternate .post-meta span a,
+body.is-dark-version .blog.large-img-alternate .post-meta span,
+body.is-dark-version .blog.medium-img-alternate .post-meta span,
+
+body.is-dark-version .is-alert-box span,
+
+body.is-dark-version .is-tagline-box,
+
+body.is-dark-version .is_icon_content_box h2 a,
+body.is-dark-version .is_icon_content_box .read_more,
+
+body.is-dark-version .immersivesoul-form label,
+
+body.is-dark-version .is-image-caption span,
+
+body.is-dark-version .is-skillbar.v-one p,
+body.is-dark-version .is-skillbar.v-two p,
+
+body.is-dark-version .post-readmore a,
+body.is-dark-version .grid-post-item .post-meta span,
+
+body.is-dark-version .post-item span i,
+
+/*body.is-dark-version .immersivesoul-form.with-icons .input-field-clm .input-icon,*/
+
+body.is-dark-version .is-product-title a,
+
+body.is-dark-version .topbar-header,
+
+.topbar-item-left a.tooltip-grow, .topbar-item-right a.tooltip-grow,
+.call a, .mail a, .login a, .register a,
+.topbar-menu > ul > li > a
+
+{
+	color:#fff;
+}
+
+body.is-dark-version .topbar-header,
+body.is-dark-version .is-fullwidth-section {
+	background-color:#000;
+}
+
+body.is-dark-version .container {
+	background:none;
+}
+/*body.is-dark-version .topbar-header,
+body.is-dark-version .main-header,
+body.is-dark-version .is-fullwidth-section,
+
+body.is-dark-version .main-header.dark-header,
+body.is-dark-version .main-header.dark-header .container, 
+body.is-dark-version .main-header.version_three .full-width-menu.dark-header, 
+body.is-dark-version .main-header.version_three .full-width-menu.dark-header .container, 
+body.is-dark-version .main-header.version_four .full-width-menu.dark-header, 
+body.is-dark-version .main-header.version_four .full-width-menu.dark-header .container {
+	background-color:#000;
+}*/
+/*body.is-dark-version .main-header.dark-header.sticky-header.smaller .container {
+	background:none;
+}*/
+body.is-dark-version .topbar-header {
+	border-color:#333;
+}
+/*body.is-dark-version .main-header.smaller {
+	background-color:rgba(0, 0, 0, 0.9);
+}
+.is-dark-version.is-left-header .main-header,
+.is-dark-version.is-right-header .main-header {
+    background: #060606 none repeat scroll 0 0 !important;
+}
+body.is-dark-version .nav_s_two > li > a,
+body.is-dark-version .nav_s_three > li > a {
+    background: none;
+}
+body.is-dark-version .main-header.version_three .full-width-menu,
+body.is-dark-version .main-header.version_four .full-width-menu {
+    background: rgba(0, 0, 0, 1);
+    border-top: 1px solid #666;
+}
+body.is-dark-version .main-header.version_three.sticky-header.smaller .full-width-menu,
+body.is-dark-version .main-header.version_four.sticky-header.smaller .full-width-menu {
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #666;
+}
+body.is-dark-version.transparent-header header.main-header .transparent-menu {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+body.transparent-header.is-dark-version .transparent-menu .container { background:none;}*/
+/* = for header before scroll down = */
+/*body.is-dark-version.transparent-header.transparent100-header header.main-header .transparent-menu {
+	background:none;
+	border-bottom:none;
+}
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_one > li > a,
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_two > li > a,
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_three > li > a,
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_four > li > a,
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_five > li > a,
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_six > li > a,
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_seven > li > a,
+body.is-dark-version.transparent-header header.main-header .transparent-menu #main-menu.nav_s_eight > li > a {
+	color:#fff;
+}*/
+/* = for smaller header after scroll down = */
+/*body.is-dark-version.transparent-header.transparent100-header header.main-header.sticky-header.smaller .transparent-menu {
+	background:inherit;
+}
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_one > li > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_four > li > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_five > li > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_six > li > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_seven > li > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_eight > li > a {
+	color:#fff;
+}
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_five > li:hover > a, 
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_five > li.current-menu-item > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_six > li:hover > a, 
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_six > li.current-menu-item > a {
+	color:#fff;
+}
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_one > li:hover > a, 
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_one > li.current-menu-item > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_four > li:hover > a, 
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_four > li.current-menu-item > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_seven > li:hover > a, 
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_seven > li.current-menu-item > a,
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_eight > li:hover > a, 
+body.is-dark-version.transparent-header header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_eight > li.current-menu-item > a {
+	color:#85d300;
+}*/
+/* = FOR BLACK VERSION = */
+/* = for header before scroll down = */
+/*body.is-dark-version.transparent-header.transparent100-header-menu-black.transparent100-header header.main-header .transparent-menu {
+	background:none;
+	border-bottom:none;
+}*/
+/*body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_one > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_two > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_three > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_four > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_five > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_six > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_seven > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_eight > li > a {
+	color:#333;
+}
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_one > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_one > li.current-menu-item > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_four > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_four > li.current-menu-item > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_seven > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_seven > li.current-menu-item > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_eight > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header .transparent-menu #main-menu.nav_s_eight > li.current-menu-item > a {
+	color:#85d300;
+}*/
+
+/* = for smaller header after scroll down = */
+/*body.is-dark-version.transparent-header.transparent100-header-menu-black.transparent100-header header.main-header.sticky-header.smaller .transparent-menu {
+	background:inherit;
+}
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_one > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_two > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_three > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_four > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_five > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_six > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_seven > li > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_eight > li > a {
+	color:#fff;
+}*/
+/*body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_five > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_five > li.current-menu-item > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_six > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_six > li.current-menu-item > a {
+	color:#fff;
+}*/
+/*body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_one > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_one > li.current-menu-item > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_four > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_four > li.current-menu-item > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_seven > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_seven > li.current-menu-item > a,
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_eight > li:hover > a, 
+body.is-dark-version.transparent-header.transparent100-header-menu-black header.main-header.sticky-header.smaller .transparent-menu #main-menu.nav_s_eight > li.current-menu-item > a {
+	color:#85d300;
+}*/
+/* = = */
+/*body.is-dark-version ul.slimmenu li .mobilemenu-plus-indicator,
+body.is-dark-version ul.slimmenu li .mobilemenu-plus-indicator,
+body.is-dark-version ul.slimmenu li.current-menu-item .mobilemenu-plus-indicator,
+body.is-dark-version ul.slimmenu li.current-menu-item .mobilemenu-plus-indicator {	
+	color:#fff;
+}*/
+/* = For All Sub Menu BG = */
+/*body.is-dark-version .sub-menu a:hover, 
+body.is-dark-version .sub-menu li.current-menu-item a {
+	background:#333;
+}*/
+/* = Left Header = */
+.is-left-header.is-dark-version .main-header .nav_s_one li a,
+.is-left-header.is-dark-version .main-header .nav_s_four li a,
+.is-left-header.is-dark-version .main-header .nav_s_five li a,
+.is-left-header.is-dark-version .main-header .nav_s_six li a,
+.is-left-header.is-dark-version .main-header .nav_s_seven li a,
+.is-left-header.is-dark-version .main-header .nav_s_eight li a {
+	border-bottom-color:#333 !important;
+}
+.is-left-header.is-dark-version .main-header #main-menu {
+	border-top-color:#333 !important;
+}
+/* = right Header = */
+.is-right-header.is-dark-version .main-header .nav_s_one li a,
+.is-right-header.is-dark-version .main-header .nav_s_four li a,
+.is-right-header.is-dark-version .main-header .nav_s_five li a,
+.is-right-header.is-dark-version .main-header .nav_s_six li a,
+.is-right-header.is-dark-version .main-header .nav_s_seven li a,
+.is-right-header.is-dark-version .main-header .nav_s_eight li a {
+	border-bottom-color:#333 !important;
+}
+.is-right-header.is-dark-version .main-header #main-menu {
+	border-top-color:#333 !important;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*================================================== IMMERSIVESOUL WIDGETS*/
+/***************************************************************************
+***************************************************************************/
+/* = Left Sidebar Menu = */
+body.is-dark-version .widget-sidebar-menu.left {
+    border-right: 1px solid #333;
+}
+body.is-dark-version .widget-sidebar-menu.right {
+    border-left: 1px solid #333;
+}
+body.is-dark-version .widget-sidebar-menu.left ul.nested-menu li a,
+body.is-dark-version .widget-sidebar-menu.right ul.nested-menu li a {
+	background: none repeat scroll 0 0 #111;
+    color: #666;
+	border-color: #333;
+}
+body.is-dark-version .widget-sidebar-menu.left ul.nested-menu li.active a,
+body.is-dark-version .widget-sidebar-menu.left ul.nested-menu li a:hover,
+body.is-dark-version .widget-sidebar-menu.right ul.nested-menu li.active a,
+body.is-dark-version .widget-sidebar-menu.right ul.nested-menu li a:hover {
+	background: none repeat scroll 0 0 #000;
+    border-color: #333;
+	color:#666;
+}
+/* = Widget Sidebar Heading = */
+body.is-dark-version .widget-heading > h2 {
+	border-bottom: 1px solid #333;
+}
+/* = Widget Sidebar Categories = */
+body.is-dark-version .widget .categories li {
+    border-bottom: 1px solid #333;
+}
+/* = Widget Sidebar Search = */
+body.is-dark-version .widget .search-input input {
+    background: none repeat scroll 0 0 #111;
+    border: 1px solid #333;
+}
+body.is-dark-version .widget .search-input button {
+    color: #666;
+}
+/* = Widget Post Items = */
+body.is-dark-version .post-widget-items li {
+    border-bottom: 1px solid #333;
+}
+body.is-dark-version .product_list_widget li {
+    border-color: #333;
+}
+/***************************************************************************
+***************************************************************************/
+/*============================================ IMMERSIVESOUL TOPBAR HEADER*/
+/***************************************************************************
+***************************************************************************/
+body.is-dark-version .topbar-header.topbar-header-base { background:#85d300;}
+
+/***************************************************************************
+***************************************************************************/
+/*================================================ IMMERSIVESOUL PORTFOLIO*/
+/***************************************************************************
+***************************************************************************/
+body.is-dark-version .column-text-portfoliotext {
+    background: none repeat scroll 0 0 #111;
+}
+/* = Single Project = */
+body.is-dark-version .project-details li {
+    border-bottom: 1px solid #333;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*===================================================== IMMERSIVESOUL BLOG*/
+/***************************************************************************
+***************************************************************************/
+body.is-dark-version .blog .post-title a:hover {
+    color: #85d300;
+}
+body.is-dark-version .blog .post {
+    border-color: #333;
+}
+body.is-dark-version .blog.large-img-alternate .post-meta {
+    border-color: #333;
+}
+/* Single Post */
+body.is-dark-version .blog-share-box {
+    background: none repeat scroll 0 0 #111;
+}
+/* = Single Post Author = */
+body.is-dark-version .author-description:before {
+    color: #111;
+}
+body.is-dark-version .author-description {
+    background: none repeat scroll 0 0 #111;
+    border-bottom: medium solid #222;
+}
+
+/*body.is-dark-version .is-list-icon > li::before {
+    background-color: rgba(255, 255, 255, 1);
+}*/
+
+/***************************************************************************
+***************************************************************************/
+/*=============================================== IMMERSIVESOUL SHORTCODES*/
+/***************************************************************************
+***************************************************************************/
+
+/***************************************************************************/
+/*=========================immersivesoul Accordions Version One, Two, Three*/
+/***************************************************************************/
+/************************************
+// open one at a time		version 1
+// multiple open at a time	version 1
+************************************/
+body.is-dark-version .accordion-single-v1 > li > h3, 
+body.is-dark-version .accordion-multiple-v1 > li > h3 {
+    border-bottom: 1px solid #333;
+}
+/************************************
+// open one at a time		version 2
+// multiple open at a time	version 2
+************************************/
+body.is-dark-version .accordion-single-v2 > li > h3,
+body.is-dark-version .accordion-multiple-v2 > li > h3 {
+    border-bottom: 1px solid #333;
+}
+body.is-dark-version .accordion-single-v2 > li > h3:before,
+body.is-dark-version .accordion-multiple-v2 > li > h3:before {
+    background: #111;
+}
+/*************************************
+// open one at a time		version 3
+// multiple open at a time	version 3
+*************************************/
+body.is-dark-version .accordion-single-v3 > li > h3,
+body.is-dark-version .accordion-multiple-v3 > li > h3 {
+    border: 1px solid #333;
+    color: #666;
+}
+/* = Active + Hover = */
+body.is-dark-version .accordion-single-v3 li > h3:hover,
+body.is-dark-version .accordion-multiple-v3 li > h3:hover,
+body.is-dark-version .accordion-single-v3 li > h3.active,
+body.is-dark-version .accordion-multiple-v3 li > h3.active {
+	color: #fff;
+}
+
+/***************************************************************************/
+/*======================================================IMMERSIVESOUL ALERT*/
+/***************************************************************************/
+
+/***************************************************************************/
+/*====================================================IMMERSIVESOUL CALLOUT*/
+/***************************************************************************/
+body.is-dark-version .is-callout.v-one,
+body.is-dark-version .is-callout.v-five .is-callout-container {
+    background: none;
+}
+body.is-dark-version .is-callout.v-two {
+	background:#333;
+}
+body.is-dark-version .is-callout.v-three .is-callout-container,
+body.is-dark-version .is-callout.v-six {
+    border-color: #222;
+}
+body.is-dark-version .is-callout.v-four .is-callout-container {
+    background: none repeat scroll 0 0 #000;
+	border-color: #333;
+}
+body.is-dark-version .is-callout.v-four {
+
+    border: 1px solid #333;
+}
+body.is-dark-version .is-callout.v-five {
+    border: 1px solid #444;
+}
+body.is-dark-version .is-callout.v-six .is-callout-container {
+    border-color: #333;
+}
+
+/***************************************************************************/
+/*================================================IMMERSIVESOUL TAGLINE BOX*/
+/***************************************************************************/
+body.is-dark-version .tagline-box {
+    border-color:#333;
+}
+body.is-dark-version .tagline-box.v-one {
+    background: none repeat scroll 0 0 #222;
+}
+body.is-dark-version .is-tagline-box.v-two.left {
+    border-color: #333 #333 #333 #85d300;
+}
+body.is-dark-version .is-tagline-box.v-two.right {
+    border-color: #333 #85d300 #333 #333;
+}
+body.is-dark-version .is-tagline-box.v-two.top {
+    border-color: #85d300 #333 #333 #333;
+}
+body.is-dark-version .is-tagline-box.v-two.bottom {
+    border-color: #333 #333 #85d300 #333;
+}
+body.is-dark-version .is-tagline-box.v-three {
+    background: none repeat scroll 0 0 #222;
+}
+
+/***************************************************************************/
+/*===============================================IMMERSIVESOUL BLOG SECTION*/
+/***************************************************************************/
+body.is-dark-version .post-item .post-type .post-date {
+    background: none repeat scroll 0 0 #333;
+    color: #777;
+}
+body.is-dark-version .vertical-posts .one_one, 
+body.is-dark-version .vertical-posts .one_half, 
+body.is-dark-version .vertical-posts .one_third, 
+body.is-dark-version .vertical-posts .one_forth, 
+body.is-dark-version .vertical-posts .one_fifth {
+    border-bottom: 1px dotted #333;
+}
+body.is-dark-version .grid-post-item {
+    background: none repeat scroll 0 0 #222;
+}
+body.is-dark-version .grid-post-item .post-meta {
+    border-color: #333;
+}
+body.is-dark-version .grid-post-item:hover .post-meta {
+    border-color: #fafafa;
+}
+
+/***************************************************************************/
+/*==============================================IMMERSIVESOUL CONTENT BOXES*/
+/***************************************************************************/
+
+/* v-three */
+body.is-dark-version .is_icon_content_box.is_icon_content_box.v-three {
+    border-bottom: medium solid #333;
+    box-shadow: 0 0 1px #333;
+}
+body.is-dark-version .is_icon_content_box.is_icon_content_box.v-three i.icon-effect {
+    box-shadow: 7px 8px 0 #333;
+}
+body.is-dark-version .is_icon_content_box.v-three:hover {
+    border-bottom: medium solid #85d300;
+    box-shadow: 0 0 1px #85d300;
+}
+
+/***************************************************************************/
+/*====================================================IMMERSIVESOUL CLIENTS*/
+/***************************************************************************/
+body.is-dark-version .is-client.v-one:hover, 
+body.is-dark-version .is-client.v-two, 
+body.is-dark-version .is-client.v-three:hover, 
+body.is-dark-version .is-client.v-four {
+	background:#222;
+}
+body.is-dark-version .is-client.v-two:hover, 
+body.is-dark-version .is-client.v-four:hover {
+	background:none;
+}
+body.is-dark-version .is-client.v-three, 
+body.is-dark-version .is-client.v-four {
+    border-color: #222;
+}
+
+/***************************************************************************/
+/*==================================================IMMERSIVESOUL SEPARATOR*/
+/***************************************************************************/
+body.is-dark-version .sep_shadow, 
+body.is-dark-version .sep_single, 
+body.is-dark-version .sep_double, 
+body.is-dark-version .sep_dashed, 
+body.is-dark-version .sep_doted, 
+body.is-dark-version .sep_square, 
+body.is-dark-version .sep_circle, 
+body.is-dark-version .sep_square_border, 
+body.is-dark-version .sep_circle_border {
+	border-color:#ccc !important;
+}
+body.is-dark-version .font_separator:after {
+    background: none repeat scroll 0 0 #ccc;
+}
+body.is-dark-version .sep_square_border i,
+body.is-dark-version .sep_circle_border i {
+    background: none repeat scroll 0 0 #000;
+}
+
+/***************************************************************************/
+/*======================================================IMMERSIVESOUL FORMS*/
+/***************************************************************************/
+/*body.is-dark-version .immersivesoul-form.with-icons .input-field-clm.input-icon-color .input-icon {
+	color:#222;
+}*/
+/*body.is-dark-version .immersivesoul-form .input-field-control,
+body.is-dark-version .immersivesoul-form .dropdown-select {
+    background: #111;
+    border: 2px solid #444;
+    color: #ccc;
+}*/
+/*body.is-dark-version .immersivesoul-form.no-input-bg .input-field-control,
+body.is-dark-version .immersivesoul-form.no-input-bg .dropdown-select {
+    border: 2px solid #fff;
+    color: #ffffff;
+}*/
+
+/***************************************************************************/
+/*======================================================IMMERSIVESOUL PIECHART*/
+/***************************************************************************/
+body.is-dark-version .is-pie-chart-icon i,
+body.is-dark-version .is-pie-percentage {
+    color: #fff;
+}
+
+/***************************************************************************/
+/*=========================================IMMERSIVESOUL SECTION FULL WIDTH*/
+/***************************************************************************/
+body.is-dark-version .is-fullwidth-section.v-one {
+	background-color:#222 !important;
+}
+body.is-dark-version .is-fullwidth-section.v-one {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+/***************************************************************************/
+/*======IMMERSIVESOUL IMAGE FRAMES VERSION ONE, TWO, THREE, FOUR, FIVE, SIX*/
+/***************************************************************************/
+body.is-dark-version .caption-out .is-image-caption {
+    background-color: #222;
+}
+
+/***************************************************************************/
+/*===============================================IMMERSIVESOUL TEAM MEMBERS*/
+/***************************************************************************/
+.is-member-box-v1 .member-description > h4,
+.is-member-box-v2 .member-description > h4 {
+	color:#fff;
+}
+body.is-dark-version .is-member-box-v1 {
+    background: none repeat scroll 0 0 #111;
+}
+
+/***************************************************************************/
+/*=============================================IMMERSIVESOUL PRICING TABLES*/
+/***************************************************************************/
+body.is-dark-version .pricing-table-v1 {
+    background-color: #111;
+}
+body.is-dark-version .pricing-table-v1 .table_heading {
+    background-color: #222;
+}
+body.is-dark-version .pricing-table-v1 .prices {
+    color: #333;
+}
+body.is-dark-version .pricing-table-v1 li {
+    border-bottom: 1px solid #000;
+}
+body.is-dark-version .pricing-table-v2 {
+    background-color: #111;
+	box-shadow:0 0 1px rgba(255, 255, 255, 0.22);
+}
+body.is-dark-version .pricing-table-v2 li {
+    box-shadow: 0 1px 0 #222;
+}
+
+/***************************************************************************/
+/*===========================================IMMERSIVESOUL PARALLAX SECTION*/
+/***************************************************************************/
+body.is-dark-version .is-image-section .immersivesoul_row.page-content-wrapper,
+body.is-dark-version .is-fixed-section .immersivesoul_row.page-content-wrapper,
+body.is-dark-version .is-parallax-section .immersivesoul_row.page-content-wrapper,
+body.is-dark-version .video-bg .immersivesoul_row.page-content-wrapper {
+	background:none;
+}
+
+/***************************************************************************/
+/*===================================================IMMERSIVESOUL SKILLBAR*/
+/***************************************************************************/
+body.is-dark-version .is-counter-line .is-counter-count {
+    background: none repeat scroll 0 0 #111;
+}
+
+/***************************************************************************/
+/*===================================================IMMERSIVESOUL TOOLTIPS*/
+/***************************************************************************/
+body.is-dark-version .tooltipster-black {
+	background-color: #fff;
+	color: #000;
+}
+
+/***************************************************************************/
+/*======================================IMMERSIVESOUL TABS VERSION ONE, TWO*/
+/***************************************************************************/
+body.is-dark-version .is-tab-container .is-tab-nav a {
+    background: none repeat scroll 0 0 #111;
+    color: #666;
+}
+body.is-dark-version .is-tab-container.is-v-one.is-tab-top ul.is-tab-nav li.active a.active, 
+body.is-dark-version .is-tab-container.is-v-two.is-tab-top ul.is-tab-nav li.active a.active,
+body.is-dark-version .is-tab-container.is-v-one.is-tab-bottom ul.is-tab-nav li.active a.active, 
+body.is-dark-version .is-tab-container.is-v-two.is-tab-bottom ul.is-tab-nav li.active a.active,
+body.is-dark-version .is-tab-container.is-v-one.is-tab-left ul.is-tab-nav li.active a.active, 
+body.is-dark-version .is-tab-container.is-v-two.is-tab-left ul.is-tab-nav li.active a.active,
+body.is-dark-version .is-tab-container.is-v-one.is-tab-right ul.is-tab-nav li.active a.active, 
+body.is-dark-version .is-tab-container.is-v-two.is-tab-right ul.is-tab-nav li.active a.active {
+    background: none repeat scroll 0 0 #000;
+    border-color: #333;
+}
+body.is-dark-version .is-tab-container .is-tab-nav li.active a.active {
+    color: #666;
+}
+body.is-dark-version .is-tab-container .is-tab-nav a:hover {
+	color:#444;
+}
+body.is-dark-version .is-tab-container.is-v-one .is-tabs-content,
+body.is-dark-version .is-tab-container.is-v-two.is-tab-top .is-tabs-content,
+body.is-dark-version .is-tab-container.is-v-two.is-tab-bottom .is-tabs-content,
+body.is-dark-version .is-tab-container.is-v-two.is-tab-left .is-tabs-content,
+body.is-dark-version .is-tab-container.is-v-two.is-tab-right .is-tabs-content {
+    border-color: #333;
+}
+body.is-dark-version .is-tab-container.is-v-one .is-tabs-content {
+	background:#000;
+}
+
+/***************************************************************************/
+/*===============================================IMMERSIVESOUL TESTIMONIALS*/
+/***************************************************************************/
+body.is-dark-version .testimonials-v-two > blockquote:before,
+body.is-dark-version .testimonials-v-two > blockquote:after {
+	color: #333;
+}
+body.is-dark-version .pretty-theme .pretty-controls .pretty-page span {
+	background:#333;
+}
+body.is-dark-version .carousel-buttons a {
+    background: #333;
+}
+body.is-dark-version .carousel-buttons a:hover {
+    background: #85d300;
+}
+.testimonials-v-one .author-wrapper .author-name > strong {
+    color: #fff;
+}
+
+/***************************************************************************/
+/*=================================================IMMERSIVESOUL TYPOGRAPHY*/
+/***************************************************************************/
+body.is-dark-version .highlight.v-one,
+body.is-dark-version .highlight.v-two {
+	box-shadow:none;
+}
+body.is-dark-version .h-v-one hr, 
+body.is-dark-version .h-v-two hr, 
+body.is-dark-version .h-v-three hr {
+	border-color: #333;
+}
+
+/***************************************************************************/
+/*====================================================IMMERSIVESOUL BUTTONS*/
+/***************************************************************************/
+body.is-dark-version .is-button.is-v-five {
+    color: #555;
+}
+body.is-dark-version .is-button.is-v-five:hover {
+    color: #fff;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*===================================================== IMMERSIVESOUL SHOP*/
+/***************************************************************************
+***************************************************************************/
+body.is-dark-version .is-shop-v-one .is-product-container {
+    background: none repeat scroll 0 0 #222;
+}
+body.is-dark-version del, body.is-dark-version del span {
+    color: #fff !important;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*========================================== IMMERSIVESOUL TITLEBAR STYLES*/
+/***************************************************************************
+***************************************************************************/
+body.is-dark-version .is-titlebar .container {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+body.is-dark-version .is-titlebar.is-color-black h1,
+body.is-dark-version .is-titlebar.is-color-black h2,
+body.is-dark-version .is-titlebar.is-color-black h3,
+body.is-dark-version .is-titlebar.is-color-black h4,
+body.is-dark-version .is-titlebar.is-color-black h5,
+body.is-dark-version .is-titlebar.is-color-black h6 {
+	color:#222;
+}
+
+/***************************************************************************
+***************************************************************************/
+/*====================================================IMMERSIVESOUL FOOTER*/
+/***************************************************************************
+***************************************************************************/
+body.is-dark-version .footer_top_area .container {
+	background:none !important;
+}
+body.is-dark-version .footer_bottom_area .container {
+	background:none !important;
+}
+body.is-dark-version .footer_top_area,
+body.is-dark-version .footer_bottom_area {
+	background:#222;
+}

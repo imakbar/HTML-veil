@@ -1,0 +1,128 @@
+/***************************************************************************
+***************************************************************************/
+/*============================================== IMMERSIVESOUL LIST STYLES*/
+/***************************************************************************
+***************************************************************************/
+ol {
+	padding:0px;
+	margin:0 0 0 20px;
+	color:#999;
+	line-height:23px;
+}
+.is-list-style-circle, 
+.is-list-style-inside,
+.is-list-style-square,
+.is-list-style-circle ul, 
+.is-list-style-inside ul,
+.is-list-style-square ul {
+    padding-left: 20px;
+}
+.is-list-style-circle li, 
+.is-list-style-inside li,
+.is-list-style-square li {
+	line-height: 22px;
+	color:#999;
+}
+.is-list-style-circle li {
+    list-style: circle;
+}
+.is-list-style-inside li {
+	list-style:inside;
+}
+.is-list-style-square li {
+	list-style:square;
+}
+/* = LIST ICONS = */
+.is-list-icon {
+    color: #666666;
+    line-height: 26px;
+	font-family:Helvetica;
+}
+.is-list-icon li {
+    clear: both;
+    float: left;
+    font-family: inherit;
+    line-height: 29px;
+    margin-bottom: 3px;
+    padding-left: 38px;
+    position: relative;
+	color:#999;
+}
+.is-list-icon.large li {
+    font-family:inherit;
+	margin-bottom:12px;
+    line-height: 50px;
+    padding-left: 65px;
+}
+.is-list-icon.large li {
+}
+.is-list-icon > li:before {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    line-height: 25px;
+    margin-right: 5px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    width: 25px;
+	position:absolute;
+	left:0;
+	left:0;
+	background-color: rgba(255,255,255,0.9);
+}
+.is-list-icon.is-list-circle-border > li:before,
+.is-list-icon.is-list-square-border > li:before {
+	line-height: 23px;
+    margin-right: 5px;
+    text-align: center;
+    width: 25px;
+}
+/* = CIRCLE = */
+.is-list-circle > li:before {
+	background-color: /*#85d300*/;
+    border-radius: 75px;
+    color: #fff;
+}
+.is-list-circle-border > li:before {
+	border-width:1px;
+	border-style:solid;
+	border-color:/*#85d300*/;
+    border-radius: 75px;
+    color: /*#85d300*/;
+}
+/* = SQUARE = */
+.is-list-square > li:before {
+	background-color:/*#85d300*/;
+	color:#fff;
+}
+.is-list-square-border > li:before {
+	border-width:1px;
+	border-style:solid;
+	border-color:/*#85d300*/;
+    color: /*#85d300*/;
+}
+/* = ICON FONT COLOR = */
+.is-list-color > li:before {
+	color:/*#85d300*/;
+}
+/**********************
+= LARGE ICON LIST STYLE
+**********************/
+.is-list-icon.large {
+	font-size:20px;
+	line-height: 58px;
+}
+.is-list-icon.large > li:before,
+.is-list-square.large > li:before {
+    font-size: 28px;
+    line-height: 48px;
+    margin-right: 5px;
+    text-align: center;
+    width: 48px;
+}
+.is-list-circle-border.large > li:before,
+.is-list-square-border.large > li:before {
+	font-size: 28px;
+    line-height: 46px;
+    margin-right: 5px;
+    text-align: center;
+    width: 48px;
+}
